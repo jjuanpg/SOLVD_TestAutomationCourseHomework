@@ -98,3 +98,4 @@ public class CreditTester {
 		System.out.println(" $100.000");
 	}
 }
+

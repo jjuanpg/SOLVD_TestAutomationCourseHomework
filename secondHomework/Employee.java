@@ -27,12 +27,16 @@ public class Employee extends Client{
 	
 	@Override
 	public String toString() {
-		return "Hi!" + this.getName() + " we are happy to announce you that with a score " + this.getCreditScore() + " and the salary of " + this.getSalary() + " you qualify for the nexts credits:";
+		return "Hi!" + this.getName() + " we are happy to announce you that with a score of " + this.getCreditScore() + " and the salary of " + this.getSalary() + " you qualify for the nexts credits:";
     }
 	
 	@Override
 	public boolean equals(Object obj) {
-	    return (this == obj);
+	    return (obj instanceof Employee);
 	}
 	
+	@Override
+	public int hashCode(){
+		return workPlace.hashCode();
+	}
 }
