@@ -1,0 +1,3 @@
+Juan|Gordillo|42182923|900|25000.0|
+Melanie|Rodriguez|40928721|850|35000.0|
+Leandro|Ramirez|38972435|820|24500.0|

@@ -1,0 +1,1713 @@
+2022-08-14 21:43:00,685 DEBUG  [main] ---------------14/08/2022 21:43---------------
+2022-08-14 21:43:00,695 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-14 21:43:11,792 INFO  [main] 
+Enter the first name
+2022-08-14 21:43:13,697 INFO  [main] Enter the last name
+2022-08-14 21:43:15,008 INFO  [main] Enter the client DNI
+2022-08-14 21:43:16,931 INFO  [main] The client was found.
+2022-08-14 21:43:16,931 INFO  [main] 
+The client have a disability?: YES=1 NO=0
+2022-08-14 21:43:18,625 INFO  [main] Enter the client handicap
+2022-08-14 21:43:20,632 INFO  [main] Enter the client age
+2022-08-14 21:43:22,131 INFO  [main] Actual turn: 0, your turn: 4
+2022-08-14 21:43:23,143 INFO  [main] Actual turn: 1, your turn: 4
+2022-08-14 21:43:24,147 INFO  [main] Actual turn: 2, your turn: 4
+2022-08-14 21:43:25,149 INFO  [main] Actual turn: 3, your turn: 4
+2022-08-14 21:43:26,162 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-14 21:43:31,218 INFO  [main] 
+The available credits are: 
+2022-08-14 21:43:31,219 INFO  [main]  $30.000  (1)
+ $50.000  (2)
+ $100.000 (3)
+2022-08-14 21:43:51,766 INFO  [main] 
+Resistencia French414
+2022-08-14 21:43:51,770 INFO  [main] Attended by: Hannah, Warren  ID :1715248762
+2022-08-14 21:43:51,775 INFO  [main] We are happy to announce you Juan, Pablo, 43111773 that the loan of $30000 will be transferred to your account
+2022-08-14 21:43:51,777 INFO  [main] If you want to withdraw now the security Michael ID: 1961002599 will help you
+2022-08-16 10:17:31,139 DEBUG  [main] ---------------16/08/2022 10:17---------------
+2022-08-16 10:17:31,155 INFO  [main] Turning on atm system...
+2022-08-16 10:17:31,155 INFO  [main] Alarm system turned off
+2022-08-16 10:17:31,155 INFO  [main] cctv is now recording...
+2022-08-16 10:17:31,156 INFO  [main] Recording...
+2022-08-16 10:17:31,156 INFO  [main] Systems connected
+2022-08-16 10:17:31,156 INFO  [main] Turning on computers...
+2022-08-16 10:17:31,157 INFO  [main] true
+2022-08-16 10:17:31,157 INFO  [main] Metal detector activated...
+2022-08-16 10:17:31,159 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-16 10:19:11,605 INFO  [main] 
+Enter the first name
+2022-08-16 10:19:15,601 INFO  [main] Enter the last name
+2022-08-16 10:19:18,433 INFO  [main] Enter the client DNI
+2022-08-16 10:19:20,906 INFO  [main] 
+Enter one of the next types of clients: employer(1) | employee(2) | unemployed(3)
+2022-08-16 10:19:25,147 INFO  [main] 
+Enter the age of the client
+2022-08-16 10:19:27,226 INFO  [main] Enter the gender of the client
+2022-08-16 10:19:30,546 INFO  [main] Enter the salary of the client
+2022-08-16 10:19:35,593 INFO  [main] Enter the credit score of the client
+2022-08-16 10:19:39,113 INFO  [main] Enter the company that the client work for
+2022-08-16 10:19:41,825 INFO  [main] Enter the position of the client at the company
+2022-08-16 10:19:43,545 INFO  [main] 
+The client have a disability?: YES=1 NO=0
+2022-08-16 10:19:52,788 INFO  [main] Actual turn: 0, your turn: 3
+2022-08-16 10:19:53,794 INFO  [main] Actual turn: 1, your turn: 3
+2022-08-16 10:19:54,795 INFO  [main] Actual turn: 2, your turn: 3
+2022-08-16 10:19:55,810 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-16 10:20:02,998 INFO  [main] 
+The available credit cards are: 
+2022-08-16 10:20:02,998 INFO  [main]  White Card with a limit of $3.000 per month  (1)
+Black Card with a limit of $10.000 per month (2)
+Platinum Card without limits per month       (3)
+2022-08-16 10:20:12,811 INFO  [main] 
+Resistencia French414
+2022-08-16 10:20:12,816 INFO  [main] Attended by: Hannah, Warren ID: 402009651
+2022-08-16 10:20:12,820 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your Platinum card will be to your home address
+2022-08-16 10:21:00,876 DEBUG  [main] ---------------16/08/2022 10:21---------------
+2022-08-16 10:21:00,884 INFO  [main] Turning on atm system...
+2022-08-16 10:21:00,884 INFO  [main] Alarm system turned off
+2022-08-16 10:21:00,885 INFO  [main] cctv is now recording...
+2022-08-16 10:21:00,885 INFO  [main] Recording...
+2022-08-16 10:21:00,885 INFO  [main] Systems connected
+2022-08-16 10:21:00,886 INFO  [main] Turning on computers...
+2022-08-16 10:21:00,887 INFO  [main] true
+2022-08-16 10:21:00,887 INFO  [main] Metal detector activated...
+2022-08-16 10:21:00,889 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-16 10:21:04,106 INFO  [main] 
+Enter the first name
+2022-08-16 10:21:06,105 INFO  [main] Enter the last name
+2022-08-16 10:21:07,801 INFO  [main] Enter the client DNI
+2022-08-16 10:21:11,294 FATAL  [main] The client do not exist.
+2022-08-16 10:37:09,350 DEBUG  [main] ---------------16/08/2022 10:37---------------
+2022-08-16 10:37:09,358 INFO  [main] Turning on atm system...
+2022-08-16 10:37:09,359 INFO  [main] Alarm system turned off
+2022-08-16 10:37:09,359 INFO  [main] cctv is now recording...
+2022-08-16 10:37:09,359 INFO  [main] Recording...
+2022-08-16 10:37:09,359 INFO  [main] Systems connected
+2022-08-16 10:37:09,360 INFO  [main] Metal detector activated...
+2022-08-16 10:37:09,360 FATAL  [main] The computers status is false.
+2022-08-16 10:42:18,454 DEBUG  [main] ---------------16/08/2022 10:42---------------
+2022-08-16 10:42:18,466 INFO  [main] Turning on atm system...
+2022-08-16 10:42:18,467 INFO  [main] cctv is now recording...
+2022-08-16 10:42:18,467 INFO  [main] Recording...
+2022-08-16 10:42:18,467 INFO  [main] Systems connected
+2022-08-16 10:42:18,468 INFO  [main] Turning on computers...
+2022-08-16 10:42:18,468 INFO  [main] Metal detector activated...
+2022-08-16 10:42:18,470 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-16 10:43:06,404 DEBUG  [main] ---------------16/08/2022 10:43---------------
+2022-08-16 10:43:06,416 INFO  [main] Turning on atm system...
+2022-08-16 10:43:06,416 INFO  [main] Alarm system turned off
+2022-08-16 10:43:06,416 INFO  [main] cctv is now recording...
+2022-08-16 10:43:06,417 INFO  [main] Recording...
+2022-08-16 10:43:06,417 INFO  [main] Systems connected
+2022-08-16 10:43:06,417 INFO  [main] Turning on computers...
+2022-08-16 10:43:06,417 INFO  [main] Metal detector activated...
+2022-08-16 10:43:06,418 FATAL  [main] The alarm status is true.
+2022-08-16 10:43:56,294 DEBUG  [main] ---------------16/08/2022 10:43---------------
+2022-08-16 10:43:56,305 INFO  [main] Turning on atm system...
+2022-08-16 10:43:56,305 INFO  [main] Alarm system turned off
+2022-08-16 10:43:56,306 INFO  [main] cctv is now recording...
+2022-08-16 10:43:56,306 INFO  [main] Recording...
+2022-08-16 10:43:56,306 INFO  [main] Systems connected
+2022-08-16 10:43:56,306 INFO  [main] Turning on computers...
+2022-08-16 10:43:56,307 INFO  [main] Metal detector activated...
+2022-08-16 10:43:56,308 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-16 10:44:19,192 INFO  [main] 
+Enter the first name
+2022-08-16 10:44:22,503 INFO  [main] Enter the last name
+2022-08-16 10:44:24,376 INFO  [main] Enter the client DNI
+2022-08-16 10:44:26,976 INFO  [main] 
+Enter one of the next types of clients: employer(1) | employee(2) | unemployed(3)
+2022-08-16 10:45:42,352 DEBUG  [main] ---------------16/08/2022 10:45---------------
+2022-08-16 10:45:42,360 INFO  [main] Turning on atm system...
+2022-08-16 10:45:42,360 FATAL  [main] The alarm status is true.
+2022-08-16 10:50:30,878 DEBUG  [main] ---------------16/08/2022 10:50---------------
+2022-08-16 10:50:30,886 INFO  [main] Turning on atm system...
+2022-08-16 10:50:30,886 INFO  [main] Alarm system turned off
+2022-08-16 10:50:30,886 INFO  [main] cctv is now recording...
+2022-08-16 10:50:30,887 INFO  [main] Recording...
+2022-08-16 10:50:30,887 INFO  [main] Systems connected
+2022-08-16 10:50:30,887 INFO  [main] Turning on computers...
+2022-08-16 10:50:30,888 INFO  [main] Metal detector activated...
+2022-08-16 10:50:30,889 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-16 10:50:40,496 INFO  [main] 
+Enter the first name
+2022-08-16 10:50:42,936 INFO  [main] Enter the last name
+2022-08-16 10:50:45,527 INFO  [main] Enter the client DNI
+2022-08-16 10:50:51,192 INFO  [main] 
+Enter one of the next types of clients: employer(1) | employee(2) | unemployed(3)
+2022-08-16 10:50:52,736 FATAL c.s.s.StaticMethods [main] Unemployed client type found.
+2022-08-18 09:34:19,794 DEBUG  [main] ---------------18/08/2022 09:34---------------
+2022-08-18 09:34:19,808 INFO c.s.s.CustomLinkedList [main] 191 
+2022-08-18 09:34:19,809 INFO c.s.s.CustomLinkedList [main] 12 
+2022-08-18 09:34:19,809 INFO c.s.s.CustomLinkedList [main] 43 
+2022-08-18 09:34:19,816 INFO  [main] Turning on atm system...
+2022-08-18 09:34:19,816 INFO  [main] Alarm system turned off
+2022-08-18 09:34:19,817 INFO  [main] cctv is now recording...
+2022-08-18 09:34:19,817 INFO  [main] Recording...
+2022-08-18 09:34:19,817 INFO  [main] Systems connected
+2022-08-18 09:34:19,817 INFO  [main] Turning on computers...
+2022-08-18 09:34:19,817 INFO  [main] Metal detector activated...
+2022-08-18 09:34:19,819 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 09:33:40,431 DEBUG  [main] ---------------19/08/2022 09:33---------------
+2022-08-19 09:33:40,453 INFO c.s.s.CustomLinkedList [main] Hi!Juan Pablo we are happy to announce you that with a score of 700 and the salary of 60000.0 you qualify for the nexts credits. 
+2022-08-19 09:33:40,454 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits. 
+2022-08-19 09:33:40,454 INFO c.s.s.CustomLinkedList [main] Hi!Michael we are happy to announce you that with a score of 700 and the salary of 40000.0 you qualify for the nexts credits. 
+2022-08-19 09:33:40,454 INFO c.s.s.CustomLinkedList [main] Hi!Oliver we are happy to announce you that with a score of 700 and the salary of 90000.0 you qualify for the nexts credits. 
+2022-08-19 09:33:40,458 INFO  [main] Turning on atm system...
+2022-08-19 09:33:40,459 INFO  [main] Alarm system turned off
+2022-08-19 09:33:40,459 INFO  [main] cctv is now recording...
+2022-08-19 09:33:40,459 INFO  [main] Recording...
+2022-08-19 09:33:40,459 INFO  [main] Systems connected
+2022-08-19 09:33:40,460 INFO  [main] Turning on computers...
+2022-08-19 09:33:40,460 INFO  [main] Metal detector activated...
+2022-08-19 09:33:40,461 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 09:36:09,350 DEBUG  [main] ---------------19/08/2022 09:36---------------
+2022-08-19 09:36:09,361 INFO c.s.s.CustomLinkedList [main] Hi!Juan Pablo we are happy to announce you that with a score of 700 and the salary of 60000.0 you qualify for the nexts credits. 
+2022-08-19 09:36:09,362 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits. 
+2022-08-19 09:36:09,362 INFO c.s.s.CustomLinkedList [main] Hi!Michael we are happy to announce you that with a score of 700 and the salary of 40000.0 you qualify for the nexts credits. 
+2022-08-19 09:36:09,362 INFO c.s.s.CustomLinkedList [main] Hi!Oliver we are happy to announce you that with a score of 700 and the salary of 90000.0 you qualify for the nexts credits. 
+2022-08-19 09:36:09,367 INFO  [main] Turning on atm system...
+2022-08-19 09:36:09,367 INFO  [main] Alarm system turned off
+2022-08-19 09:36:09,368 INFO  [main] cctv is now recording...
+2022-08-19 09:36:09,368 INFO  [main] Recording...
+2022-08-19 09:36:09,368 INFO  [main] Systems connected
+2022-08-19 09:36:09,368 INFO  [main] Turning on computers...
+2022-08-19 09:36:09,369 INFO  [main] Metal detector activated...
+2022-08-19 09:36:09,370 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 09:38:34,592 DEBUG  [main] ---------------19/08/2022 09:38---------------
+2022-08-19 09:38:34,610 INFO c.s.s.CustomLinkedList [main] Hi!Juan Pablo we are happy to announce you that with a score of 700 and the salary of 60000.0 you qualify for the nexts credits.aa 
+2022-08-19 09:38:34,610 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits.aa 
+2022-08-19 09:38:34,610 INFO c.s.s.CustomLinkedList [main] Hi!Michael we are happy to announce you that with a score of 700 and the salary of 40000.0 you qualify for the nexts credits.aa 
+2022-08-19 09:38:34,611 INFO c.s.s.CustomLinkedList [main] Hi!Oliver we are happy to announce you that with a score of 700 and the salary of 90000.0 you qualify for the nexts credits.aa 
+2022-08-19 09:38:34,615 INFO  [main] Turning on atm system...
+2022-08-19 09:38:34,615 INFO  [main] Alarm system turned off
+2022-08-19 09:38:34,616 INFO  [main] cctv is now recording...
+2022-08-19 09:38:34,616 INFO  [main] Recording...
+2022-08-19 09:38:34,616 INFO  [main] Systems connected
+2022-08-19 09:38:34,616 INFO  [main] Turning on computers...
+2022-08-19 09:38:34,617 INFO  [main] Metal detector activated...
+2022-08-19 09:38:34,618 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 09:45:15,296 DEBUG  [main] ---------------19/08/2022 09:45---------------
+2022-08-19 09:45:15,313 INFO  [main] com.solvd.secondHomework.CustomLinkedList@1ca3b418
+2022-08-19 09:45:15,318 INFO  [main] Turning on atm system...
+2022-08-19 09:45:15,318 INFO  [main] Alarm system turned off
+2022-08-19 09:45:15,318 INFO  [main] cctv is now recording...
+2022-08-19 09:45:15,319 INFO  [main] Recording...
+2022-08-19 09:45:15,320 INFO  [main] Systems connected
+2022-08-19 09:45:15,320 INFO  [main] Turning on computers...
+2022-08-19 09:45:15,321 INFO  [main] Metal detector activated...
+2022-08-19 09:45:15,323 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 09:56:32,824 DEBUG  [main] ---------------19/08/2022 09:56---------------
+2022-08-19 09:56:32,841 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits.
+2022-08-19 09:56:32,847 INFO  [main] Turning on atm system...
+2022-08-19 09:56:32,848 INFO  [main] Alarm system turned off
+2022-08-19 09:56:32,849 INFO  [main] cctv is now recording...
+2022-08-19 09:56:32,849 INFO  [main] Recording...
+2022-08-19 09:56:32,849 INFO  [main] Systems connected
+2022-08-19 09:56:32,850 INFO  [main] Turning on computers...
+2022-08-19 09:56:32,850 INFO  [main] Metal detector activated...
+2022-08-19 09:56:32,852 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 09:59:27,039 DEBUG  [main] ---------------19/08/2022 09:59---------------
+2022-08-19 09:59:27,054 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits.
+2022-08-19 09:59:27,060 INFO  [main] Turning on atm system...
+2022-08-19 09:59:27,060 INFO  [main] Alarm system turned off
+2022-08-19 09:59:27,061 INFO  [main] cctv is now recording...
+2022-08-19 09:59:27,061 INFO  [main] Recording...
+2022-08-19 09:59:27,061 INFO  [main] Systems connected
+2022-08-19 09:59:27,062 INFO  [main] Turning on computers...
+2022-08-19 09:59:27,062 INFO  [main] Metal detector activated...
+2022-08-19 09:59:27,064 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:05:02,174 DEBUG  [main] ---------------19/08/2022 10:05---------------
+2022-08-19 10:05:02,205 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits.
+2022-08-19 10:05:02,211 INFO  [main] Turning on atm system...
+2022-08-19 10:05:02,211 INFO  [main] Alarm system turned off
+2022-08-19 10:05:02,212 INFO  [main] cctv is now recording...
+2022-08-19 10:05:02,212 INFO  [main] Recording...
+2022-08-19 10:05:02,213 INFO  [main] Systems connected
+2022-08-19 10:05:02,213 INFO  [main] Turning on computers...
+2022-08-19 10:05:02,213 INFO  [main] Metal detector activated...
+2022-08-19 10:05:02,216 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:09:16,365 DEBUG  [main] ---------------19/08/2022 10:09---------------
+2022-08-19 10:09:16,377 INFO c.s.s.CustomLinkedList [main] Hi!Jose we are happy to announce you that with a score of 700 and the salary of 120000.0 you qualify for the nexts credits.
+2022-08-19 10:09:16,382 INFO  [main] Turning on atm system...
+2022-08-19 10:09:16,382 INFO  [main] Alarm system turned off
+2022-08-19 10:09:16,382 INFO  [main] cctv is now recording...
+2022-08-19 10:09:16,383 INFO  [main] Recording...
+2022-08-19 10:09:16,383 INFO  [main] Systems connected
+2022-08-19 10:09:16,383 INFO  [main] Turning on computers...
+2022-08-19 10:09:16,383 INFO  [main] Metal detector activated...
+2022-08-19 10:09:16,385 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:17:25,954 DEBUG  [main] ---------------19/08/2022 10:17---------------
+2022-08-19 10:17:25,965 INFO  [main] Hi!Michael we are happy to announce you that with a score of 700 and the salary of 40000.0 you qualify for the nexts credits.
+2022-08-19 10:17:25,970 INFO  [main] Turning on atm system...
+2022-08-19 10:17:25,970 INFO  [main] Alarm system turned off
+2022-08-19 10:17:25,971 INFO  [main] cctv is now recording...
+2022-08-19 10:17:25,971 INFO  [main] Recording...
+2022-08-19 10:17:25,971 INFO  [main] Systems connected
+2022-08-19 10:17:25,972 INFO  [main] Turning on computers...
+2022-08-19 10:17:25,972 INFO  [main] Metal detector activated...
+2022-08-19 10:17:25,974 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:31:40,550 DEBUG  [main] ---------------19/08/2022 10:31---------------
+2022-08-19 10:31:40,566 INFO  [main] Hi!Michael we are happy to announce you that with a score of 700 and the salary of 40000.0 you qualify for the nexts credits.
+2022-08-19 10:31:40,570 INFO  [main] Turning on atm system...
+2022-08-19 10:31:40,571 INFO  [main] Alarm system turned off
+2022-08-19 10:31:40,571 INFO  [main] cctv is now recording...
+2022-08-19 10:31:40,571 INFO  [main] Recording...
+2022-08-19 10:31:40,572 INFO  [main] Systems connected
+2022-08-19 10:31:40,572 INFO  [main] Turning on computers...
+2022-08-19 10:31:40,572 INFO  [main] Metal detector activated...
+2022-08-19 10:31:40,574 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:34:16,538 DEBUG  [main] ---------------19/08/2022 10:34---------------
+2022-08-19 10:43:51,676 INFO  [main] Hi!Michael we are happy to announce you that with a score of 700 and the salary of 40000.0 you qualify for the nexts credits.
+2022-08-19 10:43:51,681 INFO  [main] Turning on atm system...
+2022-08-19 10:43:51,681 INFO  [main] Alarm system turned off
+2022-08-19 10:43:51,682 INFO  [main] cctv is now recording...
+2022-08-19 10:43:51,682 INFO  [main] Recording...
+2022-08-19 10:43:51,682 INFO  [main] Systems connected
+2022-08-19 10:43:51,682 INFO  [main] Turning on computers...
+2022-08-19 10:43:51,682 INFO  [main] Metal detector activated...
+2022-08-19 10:43:51,684 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:44:00,701 DEBUG  [main] ---------------19/08/2022 10:44---------------
+2022-08-19 10:44:08,635 INFO  [main] Turning on atm system...
+2022-08-19 10:44:08,636 INFO  [main] Alarm system turned off
+2022-08-19 10:44:08,636 INFO  [main] cctv is now recording...
+2022-08-19 10:44:08,636 INFO  [main] Recording...
+2022-08-19 10:44:08,636 INFO  [main] Systems connected
+2022-08-19 10:44:08,637 INFO  [main] Turning on computers...
+2022-08-19 10:44:08,637 INFO  [main] Metal detector activated...
+2022-08-19 10:44:08,639 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:44:16,814 DEBUG  [main] ---------------19/08/2022 10:44---------------
+2022-08-19 10:44:16,833 INFO  [main] Turning on atm system...
+2022-08-19 10:44:16,834 INFO  [main] Alarm system turned off
+2022-08-19 10:44:16,834 INFO  [main] cctv is now recording...
+2022-08-19 10:44:16,835 INFO  [main] Recording...
+2022-08-19 10:44:16,835 INFO  [main] Systems connected
+2022-08-19 10:44:16,836 INFO  [main] Turning on computers...
+2022-08-19 10:44:16,836 INFO  [main] Metal detector activated...
+2022-08-19 10:44:16,838 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:48:20,593 DEBUG  [main] ---------------19/08/2022 10:48---------------
+2022-08-19 10:48:20,613 INFO  [main] MichaelPentti3623448770040000.0
+2022-08-19 10:48:20,618 INFO  [main] Turning on atm system...
+2022-08-19 10:48:20,618 INFO  [main] Alarm system turned off
+2022-08-19 10:48:20,619 INFO  [main] cctv is now recording...
+2022-08-19 10:48:20,619 INFO  [main] Recording...
+2022-08-19 10:48:20,620 INFO  [main] Systems connected
+2022-08-19 10:48:20,620 INFO  [main] Turning on computers...
+2022-08-19 10:48:20,620 INFO  [main] Metal detector activated...
+2022-08-19 10:48:20,622 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:49:15,691 DEBUG  [main] ---------------19/08/2022 10:49---------------
+2022-08-19 10:49:15,709 INFO  [main] Michael Pentti 36234487 700 40000.0
+2022-08-19 10:49:15,713 INFO  [main] Turning on atm system...
+2022-08-19 10:49:15,714 INFO  [main] Alarm system turned off
+2022-08-19 10:49:15,714 INFO  [main] cctv is now recording...
+2022-08-19 10:49:15,714 INFO  [main] Recording...
+2022-08-19 10:49:15,715 INFO  [main] Systems connected
+2022-08-19 10:49:15,715 INFO  [main] Turning on computers...
+2022-08-19 10:49:15,716 INFO  [main] Metal detector activated...
+2022-08-19 10:49:15,717 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 10:49:56,810 DEBUG  [main] ---------------19/08/2022 10:49---------------
+2022-08-19 10:49:56,825 INFO c.s.s.CustomLinkedList [main] Juan Pablo Gordillo 43111773 700 60000.0 
+2022-08-19 10:49:56,825 INFO c.s.s.CustomLinkedList [main] Jose Canavire 34039218 700 120000.0 
+2022-08-19 10:49:56,825 INFO c.s.s.CustomLinkedList [main] Michael Pentti 36234487 700 40000.0 
+2022-08-19 10:49:56,826 INFO c.s.s.CustomLinkedList [main] Oliver Nolan 25984213 700 90000.0 
+2022-08-19 10:49:56,830 INFO  [main] Turning on atm system...
+2022-08-19 10:49:56,831 INFO  [main] Alarm system turned off
+2022-08-19 10:49:56,831 INFO  [main] cctv is now recording...
+2022-08-19 10:49:56,831 INFO  [main] Recording...
+2022-08-19 10:49:56,832 INFO  [main] Systems connected
+2022-08-19 10:49:56,832 INFO  [main] Turning on computers...
+2022-08-19 10:49:56,833 INFO  [main] Metal detector activated...
+2022-08-19 10:49:56,834 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 11:10:43,724 DEBUG  [main] ---------------19/08/2022 11:10---------------
+2022-08-19 11:12:29,769 INFO c.s.s.CustomLinkedList [main] Juan Pablo Gordillo 43111773 700 60000.0 
+2022-08-19 11:12:29,770 INFO c.s.s.CustomLinkedList [main] Jose Canavire 34039218 700 120000.0 
+2022-08-19 11:12:29,771 INFO c.s.s.CustomLinkedList [main] Michael Pentti 36234487 700 40000.0 
+2022-08-19 11:12:29,771 INFO c.s.s.CustomLinkedList [main] Oliver Nolan 25984213 700 90000.0 
+2022-08-19 11:12:51,225 INFO  [main] Turning on atm system...
+2022-08-19 11:12:52,521 INFO  [main] Alarm system turned off
+2022-08-19 11:12:59,321 INFO  [main] cctv is now recording...
+2022-08-19 11:13:00,760 INFO  [main] Recording...
+2022-08-19 11:13:01,905 INFO  [main] Systems connected
+2022-08-19 11:13:12,337 INFO  [main] Turning on computers...
+2022-08-19 11:13:14,641 INFO  [main] Metal detector activated...
+2022-08-19 11:13:18,344 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 11:17:47,307 DEBUG  [main] ---------------19/08/2022 11:17---------------
+2022-08-19 11:17:47,329 INFO c.s.s.CustomLinkedList [main] Juan Pablo Gordillo 43111773 700 60000.0 
+2022-08-19 11:17:47,330 INFO c.s.s.CustomLinkedList [main] Jose Canavire 34039218 700 120000.0 
+2022-08-19 11:17:47,330 INFO c.s.s.CustomLinkedList [main] Michael Pentti 36234487 700 40000.0 
+2022-08-19 11:17:47,331 INFO c.s.s.CustomLinkedList [main] Oliver Nolan 25984213 700 90000.0 
+2022-08-19 11:17:47,336 INFO  [main] Turning on atm system...
+2022-08-19 11:17:47,336 INFO  [main] Alarm system turned off
+2022-08-19 11:17:47,337 INFO  [main] cctv is now recording...
+2022-08-19 11:17:47,337 INFO  [main] Recording...
+2022-08-19 11:17:47,337 INFO  [main] Systems connected
+2022-08-19 11:17:47,338 INFO  [main] Turning on computers...
+2022-08-19 11:17:47,338 INFO  [main] Metal detector activated...
+2022-08-19 11:17:47,340 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 11:18:27,264 DEBUG  [main] ---------------19/08/2022 11:18---------------
+2022-08-19 11:18:29,588 INFO c.s.s.CustomLinkedList [main] Juan Pablo Gordillo 43111773 700 60000.0 
+2022-08-19 11:18:29,589 INFO c.s.s.CustomLinkedList [main] Jose Canavire 34039218 700 120000.0 
+2022-08-19 11:18:29,590 INFO c.s.s.CustomLinkedList [main] Michael Pentti 36234487 700 40000.0 
+2022-08-19 11:18:29,592 INFO c.s.s.CustomLinkedList [main] Oliver Nolan 25984213 700 90000.0 
+2022-08-19 11:18:45,805 INFO  [main] Turning on atm system...
+2022-08-19 11:18:45,806 INFO  [main] Alarm system turned off
+2022-08-19 11:18:45,806 INFO  [main] cctv is now recording...
+2022-08-19 11:18:45,807 INFO  [main] Recording...
+2022-08-19 11:18:45,808 INFO  [main] Systems connected
+2022-08-19 11:18:45,808 INFO  [main] Turning on computers...
+2022-08-19 11:18:45,809 INFO  [main] Metal detector activated...
+2022-08-19 11:18:45,812 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 11:19:10,293 DEBUG  [main] ---------------19/08/2022 11:19---------------
+2022-08-19 11:19:10,308 INFO c.s.s.CustomLinkedList [main] Juan Pablo Gordillo 43111773 700 60000.0 
+2022-08-19 11:19:10,309 INFO c.s.s.CustomLinkedList [main] Jose Canavire 34039218 700 120000.0 
+2022-08-19 11:19:10,309 INFO c.s.s.CustomLinkedList [main] Michael Pentti 36234487 700 40000.0 
+2022-08-19 11:19:10,309 INFO c.s.s.CustomLinkedList [main] Oliver Nolan 25984213 700 90000.0 
+2022-08-19 11:19:10,314 INFO  [main] Turning on atm system...
+2022-08-19 11:19:10,314 INFO  [main] Alarm system turned off
+2022-08-19 11:19:10,315 INFO  [main] cctv is now recording...
+2022-08-19 11:19:10,315 INFO  [main] Recording...
+2022-08-19 11:19:10,315 INFO  [main] Systems connected
+2022-08-19 11:19:10,316 INFO  [main] Turning on computers...
+2022-08-19 11:19:10,316 INFO  [main] Metal detector activated...
+2022-08-19 11:19:10,318 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 11:20:16,446 DEBUG  [main] ---------------19/08/2022 11:20---------------
+2022-08-19 11:20:16,462 INFO c.s.s.CustomLinkedList [main] Juan Pablo Gordillo 43111773 700 60000.0 
+2022-08-19 11:20:16,463 INFO c.s.s.CustomLinkedList [main] Jose Canavire 34039218 700 120000.0 
+2022-08-19 11:20:16,463 INFO c.s.s.CustomLinkedList [main] Michael Pentti 36234487 700 40000.0 
+2022-08-19 11:20:16,463 INFO c.s.s.CustomLinkedList [main] Oliver Nolan 25984213 700 90000.0 
+2022-08-19 11:20:16,468 INFO  [main] Turning on atm system...
+2022-08-19 11:20:16,468 INFO  [main] Alarm system turned off
+2022-08-19 11:20:16,468 INFO  [main] cctv is now recording...
+2022-08-19 11:20:16,469 INFO  [main] Recording...
+2022-08-19 11:20:16,469 INFO  [main] Systems connected
+2022-08-19 11:20:16,469 INFO  [main] Turning on computers...
+2022-08-19 11:20:16,470 INFO  [main] Metal detector activated...
+2022-08-19 11:20:16,471 INFO  [main] Does the client already have an account?: YES=1 NO=0
+2022-08-19 11:56:51,391 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 11:56:51,394 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 11:56:51,395 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 11:56:51,395 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 11:56:54,389 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 11:56:54,390 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 11:56:54,390 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 11:56:54,390 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 11:56:55,869 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 11:56:55,869 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 11:56:55,870 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 11:56:55,870 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:55:24,207 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:55:24,211 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:55:24,212 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:55:24,212 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:55:27,350 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 12:55:30,398 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 12:55:34,326 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 12:55:36,838 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 12:55:39,558 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 12:55:42,624 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:55:42,624 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:55:42,624 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:55:42,625 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:55:44,206 INFO c.s.s.BankTester [main] []
+2022-08-19 12:55:44,206 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:55:44,207 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:55:44,207 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:55:44,207 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:55:52,358 INFO c.s.s.BankTester [main] []
+2022-08-19 12:55:52,358 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:55:52,359 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:55:52,359 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:55:52,359 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:56:12,581 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:56:12,584 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:56:12,584 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:56:12,585 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:56:15,670 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 12:56:17,542 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 12:56:19,542 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 12:56:21,870 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 12:56:24,006 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 12:56:26,344 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:56:26,344 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:56:26,344 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:56:26,345 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:56:27,558 INFO c.s.s.BankTester [main] []
+2022-08-19 12:56:27,558 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:56:27,558 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:56:27,559 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:56:27,559 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:58:59,860 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:58:59,864 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:58:59,864 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:58:59,864 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:59:04,504 INFO c.s.s.BankTester [main] []
+2022-08-19 12:59:04,504 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:59:04,505 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:59:04,505 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:59:04,505 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:59:08,174 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 12:59:10,766 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 12:59:12,062 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 12:59:14,358 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 12:59:17,199 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 12:59:18,984 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:59:18,984 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:59:18,984 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:59:18,984 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:59:20,326 INFO c.s.s.BankTester [main] []
+2022-08-19 12:59:20,326 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:59:20,327 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:59:20,327 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:59:20,327 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 12:59:48,146 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 12:59:48,151 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 12:59:48,151 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 12:59:48,151 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:00:00,499 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:00:00,504 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:00:00,504 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:00:00,505 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:00:04,247 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:00:06,198 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:00:08,174 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:00:10,038 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:00:12,574 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:00:44,304 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:00:45,808 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:00:46,841 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:00:47,888 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:01:11,745 INFO c.s.s.BankTester [main] []
+2022-08-19 13:01:18,982 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:01:18,983 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:01:18,984 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:01:18,985 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:02:26,300 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:02:26,304 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:02:26,304 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:02:26,304 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:02:27,671 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:02:29,119 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:02:30,367 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:02:33,422 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:02:35,590 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:02:37,192 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:02:37,193 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:02:37,193 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:02:37,193 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:02:38,663 INFO c.s.s.BankTester [main] []
+2022-08-19 13:02:38,663 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:02:38,664 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:02:38,664 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:02:38,664 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:03:53,761 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:03:53,764 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:03:53,765 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:03:53,765 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:03:55,887 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:03:57,151 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:03:58,630 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:04:00,303 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:04:02,383 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:04:04,120 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:04:04,121 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:04:04,121 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:04:04,121 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:04:05,079 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:04:05,079 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:04:05,079 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:04:05,079 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:04:05,079 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:04:31,838 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:04:31,839 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:04:31,839 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:04:31,839 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:04:31,840 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:06:16,674 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:06:16,677 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:06:16,678 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:06:16,678 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:06:21,360 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:06:22,870 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:06:25,567 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:06:27,839 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:06:31,783 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:06:33,113 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:06:33,114 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:06:33,114 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:06:33,114 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:06:34,296 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:06:34,296 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:06:34,297 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:06:34,297 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:06:34,297 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:07:10,636 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:07:10,639 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:07:10,639 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:07:10,640 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:07:14,455 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:07:16,158 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:07:17,527 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:07:19,031 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:07:20,415 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:07:21,976 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:07:21,976 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:07:21,977 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:07:21,977 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:07:22,814 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:07:22,815 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:07:22,815 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:07:22,816 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:07:22,816 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:11:23,148 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:11:23,151 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:11:23,152 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:11:23,152 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:11:24,824 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:11:26,440 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:11:27,544 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:11:28,983 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:11:31,328 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:11:32,593 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:11:32,593 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:11:32,593 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:11:32,593 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:11:33,544 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:11:33,544 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:11:33,544 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:11:33,545 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:11:33,545 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:12:13,603 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:12:13,607 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:12:13,607 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:12:13,608 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:12:16,135 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:12:17,919 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:12:19,279 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:12:21,343 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:12:24,552 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:12:27,809 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:12:27,810 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:12:27,810 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:12:27,810 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:12:29,447 INFO c.s.s.CustomLinkedList [main] Juan PAblo 43111773 2700 130000.0 
+2022-08-19 13:12:29,447 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:12:29,448 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:12:29,448 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:12:29,448 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:29:06,385 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:29:06,388 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:29:06,388 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:29:06,389 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:29:09,114 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:29:10,801 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:29:12,353 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:29:14,146 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:29:17,530 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:30:38,553 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:30:38,556 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:30:38,557 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:30:38,557 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:30:42,099 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:30:43,546 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:30:44,915 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:30:46,754 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:30:49,498 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:34:46,153 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:34:46,157 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:34:46,157 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:34:46,157 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:34:48,970 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:34:48,971 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:34:48,971 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:34:48,971 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:34:48,972 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:34:50,843 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:34:52,618 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:34:53,882 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:34:56,747 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:34:59,019 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:35:18,487 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:35:18,490 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:35:18,491 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:35:18,491 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:35:41,515 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:35:44,323 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:35:45,651 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:35:47,594 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:35:49,706 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:40:40,694 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:40:40,698 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:40:40,698 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:40:40,698 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:40:45,029 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:40:46,644 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:40:48,123 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:40:50,067 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:40:51,227 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:41:41,182 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:41:41,185 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:41:41,185 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:41:41,186 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:41:42,795 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:41:44,452 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:41:46,124 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:41:48,963 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:41:51,051 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:43:28,638 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:43:28,641 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:43:28,642 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:43:28,642 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:43:30,116 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:43:31,133 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:43:31,996 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:43:32,837 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:43:33,725 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:46:41,428 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:46:41,432 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:46:41,432 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:46:41,433 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:46:42,924 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 13:46:42,925 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:46:42,925 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:46:42,925 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:46:42,926 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:46:44,853 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:46:46,556 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:46:47,621 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:46:49,620 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:46:50,916 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:46:52,259 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:46:52,259 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:46:52,259 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:46:52,260 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:46:57,244 INFO c.s.s.CustomLinkedList [main] asdasd asdasdasd 12312313 121314 124123.0 
+2022-08-19 13:46:57,244 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:46:57,244 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:46:57,245 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:46:57,245 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:50:13,714 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:50:13,717 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:50:13,717 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:50:13,718 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:50:16,005 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:50:17,029 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:50:18,797 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:50:20,429 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:50:21,485 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:50:22,721 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:50:22,722 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:50:22,722 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:50:22,722 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:50:25,877 INFO c.s.s.CustomLinkedList [main] asdasd asdasdasd 123123123 123123123 1.23123123E8 
+2022-08-19 13:50:25,877 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:50:25,877 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:50:25,878 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:50:25,878 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 13:50:33,069 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 13:50:35,757 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 13:50:37,724 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 13:50:39,293 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 13:50:40,781 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 13:50:42,391 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 13:50:42,391 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 13:50:42,391 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 13:50:42,392 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:07:33,344 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:07:33,348 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:07:33,348 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:07:33,348 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:07:34,648 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 14:07:35,647 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 14:07:36,479 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 14:07:38,271 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 14:07:39,767 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 14:07:41,164 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:07:41,164 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:07:41,164 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:07:41,164 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:07:42,551 INFO c.s.s.CustomLinkedList [main] juan pablo 43111773 123123 123123.0 
+2022-08-19 14:07:42,551 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:07:42,552 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:07:42,552 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:07:42,552 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:14:27,537 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:14:27,541 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:14:27,541 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:14:27,541 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:14:29,457 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 14:14:30,871 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 14:14:31,880 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 14:14:33,057 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 14:14:34,344 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 14:14:35,308 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:14:35,308 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:14:35,308 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:14:35,309 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:14:36,879 INFO c.s.s.CustomLinkedList [main] juan pablo 43132131 4839842 1243123.0 
+2022-08-19 14:14:36,880 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:14:36,880 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:14:36,880 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:14:36,881 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:17:22,348 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:17:22,352 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:17:22,353 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:17:22,353 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:17:23,849 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 14:17:26,072 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 14:17:27,288 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 14:17:29,409 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 14:17:31,544 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 14:17:33,068 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:17:33,069 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:17:33,069 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:17:33,069 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:17:34,497 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 
+2022-08-19 14:17:34,498 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:17:34,498 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:17:34,498 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:17:34,498 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:22:12,832 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:22:12,836 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:22:12,836 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:22:12,837 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:22:16,410 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0
+2022-08-19 14:22:16,410 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:22:16,410 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:22:16,411 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:22:16,411 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:24:18,745 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:24:18,748 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:24:18,749 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:24:18,749 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:24:20,146 INFO c.s.s.BankTester [main] -----------------
+2022-08-19 14:24:20,146 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0
+2022-08-19 14:24:20,146 INFO c.s.s.BankTester [main] -----------------
+2022-08-19 14:24:20,147 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:24:20,147 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:24:20,147 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:24:20,147 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:24:41,562 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:24:41,565 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:24:41,566 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:24:41,566 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:24:42,890 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 14:24:42,891 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0
+2022-08-19 14:24:42,891 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 14:24:42,892 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:24:42,892 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:24:42,892 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:24:42,892 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:31:02,714 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:31:02,719 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:31:02,720 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:31:02,720 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:31:04,378 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 14:31:06,715 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 14:31:08,282 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 14:31:11,210 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 14:31:14,658 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 14:31:17,078 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:31:17,079 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:31:17,079 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:31:17,079 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:31:28,032 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:31:28,036 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:31:28,036 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:31:28,037 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:31:30,123 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 14:31:30,124 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0
+2022-08-19 14:31:30,124 INFO c.s.s.BankTester [main] Juan|Bravo|43111888|700|30000.0
+2022-08-19 14:31:30,124 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 14:31:30,125 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:31:30,125 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:31:30,125 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:31:30,125 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:48:51,528 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:48:51,532 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:48:51,532 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:48:51,533 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:48:53,334 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 14:48:55,373 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 14:48:57,645 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 14:49:03,181 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 14:49:05,813 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 14:49:10,385 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:49:10,385 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:49:10,385 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:49:10,386 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:49:22,877 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-19 14:49:28,877 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-19 14:49:33,757 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 14:49:41,333 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-19 14:49:45,845 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-19 14:49:57,206 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:49:57,207 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:49:57,207 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:49:57,207 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:57:32,751 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:57:32,755 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:57:32,756 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 14:57:32,756 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:57:32,757 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 14:57:35,714 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 14:57:35,714 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 14:57:35,715 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 14:57:35,715 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 14:57:35,715 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:07:14,761 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:07:14,769 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:07:14,769 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:07:14,770 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:07:14,770 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:07:17,238 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 17:07:17,239 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0|
+2022-08-19 17:07:17,240 INFO c.s.s.BankTester [main] Juan|Bravo|43111888|700|30000.0|
+2022-08-19 17:07:17,240 INFO c.s.s.BankTester [main] Jose|Canavire|35928201|1500|200000.0|
+2022-08-19 17:07:17,240 INFO c.s.s.BankTester [main] Eugenia|Ramirez|28732892|900|120000.0|
+2022-08-19 17:07:17,241 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 17:07:17,241 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:07:17,241 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:07:17,242 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:07:17,242 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:07:17,243 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:08:10,931 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:08:10,936 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:08:10,936 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:08:10,937 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:08:10,937 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:08:12,917 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:08:12,917 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:08:12,918 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:08:12,919 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:08:12,919 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:08:35,331 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:08:35,332 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:08:35,332 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:08:35,332 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:08:35,333 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:08:46,114 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:08:46,119 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:08:46,120 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:08:46,120 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:08:46,120 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:09:03,957 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:09:03,957 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:09:03,957 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:09:03,958 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:09:03,958 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:09:42,497 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:09:42,502 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:09:42,503 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:09:42,503 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:09:42,504 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:09:44,101 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:09:44,101 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:09:44,102 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:09:44,102 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:09:44,102 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:42:46,747 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:42:46,750 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:42:46,751 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:42:46,751 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:42:46,751 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:42:49,822 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 17:42:49,822 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0|
+2022-08-19 17:42:49,823 INFO c.s.s.BankTester [main] Juan|Bravo|43111888|700|30000.0|
+2022-08-19 17:42:49,823 INFO c.s.s.BankTester [main] Jose|Canavire|35928201|1500|200000.0|
+2022-08-19 17:42:49,823 INFO c.s.s.BankTester [main] Eugenia|Ramirez|28732892|900|120000.0|
+2022-08-19 17:42:49,823 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-19 17:42:49,824 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:42:49,824 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:42:49,824 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:42:49,824 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:42:49,824 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:43:02,530 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:43:02,531 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:43:02,531 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:43:02,531 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:43:02,531 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:44:41,489 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:44:41,492 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:44:41,493 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:44:41,493 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:44:41,493 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:44:41,493 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:44:44,043 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:44:44,043 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:44:44,043 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:44:44,043 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:44:44,044 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:44:44,044 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:44:46,399 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 
+2022-08-19 17:44:46,399 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 
+2022-08-19 17:44:46,399 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 
+2022-08-19 17:44:46,400 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 
+2022-08-19 17:44:46,400 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:44:46,400 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:44:46,400 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:44:46,400 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:44:46,401 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:44:46,401 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:45:00,335 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:45:00,339 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:45:00,339 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:45:00,340 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:45:00,340 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:45:00,340 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:45:02,999 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 17:45:02,999 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:45:02,999 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:45:03,000 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:45:03,000 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:45:03,000 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:45:03,000 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:45:08,458 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:45:08,458 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:45:08,458 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:45:08,458 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:45:08,459 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:45:08,459 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:45:12,438 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 
+2022-08-19 17:45:12,439 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 
+2022-08-19 17:45:12,439 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 
+2022-08-19 17:45:12,439 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 
+2022-08-19 17:45:12,440 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:45:12,440 INFO c.s.s.BankTester [main] 2. Display
+2022-08-19 17:45:12,440 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:45:12,440 INFO c.s.s.BankTester [main] 4. Display list
+2022-08-19 17:45:12,440 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:45:12,441 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:58:25,098 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:58:25,102 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-19 17:58:25,102 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:58:25,103 INFO c.s.s.BankTester [main] 4. Display updated list
+2022-08-19 17:58:25,103 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:58:25,103 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:58:27,528 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-19 17:58:27,528 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:58:27,529 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-19 17:58:27,529 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:58:27,529 INFO c.s.s.BankTester [main] 4. Display updated list
+2022-08-19 17:58:27,529 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:58:27,529 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:58:29,261 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:58:29,261 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-19 17:58:29,261 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:58:29,262 INFO c.s.s.BankTester [main] 4. Display updated list
+2022-08-19 17:58:29,262 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:58:29,262 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 17:58:30,712 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 
+2022-08-19 17:58:30,712 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 
+2022-08-19 17:58:30,713 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 
+2022-08-19 17:58:30,713 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 
+2022-08-19 17:58:30,713 INFO c.s.s.BankTester [main] 1. Insert
+2022-08-19 17:58:30,713 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-19 17:58:30,713 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-19 17:58:30,714 INFO c.s.s.BankTester [main] 4. Display updated list
+2022-08-19 17:58:30,714 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 17:58:30,714 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 18:12:41,301 INFO c.s.s.BankTester [main] 1. Create new Employer
+2022-08-19 18:12:41,305 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-19 18:12:41,305 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-19 18:12:41,305 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-19 18:12:41,306 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-19 18:12:41,306 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 18:12:41,306 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 18:12:44,027 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 18:12:47,100 INFO c.s.s.BankTester [main] The Employer exist
+2022-08-19 18:12:47,100 INFO c.s.s.BankTester [main] 1. Create new Employer
+2022-08-19 18:12:47,100 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-19 18:12:47,101 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-19 18:12:47,101 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-19 18:12:47,101 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-19 18:12:47,101 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 18:12:47,101 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 18:13:02,219 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 18:13:06,562 INFO c.s.s.BankTester [main] The Employer exist
+2022-08-19 18:13:06,563 INFO c.s.s.BankTester [main] 1. Create new Employer
+2022-08-19 18:13:06,563 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-19 18:13:06,563 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-19 18:13:06,563 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-19 18:13:06,564 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-19 18:13:06,564 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 18:13:06,564 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-19 18:13:20,099 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-19 18:13:22,243 FATAL c.s.s.BankTester [main] You have to create a new Employer
+2022-08-19 18:13:22,243 INFO c.s.s.BankTester [main] 1. Create new Employer
+2022-08-19 18:13:22,244 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-19 18:13:22,244 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-19 18:13:22,244 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-19 18:13:22,244 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-19 18:13:22,244 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-19 18:13:22,245 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-20 15:47:50,800 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-20 15:47:50,807 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-20 15:47:50,808 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-20 15:47:50,810 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-20 15:47:50,811 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-20 15:47:50,812 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-20 15:47:50,813 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-20 15:47:54,140 INFO c.s.s.BankTester [main] Enter Employer First Name: 
+2022-08-20 15:48:01,889 INFO c.s.s.BankTester [main] Enter Employer Last Name: 
+2022-08-20 15:48:05,139 INFO c.s.s.BankTester [main] Enter Employer DNI: 
+2022-08-20 15:48:11,953 INFO c.s.s.BankTester [main] Enter Employer Credit Score: 
+2022-08-20 15:48:14,890 INFO c.s.s.BankTester [main] Enter Employer Salary: 
+2022-08-20 15:48:20,051 INFO c.s.s.BankTester [main] Enter the type of client: 
+1. Employer
+2. Employee
+3. Unemployed
+2022-08-20 15:48:22,869 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-20 15:48:22,870 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-20 15:48:22,870 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-20 15:48:22,871 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-20 15:48:22,871 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-20 15:48:22,872 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-20 15:48:22,872 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:17:17,537 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:17:17,540 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-21 13:17:17,540 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-21 13:17:17,541 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-21 13:17:17,541 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:17:17,541 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:17:17,541 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:17:29,141 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-21 13:17:29,142 INFO c.s.s.BankTester [main] Juan|Pablo|43111773|800|90000.0|
+2022-08-21 13:17:29,142 INFO c.s.s.BankTester [main] Juan|Bravo|43111888|700|30000.0|
+2022-08-21 13:17:29,142 INFO c.s.s.BankTester [main] Jose|Canavire|35928201|1500|200000.0|
+2022-08-21 13:17:29,143 INFO c.s.s.BankTester [main] Eugenia|Ramirez|28732892|900|120000.0|
+2022-08-21 13:17:29,143 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-21 13:17:29,155 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:17:29,155 INFO c.s.s.BankTester [main] 2. Display Employers file
+2022-08-21 13:17:29,155 INFO c.s.s.BankTester [main] 3. Read from Employers file
+2022-08-21 13:17:29,156 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-21 13:17:29,156 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:17:29,156 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:17:29,156 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:29:28,728 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:29:28,732 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:29:28,732 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:29:28,732 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-21 13:29:28,733 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:29:28,733 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:29:28,733 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:29:36,179 INFO c.s.s.BankTester [main] 1. Employers file
+2. Employee file
+2022-08-21 13:29:39,298 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-21 13:29:39,299 INFO c.s.s.BankTester [main] Juan|Gordillo|42182923|900|25000.0|
+2022-08-21 13:29:39,299 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-21 13:29:39,299 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:29:39,299 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:29:39,300 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:29:39,300 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-21 13:29:39,300 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:29:39,301 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:29:39,301 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:31:31,467 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:31:31,470 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:31:31,471 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:31:31,471 INFO c.s.s.BankTester [main] 4. Display updated list of Employers
+2022-08-21 13:31:31,471 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:31:31,472 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:31:31,472 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:35:45,319 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:35:45,323 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:35:45,323 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:35:45,323 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:35:45,324 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:35:45,324 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:35:45,324 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:35:51,740 INFO c.s.s.BankTester [main] 1. Employers list
+2. Employee list
+2022-08-21 13:35:54,196 FATAL c.s.s.CustomLinkedList [main] Linked list is empty
+2022-08-21 13:35:54,196 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:35:54,196 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:35:54,196 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:35:54,197 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:35:54,197 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:35:54,197 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:35:54,197 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:35:57,428 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:35:57,428 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:35:57,429 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:35:57,429 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:35:57,429 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:35:57,429 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:35:57,430 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:36:00,123 INFO c.s.s.BankTester [main] 1. Employers list
+2. Employee list
+2022-08-21 13:36:02,241 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 
+2022-08-21 13:36:02,241 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 
+2022-08-21 13:36:02,241 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 
+2022-08-21 13:36:02,241 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 
+2022-08-21 13:36:02,242 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:36:02,242 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:36:02,242 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:36:02,242 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:36:02,242 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:36:02,243 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:36:02,243 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:36:11,020 INFO c.s.s.BankTester [main] 1. Employers list
+2. Employee list
+2022-08-21 13:36:12,748 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-21 13:36:12,748 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:36:12,748 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:36:12,748 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:36:12,749 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:36:12,749 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:36:12,749 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:36:12,749 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:36:19,771 INFO c.s.s.BankTester [main] Enter Client First Name: 
+2022-08-21 13:36:27,251 INFO c.s.s.BankTester [main] Enter Client Last Name: 
+2022-08-21 13:36:31,836 INFO c.s.s.BankTester [main] Enter Client DNI: 
+2022-08-21 13:36:39,499 INFO c.s.s.BankTester [main] Enter Client Credit Score: 
+2022-08-21 13:36:45,499 INFO c.s.s.BankTester [main] Enter Client Salary: 
+2022-08-21 13:36:50,092 INFO c.s.s.BankTester [main] Enter the type of client: 
+1. Employer
+2. Employee
+3. Unemployed
+2022-08-21 13:36:53,805 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:36:53,805 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:36:53,805 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:36:53,805 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:36:53,805 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:36:53,806 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:36:53,806 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:36:57,603 INFO c.s.s.BankTester [main] 1. Employers file
+2. Employee file
+2022-08-21 13:36:58,828 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-21 13:36:58,829 INFO c.s.s.BankTester [main] Juan|Gordillo|42182923|900|25000.0|
+2022-08-21 13:36:58,829 INFO c.s.s.BankTester [main] Melanie|Rodriguez|40928721|850|35000.0|
+2022-08-21 13:36:58,829 INFO c.s.s.BankTester [main] -----------------------------------
+2022-08-21 13:36:58,829 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:36:58,830 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:36:58,830 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:36:58,830 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:36:58,830 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:36:58,831 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:36:58,831 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:37:17,419 INFO c.s.s.BankTester [main] 1. Employers list
+2. Employee list
+2022-08-21 13:37:18,547 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-21 13:37:18,548 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-21 13:37:18,548 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:37:18,548 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:37:18,548 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:37:18,549 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:37:18,549 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:37:18,549 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:37:18,549 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:37:32,173 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:37:32,177 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:37:32,177 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:37:32,177 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:37:32,178 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:37:32,178 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:37:32,178 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:37:33,889 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:37:33,889 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:37:33,889 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:37:33,890 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:37:33,890 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:37:33,890 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:37:33,890 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:37:35,347 INFO c.s.s.BankTester [main] 1. Employers list
+2. Employee list
+2022-08-21 13:37:36,202 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-21 13:37:36,203 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-21 13:37:36,203 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:37:36,203 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:37:36,204 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:37:36,204 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:37:36,204 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:37:36,204 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:37:36,204 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:38:28,968 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:38:28,972 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:38:28,972 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:38:28,973 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:38:28,973 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:38:28,973 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:38:28,973 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:38:33,729 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:38:33,730 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:38:33,730 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:38:33,730 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:38:33,730 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:38:33,730 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:38:33,731 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:38:34,852 INFO c.s.s.BankTester [main] 1. Employers list
+2. Employee list
+2022-08-21 13:38:36,235 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-21 13:38:36,235 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-21 13:38:36,235 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:38:36,236 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:38:36,236 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:38:36,236 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:38:36,236 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:38:36,237 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:38:36,237 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:38:38,572 INFO c.s.s.BankTester [main] Enter Client DNI: 
+2022-08-21 13:38:48,925 INFO c.s.s.BankTester [main] The Employee exist
+2022-08-21 13:38:48,926 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:38:48,926 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:38:48,926 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:38:48,926 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:38:48,927 INFO c.s.s.BankTester [main] 5. Check if Employers exist
+2022-08-21 13:38:48,927 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:38:48,927 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:40:37,374 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:40:37,377 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:40:37,378 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:40:37,378 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:40:37,378 INFO c.s.s.BankTester [main] 5. Check if Client exist
+2022-08-21 13:40:37,379 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:40:37,379 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 13:40:43,252 INFO c.s.s.BankTester [main] Enter Client First Name: 
+2022-08-21 13:40:47,619 INFO c.s.s.BankTester [main] Enter Client Last Name: 
+2022-08-21 13:40:49,715 INFO c.s.s.BankTester [main] Enter Client DNI: 
+2022-08-21 13:40:55,420 INFO c.s.s.BankTester [main] Enter Client Credit Score: 
+2022-08-21 13:41:00,308 INFO c.s.s.BankTester [main] Enter Client Salary: 
+2022-08-21 13:41:05,693 INFO c.s.s.BankTester [main] Enter the type of client: 
+1. Employer
+2. Employee
+3. Unemployed
+2022-08-21 13:41:16,559 INFO c.s.s.BankTester [main] 1. Create new client
+2022-08-21 13:41:16,560 INFO c.s.s.BankTester [main] 2. Display file
+2022-08-21 13:41:16,560 INFO c.s.s.BankTester [main] 3. Read from file
+2022-08-21 13:41:16,560 INFO c.s.s.BankTester [main] 4. Display updated linked lists
+2022-08-21 13:41:16,560 INFO c.s.s.BankTester [main] 5. Check if Client exist
+2022-08-21 13:41:16,561 INFO c.s.s.BankTester [main] 0. Exit
+2022-08-21 13:41:16,561 INFO c.s.s.BankTester [main] Enter your choice: 
+2022-08-21 14:43:03,999 DEBUG  [main] ---------------21/08/2022 14:43---------------
+2022-08-21 14:43:04,007 INFO  [main] Turning on atm system...
+2022-08-21 14:43:04,008 INFO  [main] Alarm system turned off
+2022-08-21 14:43:04,008 INFO  [main] cctv is now recording...
+2022-08-21 14:43:04,008 INFO  [main] Recording...
+2022-08-21 14:43:04,008 INFO  [main] Systems connected
+2022-08-21 14:43:04,009 INFO  [main] Turning on computers...
+2022-08-21 14:43:04,009 INFO  [main] Metal detector activated...
+2022-08-21 14:43:04,015 INFO  [main] --------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:43:20,133 INFO  [main] --------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-21 14:43:26,853 INFO  [main] -----------------------------------
+2022-08-21 14:43:26,854 INFO  [main] Juan|Pablo|43111773|800|90000.0|
+2022-08-21 14:43:26,854 INFO  [main] Juan|Bravo|43111888|700|30000.0|
+2022-08-21 14:43:26,854 INFO  [main] Jose|Canavire|35928201|1500|200000.0|
+2022-08-21 14:43:26,854 INFO  [main] Eugenia|Ramirez|28732892|900|120000.0|
+2022-08-21 14:43:26,855 INFO  [main] -----------------------------------
+2022-08-21 14:43:26,855 INFO  [main] --------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:44:24,029 DEBUG  [main] ---------------21/08/2022 14:44---------------
+2022-08-21 14:44:24,037 INFO  [main] Turning on atm system...
+2022-08-21 14:44:24,037 INFO  [main] Alarm system turned off
+2022-08-21 14:44:24,038 INFO  [main] cctv is now recording...
+2022-08-21 14:44:24,038 INFO  [main] Recording...
+2022-08-21 14:44:24,038 INFO  [main] Systems connected
+2022-08-21 14:44:24,039 INFO  [main] Turning on computers...
+2022-08-21 14:44:24,039 INFO  [main] Metal detector activated...
+2022-08-21 14:44:24,044 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:44:27,246 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-21 14:44:30,124 INFO  [main] -----------------------------------
+2022-08-21 14:44:30,125 INFO  [main] Juan|Pablo|43111773|800|90000.0|
+2022-08-21 14:44:30,125 INFO  [main] Juan|Bravo|43111888|700|30000.0|
+2022-08-21 14:44:30,125 INFO  [main] Jose|Canavire|35928201|1500|200000.0|
+2022-08-21 14:44:30,125 INFO  [main] Eugenia|Ramirez|28732892|900|120000.0|
+2022-08-21 14:44:30,126 INFO  [main] -----------------------------------
+2022-08-21 14:44:30,126 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:44:46,013 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-21 14:44:49,453 INFO  [main] -----------------------------------
+2022-08-21 14:44:49,454 INFO  [main] Juan|Gordillo|42182923|900|25000.0|
+2022-08-21 14:44:49,454 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|
+2022-08-21 14:44:49,454 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|
+2022-08-21 14:44:49,454 INFO  [main] -----------------------------------
+2022-08-21 14:44:49,454 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:44:58,453 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:45:02,709 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-21 14:45:04,109 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 
+2022-08-21 14:45:04,109 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 
+2022-08-21 14:45:04,110 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 
+2022-08-21 14:45:04,110 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 
+2022-08-21 14:45:04,110 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:45:07,446 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:45:15,485 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-21 14:45:18,830 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-21 14:45:18,830 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-21 14:45:18,830 INFO c.s.s.CustomLinkedList [main] Leandro Ramirez 38972435 820 24500.0 
+2022-08-21 14:45:18,831 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:45:29,429 INFO  [main] Enter Client DNI: 
+2022-08-21 14:45:41,150 INFO  [main] The Employee exist
+2022-08-21 14:49:00,890 DEBUG  [main] ---------------21/08/2022 14:49---------------
+2022-08-21 14:49:00,901 INFO  [main] Turning on atm system...
+2022-08-21 14:49:00,901 INFO  [main] Alarm system turned off
+2022-08-21 14:49:00,902 INFO  [main] cctv is now recording...
+2022-08-21 14:49:00,902 INFO  [main] Recording...
+2022-08-21 14:49:00,903 INFO  [main] Systems connected
+2022-08-21 14:49:00,904 INFO  [main] Turning on computers...
+2022-08-21 14:49:00,904 INFO  [main] Metal detector activated...
+2022-08-21 14:49:00,912 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:49:04,043 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 14:49:05,917 INFO  [main] Enter Client DNI: 
+2022-08-21 14:49:09,758 INFO  [main] The Employer exist
+2022-08-21 14:49:09,758 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 14:49:16,757 INFO  [main] 
+The available credit cards are: 
+2022-08-21 14:49:16,758 INFO  [main]  White Card with a limit of $3.000 per month  (1)
+Black Card with a limit of $10.000 per month (2)
+Platinum Card without limits per month       (3)
+2022-08-21 14:49:50,526 INFO  [main] 
+Resistencia French414
+2022-08-21 14:49:50,529 INFO  [main] Attended by: Hannah, Warren ID: 1976804832
+2022-08-21 14:49:50,535 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your Black card will be to your home address
+2022-08-21 14:49:50,535 INFO  [main] The Employee exist
+2022-08-21 14:49:50,537 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:02:02,872 DEBUG  [main] ---------------21/08/2022 15:02---------------
+2022-08-21 15:02:02,881 INFO  [main] Turning on atm system...
+2022-08-21 15:02:02,881 INFO  [main] Alarm system turned off
+2022-08-21 15:02:02,881 INFO  [main] cctv is now recording...
+2022-08-21 15:02:02,882 INFO  [main] Recording...
+2022-08-21 15:02:02,882 INFO  [main] Systems connected
+2022-08-21 15:02:02,882 INFO  [main] Turning on computers...
+2022-08-21 15:02:02,883 INFO  [main] Metal detector activated...
+2022-08-21 15:02:02,889 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:02:08,589 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:02:09,655 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-21 15:02:11,167 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-21 15:02:11,167 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-21 15:02:11,167 INFO c.s.s.CustomLinkedList [main] Leandro Ramirez 38972435 820 24500.0 
+2022-08-21 15:02:11,168 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:02:13,183 INFO  [main] Enter Client DNI: 
+2022-08-21 15:02:20,080 INFO  [main] The Employee exist
+2022-08-21 15:02:20,081 INFO  [main] ---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:02:29,239 INFO  [main] 
+The available credits are: 
+2022-08-21 15:02:29,239 INFO  [main] 
+$30.000  (1)
+$50.000  (2)
+$100.000 (3)
+2022-08-21 15:02:32,703 INFO  [main] 
+Resistencia French414
+2022-08-21 15:02:32,707 INFO  [main] Attended by: Hannah, Warren ID: 540325452
+2022-08-21 15:02:32,710 INFO  [main] We are happy to announce you Melanie, Rodriguez 40928721 that the loan of $50000 will be transferred to your account
+2022-08-21 15:02:32,712 INFO  [main] If you want to withdraw now the security Michael ID: 480490520 will help you
+2022-08-21 15:02:32,713 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:32:01,658 DEBUG  [main] ---------------21/08/2022 15:32---------------
+2022-08-21 15:32:01,677 INFO  [main] Turning on atm system...
+2022-08-21 15:32:01,678 INFO  [main] Alarm system turned off
+2022-08-21 15:32:01,678 INFO  [main] cctv is now recording...
+2022-08-21 15:32:01,678 INFO  [main] Recording...
+2022-08-21 15:32:01,679 INFO  [main] Systems connected
+2022-08-21 15:32:01,679 INFO  [main] Turning on computers...
+2022-08-21 15:32:01,680 INFO  [main] Metal detector activated...
+2022-08-21 15:32:01,686 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:32:12,445 INFO  [main] Enter Client DNI: 
+2022-08-21 15:32:15,263 INFO  [main] The Employer exist
+2022-08-21 15:32:15,265 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:32:17,236 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-21 15:32:25,645 INFO  [main] Ok juanpablogordillo375@gmail.com on the day you will be receiving an email
+2022-08-21 15:32:25,695 INFO  [main] sending...
+2022-08-21 15:32:27,393 INFO  [main] The Employee exist
+2022-08-21 15:32:27,394 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:38:54,995 DEBUG  [main] ---------------21/08/2022 15:38---------------
+2022-08-21 15:38:55,002 INFO  [main] Turning on atm system...
+2022-08-21 15:38:55,003 INFO  [main] Alarm system turned off
+2022-08-21 15:38:55,003 INFO  [main] cctv is now recording...
+2022-08-21 15:38:55,003 INFO  [main] Recording...
+2022-08-21 15:38:55,003 INFO  [main] Systems connected
+2022-08-21 15:38:55,004 INFO  [main] Turning on computers...
+2022-08-21 15:38:55,004 INFO  [main] Metal detector activated...
+2022-08-21 15:38:55,010 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:39:02,093 INFO  [main] Enter Client DNI: 
+2022-08-21 15:39:05,368 INFO  [main] The Employer exist
+2022-08-21 15:39:05,370 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:39:07,660 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-21 15:39:14,660 INFO  [main] Ok juanpablogordillo375@gmail.com on the day you will be receiving an email
+2022-08-21 15:39:14,691 INFO  [main] sending...
+2022-08-21 15:39:17,467 INFO  [main] Sent message successfully....
+2022-08-21 15:39:17,467 INFO  [main] The Employee exist
+2022-08-21 15:39:17,468 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:47:11,713 DEBUG  [main] ---------------21/08/2022 15:47---------------
+2022-08-21 15:47:11,721 INFO  [main] Turning on atm system...
+2022-08-21 15:47:11,721 INFO  [main] Alarm system turned off
+2022-08-21 15:47:11,721 INFO  [main] cctv is now recording...
+2022-08-21 15:47:11,722 INFO  [main] Recording...
+2022-08-21 15:47:11,722 INFO  [main] Systems connected
+2022-08-21 15:47:11,722 INFO  [main] Turning on computers...
+2022-08-21 15:47:11,722 INFO  [main] Metal detector activated...
+2022-08-21 15:47:11,729 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-21 15:47:18,439 INFO  [main] Enter Client DNI: 
+2022-08-21 15:47:20,776 INFO  [main] The Employer exist
+2022-08-21 15:47:20,779 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
+2022-08-21 15:47:21,966 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-21 15:47:31,119 INFO  [main] Ok facunicolas.gordillo@gmail.com on the day you will be receiving an email
+2022-08-21 15:47:31,145 INFO  [main] sending...
+2022-08-21 15:47:33,643 INFO  [main] Sent message successfully....
+2022-08-21 15:47:33,643 INFO  [main] The Employee exist
+2022-08-21 15:47:33,645 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+--------------------------
