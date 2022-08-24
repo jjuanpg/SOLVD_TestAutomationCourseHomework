@@ -11,10 +11,11 @@ import java.io.Serializable;
 @SuppressWarnings("FieldCanBeLocal")
 public class BankDemo implements Serializable {
 
-    static String typeA = "employer";
-    static String typeB = "employee";
+    final static String typeA = "employer";
+    final static String typeB = "employee";
     static String creditCard;
     static int loan;
+
     private static Logger logger = LogManager.getLogger(BankDemo.class);
     private static final SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 
@@ -22,6 +23,10 @@ public class BankDemo implements Serializable {
         Date date = new Date();
         logger = LogManager.getRootLogger();
         logger.debug("---------------" + formatter.format(date) + "---------------");
+
+        //Set the file
+        final String employerFile = "E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt";
+        final String employeeFile = "E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt";
 
         //Set the branch
         BranchOffice branch = new BranchOffice("Resistencia", "French414", 20);
@@ -58,11 +63,11 @@ public class BankDemo implements Serializable {
         Scanner sc1 = new Scanner(System.in);
 
         //Employer file
-        BufferedReader br = new BufferedReader(new FileReader("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt"));
+        BufferedReader br = new BufferedReader(new FileReader(employerFile));
         CustomLinkedList<Employer> employerList = new CustomLinkedList<>();
 
         //Employee file
-        BufferedReader br1 = new BufferedReader(new FileReader("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt"));
+        BufferedReader br1 = new BufferedReader(new FileReader(employeeFile));
         CustomLinkedList<Employee> employeeList = new CustomLinkedList<>();
 
         do {
@@ -91,6 +96,8 @@ public class BankDemo implements Serializable {
                     int creditScore = sc.nextInt();
                     logger.info("Enter Client Salary: ");
                     double salary = sc.nextDouble();
+                    logger.info("Enter Client Deposit: ");
+                    double balance = sc.nextDouble();
                     //Get type of client
                     logger.info("""
                             \n--------------Menu--------------
@@ -102,15 +109,15 @@ public class BankDemo implements Serializable {
                             """);
                     int election = sc.nextInt();
                     String type = StaticMethods.getType(election);
+
                     //Create te new client based on the type
+                    String format = firstName + "|" + lastName + "|" + dni + "|" + creditScore + "|" + salary + "|" + balance;
                     if (type.equals(typeA)) {
-                        employerList.insert(new Employer(firstName, lastName, dni, creditScore, salary));
-                        String outputText = firstName + "|" + lastName + "|" + dni + "|" + creditScore + "|" + salary + "|";
-                        StaticMethods.saveToFile("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt", outputText, true);
+                        employerList.insert(new Employer(firstName, lastName, dni, creditScore, salary, balance));
+                        StaticMethods.saveToFile(employerFile, format, true);
                     } else if (type.equals(typeB)) {
-                        employeeList.insert(new Employee(firstName, lastName, dni, creditScore, salary));
-                        String outputText = firstName + "|" + lastName + "|" + dni + "|" + creditScore + "|" + salary + "|";
-                        StaticMethods.saveToFile("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt", outputText, true);
+                        employeeList.insert(new Employee(firstName, lastName, dni, creditScore, salary, balance));
+                        StaticMethods.saveToFile(employeeFile, format, true);
                     }
                 }
                 case 2 -> {
@@ -142,8 +149,8 @@ public class BankDemo implements Serializable {
                     }
                 }
                 case 3 -> {
-                    employerList = StaticMethods.employersFromFile("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt");
-                    employeeList = StaticMethods.employeesFromFile("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt");
+                    employerList = StaticMethods.employersFromFile(employerFile);
+                    employeeList = StaticMethods.employeesFromFile(employeeFile);
                 }
                 case 4 -> {
                     logger.info("""
@@ -166,12 +173,12 @@ public class BankDemo implements Serializable {
                 case 5 -> {
                     logger.info("Enter Client DNI: ");
                     String DNI = sc1.next();
-                    boolean res = StaticMethods.checkClient("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt", DNI);
-                    boolean res1 = StaticMethods.checkClient("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt", DNI);
+                    boolean res = StaticMethods.checkClient(employerFile, DNI);
+                    boolean res1 = StaticMethods.checkClient(employeeFile, DNI);
 
                     if (res) {
                         logger.info("The employer client was found");
-                        Employer employer = StaticMethods.returnEmployer("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt", DNI);
+                        Employer employer = StaticMethods.returnEmployer(employerFile, DNI);
 
                         //menu with options of the bank
                         logger.info(StaticMethods.showMenu());
@@ -237,8 +244,57 @@ public class BankDemo implements Serializable {
                                 logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
                                 logger.info("We are happy to announce you " + employer.getFirstName() + ", " + employer.getLastName() + " " + employer.getDni() + " that your " + creditCard + " will be to your home address");
                             } else {
-                                logger.warn("Minimum requirements not met");
+                                logger.fatal("Minimum requirements not met");
                                 throw new MinimumRequirementsException("The client do not met the requirements " + employer.getFirstName());
+                            }
+                        } else if (menu == 4) {
+                            assert employer != null;
+                            logger.info("\nThe balance of the account is: "+employer.getBalance());
+                        } else if (menu == 5) {
+                            logger.info("\nEnter the client amount to withdraw: ");
+                            Double amount = sc.nextDouble();
+                            assert employer != null;
+                            Double balance = employer.getBalance();
+                            employer.setBalance(balance-amount);
+
+                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                            logger.info("The remaining balance in the account is: " + employer.getBalance());
+
+                            ArrayList<Employer> employers;
+                            employers = (StaticMethods.employersArray(employerFile));
+                            int index = StaticMethods.getIndex(employer.getDni());
+                            employers.remove(index);
+                            employers.add(index, employer);
+
+                            String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
+                            StaticMethods.saveToFile(employerFile, outputText, false);
+                            for (int i = 1; i < employers.size(); i++) {
+                                outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
+                                StaticMethods.saveToFile(employerFile, outputText, true);
+                            }
+                        } else if (menu == 6) {
+                            logger.info("\nEnter the client amount to deposit: ");
+                            Double amount = sc.nextDouble();
+                            assert employer != null;
+                            Double balance = employer.getBalance();
+                            employer.setBalance(balance+amount);
+
+                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                            logger.info("The remaining balance in the account is: " + employer.getBalance());
+
+                            ArrayList<Employer> employers;
+                            employers = (StaticMethods.employersArray(employerFile));
+                            int index = StaticMethods.getIndex(employer.getDni());
+                            employers.remove(index);
+                            employers.add(index, employer);
+
+                            String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
+                            StaticMethods.saveToFile(employerFile, outputText, false);
+                            for (int i = 1; i < employers.size(); i++) {
+                                outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
+                                StaticMethods.saveToFile(employerFile, outputText, true);
                             }
                         }
 
@@ -317,10 +373,60 @@ public class BankDemo implements Serializable {
                                 logger.warn("Minimum requirements not met");
                                 throw new MinimumRequirementsException("The client do not met the requirements " + employee.getFirstName());
                             }
-                        } else {
-                            logger.error("You have to create a new client");
-                            throw new ClientNotFoundException("Could not find client with DNI " + DNI);
+                        } else if (menu == 4) {
+                            assert employee != null;
+                            logger.info("\nThe balance of the account is: "+employee.getBalance());
+                        } else if (menu == 5) {
+                            logger.info("\nEnter the client amount to withdraw: ");
+                            Double amount = sc.nextDouble();
+                            assert employee != null;
+                            Double balance = employee.getBalance();
+                            employee.setBalance(balance-amount);
+
+                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                            logger.info("The remaining balance in the account is: " + employee.getBalance());
+
+                            ArrayList<Employee> employeeArray;
+                            employeeArray = (StaticMethods.employeeArray(employeeFile));
+                            int index = StaticMethods.getIndex(employee.getDni());
+                            employeeArray.remove(index);
+                            employeeArray.add(index, employee);
+
+                            String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
+                            StaticMethods.saveToFile(employeeFile, outputText, false);
+                            for (int i = 1; i < employeeArray.size(); i++) {
+                                outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
+                                StaticMethods.saveToFile(employeeFile, outputText, true);
+                            }
+                        } else if (menu == 6) {
+                            logger.info("\nEnter the client amount to deposit: ");
+                            Double amount = sc.nextDouble();
+                            assert employee != null;
+                            Double balance = employee.getBalance();
+                            employee.setBalance(balance+amount);
+
+                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                            logger.info("The remaining balance in the account is: " + employee.getBalance());
+
+                            ArrayList<Employee> employeeArray;
+                            employeeArray = (StaticMethods.employeeArray(employeeFile));
+                            int index = StaticMethods.getIndex(employee.getDni());
+                            employeeArray.remove(index);
+                            employeeArray.add(index, employee);
+
+                            String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
+                            StaticMethods.saveToFile(employeeFile, outputText, false);
+                            for (int i = 1; i < employeeArray.size(); i++) {
+                                outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
+                                StaticMethods.saveToFile(employeeFile, outputText, true);
+                            }
                         }
+                    }
+                    if (!res && !res1){
+                        logger.error("You have to create a new client");
+                        throw new ClientNotFoundException("Could not find client with DNI " + DNI);
                     }
                 }
             }

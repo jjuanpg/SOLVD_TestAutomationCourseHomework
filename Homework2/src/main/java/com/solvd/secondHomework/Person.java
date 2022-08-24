@@ -8,16 +8,19 @@ public abstract class Person {
 		private final String lastName;
 		private final String dni;
 		private int age;
+		private int creditScore;
 		private String gender;
 		private double salary;
-		private int creditScore;
+		private double balance;
+
 		
-		public Person(String firstName, String lastName, String dni, int creditScore, double salary){
+		public Person(String firstName, String lastName, String dni, int creditScore, double salary, double balance){
 			this.firstName = firstName;
 			this.lastName = lastName;
 			this.dni = dni;
 			this.creditScore = creditScore;
 			this.salary = salary;
+			this.balance = balance;
 		}
 		
 		public String getFirstName() {
@@ -28,6 +31,14 @@ public abstract class Person {
 		}
 		public String getDni() {
 			return dni;
+		}
+
+		public void setBalance(Double balance){
+			this.balance = balance;
+		}
+
+		public Double getBalance(){
+			return balance;
 		}
 
 		public int getAge() {

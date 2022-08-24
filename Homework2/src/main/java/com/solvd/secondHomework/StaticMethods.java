@@ -8,6 +8,7 @@ import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Random;
 import java.util.Scanner;
@@ -16,6 +17,39 @@ import java.util.regex.Pattern;
 
 public class StaticMethods {
     private static final Logger logger = LogManager.getLogger(StaticMethods.class);
+    public static int index;
+
+    public static int getIndex(String dni) throws FileNotFoundException {
+        File file = new File("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt");
+        Scanner sc = new Scanner(file);
+        File file1 = new File("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt");
+        Scanner sc1 = new Scanner(file1);
+        index = 0;
+
+        while(sc.hasNextLine()){
+            String line = sc.nextLine();
+            String[] items = line.split("\\|");
+            String fDni = items[2];
+
+            if(fDni.equals(dni)){
+                return index;
+            }
+            index++;
+        }
+        index = 0;
+        while(sc1.hasNextLine()){
+            String line = sc1.nextLine();
+            String[] items = line.split("\\|");
+            String fDni = items[2];
+
+            if(fDni.equals(dni)){
+                return index;
+            }
+            index++;
+        }
+        return index;
+    }
+
     public static int setTurn(int UPPERBOUND){
         Random rand = new Random(); //instance of random class
         return rand.nextInt(UPPERBOUND);
@@ -27,6 +61,9 @@ public class StaticMethods {
                 Take a loan: 1
                 Talk with the teller: 2
                 Apply for a credit card: 3
+                Check balance : 4
+                Withdraw : 5
+                Deposit : 6
                 --------------------------""");
     }
 
@@ -95,10 +132,11 @@ public class StaticMethods {
             String dni = items[2];
             int creditScore = Integer.parseInt(items[3]);
             double salary = Double.parseDouble(items[4]);
+            double balance = Double.parseDouble(items[5]);
 
-            employersFile.insert(new Employer(fName, lName, dni, creditScore, salary));
+            employersFile.insert(new Employer(fName, lName, dni, creditScore, salary, balance));
         }
-        return employersFile;
+            return employersFile;
     }
 
     public static CustomLinkedList<Employee> employeesFromFile(String fileName) throws FileNotFoundException {
@@ -116,8 +154,9 @@ public class StaticMethods {
             String dni = items[2];
             int creditScore = Integer.parseInt(items[3]);
             double salary = Double.parseDouble(items[4]);
+            double balance = Double.parseDouble(items[5]);
 
-            employeesFile.insert(new Employee(fName, lName, dni, creditScore, salary));
+            employeesFile.insert(new Employee(fName, lName, dni, creditScore, salary, balance));
         }
         return employeesFile;
     }
@@ -140,8 +179,10 @@ public class StaticMethods {
     public static boolean checkClient(String fileName, String dni) throws FileNotFoundException {
         File file = new File(fileName);
         Scanner sc = new Scanner(file);
+        index = 0;
 
         while(sc.hasNextLine()){
+            index++;
             String line = sc.nextLine();
             String[] items = line.split("\\|");
 
@@ -166,9 +207,10 @@ public class StaticMethods {
             String fDni = items[2];
             int creditScore = Integer.parseInt(items[3]);
             double salary = Double.parseDouble(items[4]);
+            double balance = Double.parseDouble(items[5]);
 
             if(fDni.equals(dni)){
-                return new Employer(fName, lName, fDni, creditScore, salary);
+                return new Employer(fName, lName, fDni, creditScore, salary, balance);
             }
         }
         return null;
@@ -187,17 +229,16 @@ public class StaticMethods {
             String fDni = items[2];
             int creditScore = Integer.parseInt(items[3]);
             double salary = Double.parseDouble(items[4]);
+            double balance = Double.parseDouble(items[5]);
 
             if(fDni.equals(dni)){
-                return new Employee(fName, lName, fDni, creditScore, salary);
+                return new Employee(fName, lName, fDni, creditScore, salary, balance);
             }
         }
         return null;
     }
 
     public static void sendEmail(String email){
-        // Recipient's email ID needs to be mentioned
-        String to = email;
         // Sender's email ID needs to be mentioned
         String from = "bankdemojava@gmail.com";
         // Assuming you are sending email from through gmail smtp
@@ -212,7 +253,7 @@ public class StaticMethods {
         // Get the Session object.// and pass username and password
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "rskvlpjnvggmvqrl");
+                return new PasswordAuthentication(from, "buchbuvywtuefnbz");
             }
         });
         // Used to debug SMTP issues
@@ -225,7 +266,7 @@ public class StaticMethods {
             message.setFrom(new InternetAddress(from));
 
             // Set To: header field of the header.
-            message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+            message.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
 
             // Set Subject: header field
             message.setSubject("Talk to a teller");
@@ -248,4 +289,47 @@ public class StaticMethods {
         }
     }
 
+    public static ArrayList<Employer> employersArray(String fileName) throws FileNotFoundException {
+
+        File file = new File(fileName);
+        Scanner sc = new Scanner(file);
+        ArrayList<Employer> employersArray = new ArrayList<>();
+
+        while(sc.hasNextLine()){
+            String line = sc.nextLine();
+            String[] items = line.split("\\|");
+
+            String fName = items[0];
+            String lName = items[1];
+            String dni = items[2];
+            int creditScore = Integer.parseInt(items[3]);
+            double salary = Double.parseDouble(items[4]);
+            double balance = Double.parseDouble(items[5]);
+
+            employersArray.add(new Employer(fName, lName, dni, creditScore, salary, balance));
+        }
+            return employersArray;
+    }
+
+    public static ArrayList<Employee> employeeArray(String fileName) throws FileNotFoundException {
+
+        File file = new File(fileName);
+        Scanner sc = new Scanner(file);
+        ArrayList<Employee> employeeArray = new ArrayList<>();
+
+        while(sc.hasNextLine()){
+            String line = sc.nextLine();
+            String[] items = line.split("\\|");
+
+            String fName = items[0];
+            String lName = items[1];
+            String dni = items[2];
+            int creditScore = Integer.parseInt(items[3]);
+            double salary = Double.parseDouble(items[4]);
+            double balance = Double.parseDouble(items[5]);
+
+            employeeArray.add(new Employee(fName, lName, dni, creditScore, salary, balance));
+        }
+        return employeeArray;
+    }
 }

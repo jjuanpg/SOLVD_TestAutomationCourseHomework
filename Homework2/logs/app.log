@@ -1711,3 +1711,1960 @@ Take a loan: 1
 Talk with the teller: 2
 Apply for a credit card: 3
 --------------------------
+2022-08-24 09:20:30,304 DEBUG  [main] ---------------24/08/2022 09:20---------------
+2022-08-24 09:20:30,321 INFO  [main] Turning on atm system...
+2022-08-24 09:20:30,321 INFO  [main] Alarm system turned off
+2022-08-24 09:20:30,321 INFO  [main] cctv is now recording...
+2022-08-24 09:20:30,322 INFO  [main] Recording...
+2022-08-24 09:20:30,322 INFO  [main] Systems connected
+2022-08-24 09:20:30,322 INFO  [main] Turning on computers...
+2022-08-24 09:20:30,322 INFO  [main] Metal detector activated...
+2022-08-24 09:20:30,327 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:20:37,470 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:20:45,604 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 09:20:51,631 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3950.0 
+2022-08-24 09:20:51,632 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 09:20:51,632 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 09:20:51,632 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 09:20:51,632 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:20:53,867 INFO  [main] Enter Client DNI: 
+2022-08-24 09:20:59,877 INFO  [main] The employer client was found
+2022-08-24 09:20:59,878 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:21:09,259 INFO  [main] 
+The balance of the account is: 3950.0
+2022-08-24 09:21:09,260 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:21:22,667 INFO  [main] Enter Client DNI: 
+2022-08-24 09:21:26,109 INFO  [main] The employer client was found
+2022-08-24 09:21:26,110 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:21:29,019 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:21:32,476 INFO  [main] 
+Resistencia French414
+2022-08-24 09:21:32,480 INFO  [main] Attended by: Hannah, Warren ID: 634297796
+2022-08-24 09:21:32,481 INFO  [main] The remaining balance in the account is: 950.0
+2022-08-24 09:21:32,483 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:23:14,099 DEBUG  [main] ---------------24/08/2022 09:23---------------
+2022-08-24 09:23:14,106 INFO  [main] Turning on atm system...
+2022-08-24 09:23:14,107 INFO  [main] Alarm system turned off
+2022-08-24 09:23:14,107 INFO  [main] cctv is now recording...
+2022-08-24 09:23:14,107 INFO  [main] Recording...
+2022-08-24 09:23:14,108 INFO  [main] Systems connected
+2022-08-24 09:23:14,108 INFO  [main] Turning on computers...
+2022-08-24 09:23:14,108 INFO  [main] Metal detector activated...
+2022-08-24 09:23:14,114 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:23:16,837 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:23:22,923 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 09:23:24,629 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 950.0 
+2022-08-24 09:23:24,629 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 09:23:24,629 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 09:23:24,630 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 09:23:24,630 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:33:22,251 DEBUG  [main] ---------------24/08/2022 09:33---------------
+2022-08-24 09:33:22,258 INFO  [main] Turning on atm system...
+2022-08-24 09:33:22,258 INFO  [main] Alarm system turned off
+2022-08-24 09:33:22,259 INFO  [main] cctv is now recording...
+2022-08-24 09:33:22,259 INFO  [main] Recording...
+2022-08-24 09:33:22,259 INFO  [main] Systems connected
+2022-08-24 09:33:22,259 INFO  [main] Turning on computers...
+2022-08-24 09:33:22,260 INFO  [main] Metal detector activated...
+2022-08-24 09:33:22,265 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:33:27,342 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:33:28,933 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 09:33:30,420 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 950.0 
+2022-08-24 09:33:30,420 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 09:33:30,421 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 09:33:30,421 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 09:33:30,421 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:33:36,644 INFO  [main] Enter Client DNI: 
+2022-08-24 09:33:39,806 INFO  [main] The employer client was found
+2022-08-24 09:33:39,807 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:33:43,037 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:33:44,669 INFO  [main] 
+Resistencia French414
+2022-08-24 09:33:44,672 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 09:33:44,673 INFO  [main] The remaining balance in the account is: 450.0
+2022-08-24 09:33:44,677 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:41:26,495 DEBUG  [main] ---------------24/08/2022 09:41---------------
+2022-08-24 09:41:26,502 INFO  [main] Turning on atm system...
+2022-08-24 09:41:26,503 INFO  [main] Alarm system turned off
+2022-08-24 09:41:26,503 INFO  [main] cctv is now recording...
+2022-08-24 09:41:26,504 INFO  [main] Recording...
+2022-08-24 09:41:26,504 INFO  [main] Systems connected
+2022-08-24 09:41:26,504 INFO  [main] Turning on computers...
+2022-08-24 09:41:26,504 INFO  [main] Metal detector activated...
+2022-08-24 09:41:26,510 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:42:07,197 DEBUG  [main] ---------------24/08/2022 09:42---------------
+2022-08-24 09:42:07,204 INFO  [main] Turning on atm system...
+2022-08-24 09:42:07,204 INFO  [main] Alarm system turned off
+2022-08-24 09:42:07,204 INFO  [main] cctv is now recording...
+2022-08-24 09:42:07,205 INFO  [main] Recording...
+2022-08-24 09:42:07,205 INFO  [main] Systems connected
+2022-08-24 09:42:07,205 INFO  [main] Turning on computers...
+2022-08-24 09:42:07,205 INFO  [main] Metal detector activated...
+2022-08-24 09:42:07,210 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:42:13,478 INFO  [main] Enter Client DNI: 
+2022-08-24 09:42:15,949 INFO  [main] The employer client was found
+2022-08-24 09:42:15,951 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:42:30,542 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:42:33,263 INFO  [main] 
+Resistencia French414
+2022-08-24 09:42:33,267 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 09:42:33,268 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 09:42:33,282 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:47:11,208 DEBUG  [main] ---------------24/08/2022 09:47---------------
+2022-08-24 09:47:11,215 INFO  [main] Turning on atm system...
+2022-08-24 09:47:11,215 INFO  [main] Alarm system turned off
+2022-08-24 09:47:11,216 INFO  [main] cctv is now recording...
+2022-08-24 09:47:11,216 INFO  [main] Recording...
+2022-08-24 09:47:11,216 INFO  [main] Systems connected
+2022-08-24 09:47:11,217 INFO  [main] Turning on computers...
+2022-08-24 09:47:11,217 INFO  [main] Metal detector activated...
+2022-08-24 09:47:11,222 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:47:17,247 INFO  [main] Enter Client DNI: 
+2022-08-24 09:47:20,014 INFO  [main] The employer client was found
+2022-08-24 09:47:20,016 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:47:21,318 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:47:23,112 INFO  [main] 
+Resistencia French414
+2022-08-24 09:47:23,115 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 09:47:23,116 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 09:47:23,128 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:50:08,988 DEBUG  [main] ---------------24/08/2022 09:50---------------
+2022-08-24 09:50:08,995 INFO  [main] Turning on atm system...
+2022-08-24 09:50:08,996 INFO  [main] Alarm system turned off
+2022-08-24 09:50:08,996 INFO  [main] cctv is now recording...
+2022-08-24 09:50:08,997 INFO  [main] Recording...
+2022-08-24 09:50:08,997 INFO  [main] Systems connected
+2022-08-24 09:50:08,997 INFO  [main] Turning on computers...
+2022-08-24 09:50:08,997 INFO  [main] Metal detector activated...
+2022-08-24 09:50:09,003 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:50:11,200 INFO  [main] Enter Client DNI: 
+2022-08-24 09:50:13,918 INFO  [main] The employer client was found
+2022-08-24 09:50:13,920 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:50:16,207 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:50:17,968 INFO  [main] 
+Resistencia French414
+2022-08-24 09:50:17,971 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 09:50:17,972 INFO  [main] The remaining balance in the account is: 950.0
+2022-08-24 09:50:17,984 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:52:07,963 DEBUG  [main] ---------------24/08/2022 09:52---------------
+2022-08-24 09:52:07,970 INFO  [main] Turning on atm system...
+2022-08-24 09:52:07,971 INFO  [main] Alarm system turned off
+2022-08-24 09:52:07,971 INFO  [main] cctv is now recording...
+2022-08-24 09:52:07,972 INFO  [main] Recording...
+2022-08-24 09:52:07,972 INFO  [main] Systems connected
+2022-08-24 09:52:07,972 INFO  [main] Turning on computers...
+2022-08-24 09:52:07,973 INFO  [main] Metal detector activated...
+2022-08-24 09:52:07,978 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:52:11,015 INFO  [main] Enter Client DNI: 
+2022-08-24 09:52:12,582 INFO  [main] The employer client was found
+2022-08-24 09:52:12,585 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:52:14,975 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:52:17,472 INFO  [main] 
+Resistencia French414
+2022-08-24 09:52:17,475 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 09:52:17,476 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 09:52:17,487 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3950.0 
+2022-08-24 09:52:17,487 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 09:52:17,487 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 09:52:17,487 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 09:52:17,488 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 09:52:17,491 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:57:29,249 DEBUG  [main] ---------------24/08/2022 09:57---------------
+2022-08-24 09:57:29,256 INFO  [main] Turning on atm system...
+2022-08-24 09:57:29,256 INFO  [main] Alarm system turned off
+2022-08-24 09:57:29,256 INFO  [main] cctv is now recording...
+2022-08-24 09:57:29,257 INFO  [main] Recording...
+2022-08-24 09:57:29,257 INFO  [main] Systems connected
+2022-08-24 09:57:29,257 INFO  [main] Turning on computers...
+2022-08-24 09:57:29,257 INFO  [main] Metal detector activated...
+2022-08-24 09:57:29,263 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:57:33,904 INFO  [main] Enter Client DNI: 
+2022-08-24 09:57:36,823 INFO  [main] The employer client was found
+2022-08-24 09:57:36,825 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:57:38,352 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:57:40,800 INFO  [main] 
+Resistencia French414
+2022-08-24 09:57:40,804 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 09:57:40,805 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 09:57:40,815 INFO  [main] Juan Pablo 43111773 800 90000.0 3000.0
+2022-08-24 09:57:40,815 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3950.0 
+2022-08-24 09:57:40,815 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 09:57:40,816 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 09:57:40,816 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 09:57:40,816 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 09:57:40,820 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:58:48,120 INFO  [main] Enter Client DNI: 
+2022-08-24 09:59:05,208 DEBUG  [main] ---------------24/08/2022 09:59---------------
+2022-08-24 09:59:05,214 INFO  [main] Turning on atm system...
+2022-08-24 09:59:05,215 INFO  [main] Alarm system turned off
+2022-08-24 09:59:05,215 INFO  [main] cctv is now recording...
+2022-08-24 09:59:05,215 INFO  [main] Recording...
+2022-08-24 09:59:05,216 INFO  [main] Systems connected
+2022-08-24 09:59:05,216 INFO  [main] Turning on computers...
+2022-08-24 09:59:05,216 INFO  [main] Metal detector activated...
+2022-08-24 09:59:05,221 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 09:59:09,008 INFO  [main] Enter Client DNI: 
+2022-08-24 09:59:11,031 INFO  [main] The employer client was found
+2022-08-24 09:59:11,033 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 09:59:12,384 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 09:59:13,969 INFO  [main] 
+Resistencia French414
+2022-08-24 09:59:13,972 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 09:59:13,973 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 09:59:13,984 INFO  [main] Juan Pablo 43111773 800 90000.0 3000.0 3
+2022-08-24 09:59:13,985 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3950.0 
+2022-08-24 09:59:13,985 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 09:59:13,985 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 09:59:13,986 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 09:59:13,986 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 09:59:13,990 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:07:05,517 DEBUG  [main] ---------------24/08/2022 10:07---------------
+2022-08-24 10:07:05,524 INFO  [main] Turning on atm system...
+2022-08-24 10:07:05,525 INFO  [main] Alarm system turned off
+2022-08-24 10:07:05,525 INFO  [main] cctv is now recording...
+2022-08-24 10:07:05,525 INFO  [main] Recording...
+2022-08-24 10:07:05,526 INFO  [main] Systems connected
+2022-08-24 10:07:05,526 INFO  [main] Turning on computers...
+2022-08-24 10:07:05,526 INFO  [main] Metal detector activated...
+2022-08-24 10:07:05,532 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:07:07,361 INFO  [main] Enter Client DNI: 
+2022-08-24 10:07:09,056 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:07:14,881 INFO  [main] Enter Client DNI: 
+2022-08-24 10:07:17,722 INFO  [main] The employer client was found
+2022-08-24 10:07:17,725 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:07:19,225 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:07:20,529 INFO  [main] 
+Resistencia French414
+2022-08-24 10:07:20,533 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 10:07:20,534 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 10:07:20,545 INFO  [main] Juan Pablo 43111773 800 90000.0 3000.0 1
+2022-08-24 10:07:20,546 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3950.0 
+2022-08-24 10:07:20,546 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 10:07:20,546 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 10:07:20,547 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 10:07:20,547 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 10:07:20,551 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:09:39,588 DEBUG  [main] ---------------24/08/2022 10:09---------------
+2022-08-24 10:09:39,596 INFO  [main] Turning on atm system...
+2022-08-24 10:09:39,596 INFO  [main] Alarm system turned off
+2022-08-24 10:09:39,596 INFO  [main] cctv is now recording...
+2022-08-24 10:09:39,597 INFO  [main] Recording...
+2022-08-24 10:09:39,597 INFO  [main] Systems connected
+2022-08-24 10:09:39,597 INFO  [main] Turning on computers...
+2022-08-24 10:09:39,598 INFO  [main] Metal detector activated...
+2022-08-24 10:09:39,603 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:09:41,786 INFO  [main] Enter Client DNI: 
+2022-08-24 10:09:43,824 INFO  [main] The employer client was found
+2022-08-24 10:09:43,826 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:09:44,874 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:09:46,554 INFO  [main] 
+Resistencia French414
+2022-08-24 10:09:46,557 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 10:09:46,559 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 10:09:46,570 INFO  [main] Juan Pablo 43111773 800 90000.0 3000.0 0
+2022-08-24 10:09:46,571 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 10:09:46,571 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3950.0 
+2022-08-24 10:09:46,571 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 10:09:46,572 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 10:09:46,572 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 10:09:46,575 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:11:57,985 DEBUG  [main] ---------------24/08/2022 10:11---------------
+2022-08-24 10:11:57,992 INFO  [main] Turning on atm system...
+2022-08-24 10:11:57,993 INFO  [main] Alarm system turned off
+2022-08-24 10:11:57,993 INFO  [main] cctv is now recording...
+2022-08-24 10:11:57,993 INFO  [main] Recording...
+2022-08-24 10:11:57,993 INFO  [main] Systems connected
+2022-08-24 10:11:57,994 INFO  [main] Turning on computers...
+2022-08-24 10:11:57,994 INFO  [main] Metal detector activated...
+2022-08-24 10:11:57,999 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:12:00,242 INFO  [main] Enter Client DNI: 
+2022-08-24 10:12:03,528 INFO  [main] The employer client was found
+2022-08-24 10:12:03,530 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:12:05,458 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:12:08,019 INFO  [main] 
+Resistencia French414
+2022-08-24 10:12:08,023 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 10:12:08,024 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 10:12:08,034 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 10:12:08,035 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 10:12:08,035 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 10:12:08,035 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 10:13:18,257 DEBUG  [main] ---------------24/08/2022 10:13---------------
+2022-08-24 10:13:18,265 INFO  [main] Turning on atm system...
+2022-08-24 10:13:18,265 INFO  [main] Alarm system turned off
+2022-08-24 10:13:18,266 INFO  [main] cctv is now recording...
+2022-08-24 10:13:18,266 INFO  [main] Recording...
+2022-08-24 10:13:18,266 INFO  [main] Systems connected
+2022-08-24 10:13:18,266 INFO  [main] Turning on computers...
+2022-08-24 10:13:18,267 INFO  [main] Metal detector activated...
+2022-08-24 10:13:18,273 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:13:20,963 INFO  [main] Enter Client DNI: 
+2022-08-24 10:13:22,193 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:13:23,003 INFO  [main] Enter Client DNI: 
+2022-08-24 10:13:26,291 INFO  [main] The employer client was found
+2022-08-24 10:13:26,294 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:13:27,546 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:13:29,363 INFO  [main] 
+Resistencia French414
+2022-08-24 10:13:29,366 INFO  [main] Attended by: Hannah, Warren ID: 1961002599
+2022-08-24 10:13:29,367 INFO  [main] The remaining balance in the account is: 3700.0
+2022-08-24 10:13:29,377 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3700.0 
+2022-08-24 10:13:29,377 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 10:13:29,378 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 10:13:29,378 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 10:15:42,016 DEBUG  [main] ---------------24/08/2022 10:15---------------
+2022-08-24 10:15:42,023 INFO  [main] Turning on atm system...
+2022-08-24 10:15:42,023 INFO  [main] Alarm system turned off
+2022-08-24 10:15:42,023 INFO  [main] cctv is now recording...
+2022-08-24 10:15:42,024 INFO  [main] Recording...
+2022-08-24 10:15:42,024 INFO  [main] Systems connected
+2022-08-24 10:15:42,024 INFO  [main] Turning on computers...
+2022-08-24 10:15:42,025 INFO  [main] Metal detector activated...
+2022-08-24 10:15:42,030 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:15:45,819 INFO  [main] Enter Client DNI: 
+2022-08-24 10:15:47,930 INFO  [main] The employer client was found
+2022-08-24 10:15:47,932 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:15:49,011 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:15:50,555 INFO  [main] 
+Resistencia French414
+2022-08-24 10:15:50,559 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 10:15:50,560 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 10:15:50,571 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 10:15:50,571 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 10:15:50,571 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 10:15:50,571 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 10:15:50,575 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:43:45,130 DEBUG  [main] ---------------24/08/2022 10:43---------------
+2022-08-24 10:43:45,138 INFO  [main] Turning on atm system...
+2022-08-24 10:43:45,138 INFO  [main] Alarm system turned off
+2022-08-24 10:43:45,139 INFO  [main] cctv is now recording...
+2022-08-24 10:43:45,139 INFO  [main] Recording...
+2022-08-24 10:43:45,139 INFO  [main] Systems connected
+2022-08-24 10:43:45,140 INFO  [main] Turning on computers...
+2022-08-24 10:43:45,140 INFO  [main] Metal detector activated...
+2022-08-24 10:43:45,146 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:43:57,319 INFO  [main] Enter Client DNI: 
+2022-08-24 10:44:00,445 INFO  [main] The employer client was found
+2022-08-24 10:44:00,447 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:44:01,887 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:44:05,303 INFO  [main] 
+Resistencia French414
+2022-08-24 10:44:05,308 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 10:44:05,310 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 10:44:05,325 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:49:23,049 DEBUG  [main] ---------------24/08/2022 10:49---------------
+2022-08-24 10:49:23,056 INFO  [main] Turning on atm system...
+2022-08-24 10:49:23,056 INFO  [main] Alarm system turned off
+2022-08-24 10:49:23,057 INFO  [main] cctv is now recording...
+2022-08-24 10:49:23,057 INFO  [main] Recording...
+2022-08-24 10:49:23,057 INFO  [main] Systems connected
+2022-08-24 10:49:23,058 INFO  [main] Turning on computers...
+2022-08-24 10:49:23,058 INFO  [main] Metal detector activated...
+2022-08-24 10:49:23,063 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:49:25,584 INFO  [main] Enter Client DNI: 
+2022-08-24 10:49:28,397 INFO  [main] The employer client was found
+2022-08-24 10:49:28,399 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:49:30,232 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 10:49:32,432 INFO  [main] 
+Resistencia French414
+2022-08-24 10:49:32,436 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 10:49:32,437 INFO  [main] The remaining balance in the account is: 2800.0
+2022-08-24 10:49:32,450 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:55:11,443 DEBUG  [main] ---------------24/08/2022 10:55---------------
+2022-08-24 10:55:11,450 INFO  [main] Turning on atm system...
+2022-08-24 10:55:11,451 INFO  [main] Alarm system turned off
+2022-08-24 10:55:11,451 INFO  [main] cctv is now recording...
+2022-08-24 10:55:11,451 INFO  [main] Recording...
+2022-08-24 10:55:11,452 INFO  [main] Systems connected
+2022-08-24 10:55:11,452 INFO  [main] Turning on computers...
+2022-08-24 10:55:11,452 INFO  [main] Metal detector activated...
+2022-08-24 10:55:11,458 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:55:13,744 INFO  [main] Enter Client DNI: 
+2022-08-24 10:55:15,808 INFO  [main] The employer client was found
+2022-08-24 10:55:15,810 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:55:20,194 INFO  [main] 
+The balance of the account is: 2800.0
+2022-08-24 10:55:20,194 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 10:55:21,618 INFO  [main] Enter Client DNI: 
+2022-08-24 10:55:25,569 INFO  [main] The employer client was found
+2022-08-24 10:55:25,570 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 10:55:27,504 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 10:55:30,744 INFO  [main] 
+Resistencia French414
+2022-08-24 10:55:30,748 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 10:55:30,748 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 10:55:30,762 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:14,937 DEBUG  [main] ---------------24/08/2022 11:04---------------
+2022-08-24 11:04:14,944 INFO  [main] Turning on atm system...
+2022-08-24 11:04:14,945 INFO  [main] Alarm system turned off
+2022-08-24 11:04:14,945 INFO  [main] cctv is now recording...
+2022-08-24 11:04:14,945 INFO  [main] Recording...
+2022-08-24 11:04:14,946 INFO  [main] Systems connected
+2022-08-24 11:04:14,946 INFO  [main] Turning on computers...
+2022-08-24 11:04:14,946 INFO  [main] Metal detector activated...
+2022-08-24 11:04:14,951 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:19,058 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-24 11:04:22,194 INFO  [main] -----------------------------------
+2022-08-24 11:04:22,195 INFO  [main] Juan|Pablo|43111773|800|90000.0|3000.0
+2022-08-24 11:04:22,195 INFO  [main] Juan|Bravo|43111888|700|30000.0|2650.0
+2022-08-24 11:04:22,195 INFO  [main] Jose|Canavire|35928201|1500|200000.0|3750.0
+2022-08-24 11:04:22,195 INFO  [main] Eugenia|Ramirez|28732892|900|120000.0|3700.0
+2022-08-24 11:04:22,196 INFO  [main] -----------------------------------
+2022-08-24 11:04:22,196 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:28,074 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-24 11:04:29,498 INFO  [main] -----------------------------------
+2022-08-24 11:04:29,498 INFO  [main] Juan|Gordillo|42182923|900|25000.0|2400.0
+2022-08-24 11:04:29,499 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|3400.0
+2022-08-24 11:04:29,499 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|2050.0
+2022-08-24 11:04:29,499 INFO  [main] -----------------------------------
+2022-08-24 11:04:29,499 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:35,314 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:41,922 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 11:04:43,027 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 3000.0 
+2022-08-24 11:04:43,027 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 11:04:43,027 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 11:04:43,028 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 11:04:43,028 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:46,362 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 11:04:47,870 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-24 11:04:47,870 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-24 11:04:47,870 INFO c.s.s.CustomLinkedList [main] Leandro Ramirez 38972435 820 24500.0 
+2022-08-24 11:04:47,871 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:04:53,250 INFO  [main] Enter Client DNI: 
+2022-08-24 11:05:14,867 INFO  [main] The employee client exist
+2022-08-24 11:05:14,868 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:05:17,658 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:05:20,794 INFO  [main] 
+Resistencia French414
+2022-08-24 11:05:20,797 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:05:20,798 INFO  [main] The remaining balance in the account is: 5400.0
+2022-08-24 11:07:28,347 DEBUG  [main] ---------------24/08/2022 11:07---------------
+2022-08-24 11:07:28,355 INFO  [main] Turning on atm system...
+2022-08-24 11:07:28,355 INFO  [main] Alarm system turned off
+2022-08-24 11:07:28,355 INFO  [main] cctv is now recording...
+2022-08-24 11:07:28,356 INFO  [main] Recording...
+2022-08-24 11:07:28,356 INFO  [main] Systems connected
+2022-08-24 11:07:28,356 INFO  [main] Turning on computers...
+2022-08-24 11:07:28,357 INFO  [main] Metal detector activated...
+2022-08-24 11:07:28,362 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:07:31,179 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-24 11:07:32,762 INFO  [main] -----------------------------------
+2022-08-24 11:07:32,762 INFO  [main] Juan|Gordillo|42182923|900|25000.0|2400.0
+2022-08-24 11:07:32,763 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|3400.0
+2022-08-24 11:07:32,763 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|2050.0
+2022-08-24 11:07:32,763 INFO  [main] -----------------------------------
+2022-08-24 11:07:32,763 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:07:34,194 INFO  [main] Enter Client DNI: 
+2022-08-24 11:07:41,289 INFO  [main] The employee client exist
+2022-08-24 11:07:41,291 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:07:46,154 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:07:52,266 INFO  [main] 
+Resistencia French414
+2022-08-24 11:07:52,270 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:07:52,271 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 11:09:11,967 DEBUG  [main] ---------------24/08/2022 11:09---------------
+2022-08-24 11:09:11,975 INFO  [main] Turning on atm system...
+2022-08-24 11:09:11,976 INFO  [main] Alarm system turned off
+2022-08-24 11:09:11,976 INFO  [main] cctv is now recording...
+2022-08-24 11:09:11,976 INFO  [main] Recording...
+2022-08-24 11:09:11,977 INFO  [main] Systems connected
+2022-08-24 11:09:11,977 INFO  [main] Turning on computers...
+2022-08-24 11:09:11,977 INFO  [main] Metal detector activated...
+2022-08-24 11:09:11,983 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:09:13,602 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-24 11:09:14,682 INFO  [main] -----------------------------------
+2022-08-24 11:09:14,682 INFO  [main] Juan|Gordillo|42182923|900|25000.0|2400.0
+2022-08-24 11:09:14,682 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|3400.0
+2022-08-24 11:09:14,683 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|2050.0
+2022-08-24 11:09:14,683 INFO  [main] -----------------------------------
+2022-08-24 11:09:14,683 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:09:15,882 INFO  [main] Enter Client DNI: 
+2022-08-24 11:09:26,153 INFO  [main] The employee client exist
+2022-08-24 11:09:26,155 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:09:28,298 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:09:29,891 INFO  [main] 
+Resistencia French414
+2022-08-24 11:09:29,895 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:09:29,896 INFO  [main] The remaining balance in the account is: 2100.0
+2022-08-24 11:09:29,911 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:09:38,995 INFO  [main] Enter Client DNI: 
+2022-08-24 11:09:52,973 INFO  [main] The employee client exist
+2022-08-24 11:09:52,975 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:09:55,387 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:09:58,283 INFO  [main] 
+Resistencia French414
+2022-08-24 11:09:58,283 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:09:58,283 INFO  [main] The remaining balance in the account is: 1950.0
+2022-08-24 11:09:58,293 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:11:20,722 DEBUG  [main] ---------------24/08/2022 11:11---------------
+2022-08-24 11:11:20,730 INFO  [main] Turning on atm system...
+2022-08-24 11:11:20,731 INFO  [main] Alarm system turned off
+2022-08-24 11:11:20,731 INFO  [main] cctv is now recording...
+2022-08-24 11:11:20,731 INFO  [main] Recording...
+2022-08-24 11:11:20,732 INFO  [main] Systems connected
+2022-08-24 11:11:20,732 INFO  [main] Turning on computers...
+2022-08-24 11:11:20,732 INFO  [main] Metal detector activated...
+2022-08-24 11:11:20,738 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:11:22,579 INFO  [main] Enter Client DNI: 
+2022-08-24 11:11:25,538 INFO  [main] The employer client was found
+2022-08-24 11:11:25,540 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:11:26,883 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:11:28,467 INFO  [main] 
+Resistencia French414
+2022-08-24 11:11:28,471 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:11:28,472 INFO  [main] The remaining balance in the account is: 2500.0
+2022-08-24 11:11:28,485 ERROR  [main] You have to create a new client
+2022-08-24 11:12:27,827 DEBUG  [main] ---------------24/08/2022 11:12---------------
+2022-08-24 11:12:27,834 INFO  [main] Turning on atm system...
+2022-08-24 11:12:27,834 INFO  [main] Alarm system turned off
+2022-08-24 11:12:27,835 INFO  [main] cctv is now recording...
+2022-08-24 11:12:27,835 INFO  [main] Recording...
+2022-08-24 11:12:27,835 INFO  [main] Systems connected
+2022-08-24 11:12:27,835 INFO  [main] Turning on computers...
+2022-08-24 11:12:27,836 INFO  [main] Metal detector activated...
+2022-08-24 11:12:27,841 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:12:31,500 INFO  [main] Enter Client DNI: 
+2022-08-24 11:12:33,600 INFO  [main] The employer client was found
+2022-08-24 11:12:33,603 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:12:34,962 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:12:36,420 INFO  [main] 
+Resistencia French414
+2022-08-24 11:12:36,424 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:12:36,425 INFO  [main] The remaining balance in the account is: 2600.0
+2022-08-24 11:12:36,438 ERROR  [main] You have to create a new client
+2022-08-24 11:12:58,566 DEBUG  [main] ---------------24/08/2022 11:12---------------
+2022-08-24 11:12:58,573 INFO  [main] Turning on atm system...
+2022-08-24 11:12:58,573 INFO  [main] Alarm system turned off
+2022-08-24 11:12:58,573 INFO  [main] cctv is now recording...
+2022-08-24 11:12:58,574 INFO  [main] Recording...
+2022-08-24 11:12:58,574 INFO  [main] Systems connected
+2022-08-24 11:12:58,574 INFO  [main] Turning on computers...
+2022-08-24 11:12:58,575 INFO  [main] Metal detector activated...
+2022-08-24 11:12:58,580 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:13:01,963 INFO  [main] Enter Client DNI: 
+2022-08-24 11:13:04,161 INFO  [main] The employer client was found
+2022-08-24 11:13:04,163 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:13:05,986 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:13:07,371 INFO  [main] 
+Resistencia French414
+2022-08-24 11:13:07,375 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:13:07,376 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 11:13:07,389 ERROR  [main] You have to create a new client
+2022-08-24 11:15:18,954 DEBUG  [main] ---------------24/08/2022 11:15---------------
+2022-08-24 11:15:18,961 INFO  [main] Turning on atm system...
+2022-08-24 11:15:18,962 INFO  [main] Alarm system turned off
+2022-08-24 11:15:18,962 INFO  [main] cctv is now recording...
+2022-08-24 11:15:18,962 INFO  [main] Recording...
+2022-08-24 11:15:18,962 INFO  [main] Systems connected
+2022-08-24 11:15:18,963 INFO  [main] Turning on computers...
+2022-08-24 11:15:18,963 INFO  [main] Metal detector activated...
+2022-08-24 11:15:18,968 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:15:20,979 INFO  [main] Enter Client DNI: 
+2022-08-24 11:15:23,882 INFO  [main] The employer client was found
+2022-08-24 11:15:23,885 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:15:25,627 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:15:26,780 INFO  [main] 
+Resistencia French414
+2022-08-24 11:15:26,784 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:15:26,785 INFO  [main] The remaining balance in the account is: 2900.0
+2022-08-24 11:15:26,797 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:15:34,884 INFO  [main] Enter Client DNI: 
+2022-08-24 11:15:48,852 INFO  [main] The employee client exist
+2022-08-24 11:15:48,854 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:15:53,075 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:15:54,379 INFO  [main] 
+Resistencia French414
+2022-08-24 11:15:54,380 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:15:54,380 INFO  [main] The remaining balance in the account is: 2900.0
+2022-08-24 11:15:54,385 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:16:08,627 INFO  [main] Enter Client DNI: 
+2022-08-24 11:16:14,908 INFO  [main] The employer client was found
+2022-08-24 11:16:14,909 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:16:17,890 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:16:20,587 INFO  [main] 
+Resistencia French414
+2022-08-24 11:16:20,587 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:16:20,588 INFO  [main] The remaining balance in the account is: 2800.0
+2022-08-24 11:16:20,591 INFO  [main] The employee client exist
+2022-08-24 11:16:20,592 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:17:07,283 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:17:10,211 INFO  [main] 
+Resistencia French414
+2022-08-24 11:17:10,211 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-24 11:17:10,211 INFO  [main] The remaining balance in the account is: 2600.0
+2022-08-24 11:17:54,126 DEBUG  [main] ---------------24/08/2022 11:17---------------
+2022-08-24 11:17:54,134 INFO  [main] Turning on atm system...
+2022-08-24 11:17:54,134 INFO  [main] Alarm system turned off
+2022-08-24 11:17:54,135 INFO  [main] cctv is now recording...
+2022-08-24 11:17:54,135 INFO  [main] Recording...
+2022-08-24 11:17:54,135 INFO  [main] Systems connected
+2022-08-24 11:17:54,135 INFO  [main] Turning on computers...
+2022-08-24 11:17:54,136 INFO  [main] Metal detector activated...
+2022-08-24 11:17:54,141 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:17:57,468 INFO  [main] Enter Client DNI: 
+2022-08-24 11:18:12,284 INFO  [main] The employee client exist
+2022-08-24 11:18:12,287 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:18:16,267 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:18:19,486 INFO  [main] 
+Resistencia French414
+2022-08-24 11:18:19,490 INFO  [main] Attended by: Hannah, Warren ID: 1182908789
+2022-08-24 11:18:19,491 INFO  [main] The remaining balance in the account is: 3000.0
+2022-08-24 11:18:19,508 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:25:50,354 DEBUG  [main] ---------------24/08/2022 11:25---------------
+2022-08-24 11:25:50,361 INFO  [main] Turning on atm system...
+2022-08-24 11:25:50,362 INFO  [main] Alarm system turned off
+2022-08-24 11:25:50,362 INFO  [main] cctv is now recording...
+2022-08-24 11:25:50,362 INFO  [main] Recording...
+2022-08-24 11:25:50,363 INFO  [main] Systems connected
+2022-08-24 11:25:50,363 INFO  [main] Turning on computers...
+2022-08-24 11:25:50,363 INFO  [main] Metal detector activated...
+2022-08-24 11:25:50,369 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:25:55,245 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-24 11:25:55,852 INFO  [main] -----------------------------------
+2022-08-24 11:25:55,853 INFO  [main] Juan|Pablo|43111773|800|90000.0|2900.0
+2022-08-24 11:25:55,853 INFO  [main] Juan|Bravo|43111888|700|30000.0|2650.0
+2022-08-24 11:25:55,853 INFO  [main] Jose|Canavire|35928201|1500|200000.0|3750.0
+2022-08-24 11:25:55,853 INFO  [main] Eugenia|Ramirez|28732892|900|120000.0|3700.0
+2022-08-24 11:25:55,854 INFO  [main] -----------------------------------
+2022-08-24 11:25:55,854 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:25:58,076 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-24 11:25:58,901 INFO  [main] -----------------------------------
+2022-08-24 11:25:58,902 INFO  [main] Juan|Gordillo|42182923|900|25000.0|2400.0
+2022-08-24 11:25:58,902 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|3400.0
+2022-08-24 11:25:58,902 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|2050.0
+2022-08-24 11:25:58,903 INFO  [main] -----------------------------------
+2022-08-24 11:25:58,903 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:06,471 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:09,332 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 11:26:10,333 INFO c.s.s.CustomLinkedList [main] Juan Pablo 43111773 800 90000.0 2900.0 
+2022-08-24 11:26:10,333 INFO c.s.s.CustomLinkedList [main] Juan Bravo 43111888 700 30000.0 2650.0 
+2022-08-24 11:26:10,333 INFO c.s.s.CustomLinkedList [main] Jose Canavire 35928201 1500 200000.0 3750.0 
+2022-08-24 11:26:10,334 INFO c.s.s.CustomLinkedList [main] Eugenia Ramirez 28732892 900 120000.0 3700.0 
+2022-08-24 11:26:10,334 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:13,029 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-24 11:26:13,993 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 
+2022-08-24 11:26:13,994 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 
+2022-08-24 11:26:13,994 INFO c.s.s.CustomLinkedList [main] Leandro Ramirez 38972435 820 24500.0 
+2022-08-24 11:26:13,994 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:18,372 INFO  [main] Enter Client DNI: 
+2022-08-24 11:26:21,246 INFO  [main] The employer client was found
+2022-08-24 11:26:21,247 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:26:26,517 INFO  [main] 
+The balance of the account is: 2900.0
+2022-08-24 11:26:26,517 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:33,221 INFO  [main] Enter Client DNI: 
+2022-08-24 11:26:35,286 INFO  [main] The employer client was found
+2022-08-24 11:26:35,287 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:26:38,445 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:26:41,141 INFO  [main] 
+Resistencia French414
+2022-08-24 11:26:41,145 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:26:41,145 INFO  [main] The remaining balance in the account is: 2800.0
+2022-08-24 11:26:41,152 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:46,645 INFO  [main] Enter Client DNI: 
+2022-08-24 11:26:48,989 INFO  [main] The employer client was found
+2022-08-24 11:26:48,990 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:26:50,388 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:26:51,381 INFO  [main] 
+Resistencia French414
+2022-08-24 11:26:51,382 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:26:51,382 INFO  [main] The remaining balance in the account is: 2900.0
+2022-08-24 11:26:51,388 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:26:56,982 INFO  [main] Enter Client DNI: 
+2022-08-24 11:27:08,270 INFO  [main] The employee client exist
+2022-08-24 11:27:08,271 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:27:13,829 INFO  [main] 
+The balance of the account is: 2400.0
+2022-08-24 11:27:13,829 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:27:16,549 INFO  [main] Enter Client DNI: 
+2022-08-24 11:27:24,990 INFO  [main] The employee client exist
+2022-08-24 11:27:24,992 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:27:27,309 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-24 11:27:29,653 INFO  [main] 
+Resistencia French414
+2022-08-24 11:27:29,654 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:27:29,654 INFO  [main] The remaining balance in the account is: 2000.0
+2022-08-24 11:27:29,659 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:27:36,781 INFO  [main] Enter Client DNI: 
+2022-08-24 11:27:42,686 INFO  [main] The employee client exist
+2022-08-24 11:27:42,687 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:27:45,421 INFO  [main] 
+Enter the client amount to deposit: 
+2022-08-24 11:27:49,741 INFO  [main] 
+Resistencia French414
+2022-08-24 11:27:49,741 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-24 11:27:49,742 INFO  [main] The remaining balance in the account is: 2500.0
+2022-08-24 11:27:49,746 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:29:37,830 DEBUG  [main] ---------------24/08/2022 11:29---------------
+2022-08-24 11:29:37,836 INFO  [main] Turning on atm system...
+2022-08-24 11:29:37,837 INFO  [main] Alarm system turned off
+2022-08-24 11:29:37,837 INFO  [main] cctv is now recording...
+2022-08-24 11:29:37,837 INFO  [main] Recording...
+2022-08-24 11:29:37,838 INFO  [main] Systems connected
+2022-08-24 11:29:37,838 INFO  [main] Turning on computers...
+2022-08-24 11:29:37,838 INFO  [main] Metal detector activated...
+2022-08-24 11:29:37,844 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:29:40,438 INFO  [main] Enter Client DNI: 
+2022-08-24 11:29:43,315 INFO  [main] The employer client was found
+2022-08-24 11:29:43,317 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:29:45,005 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-24 11:29:51,765 INFO  [main] Ok juanpablogordillo375@gmail.com on the day you will be receiving an email
+2022-08-24 11:29:51,822 INFO c.s.s.StaticMethods [main] sending...
+2022-08-24 11:29:54,827 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:30:38,035 DEBUG  [main] ---------------24/08/2022 11:30---------------
+2022-08-24 11:30:38,042 INFO  [main] Turning on atm system...
+2022-08-24 11:30:38,042 INFO  [main] Alarm system turned off
+2022-08-24 11:30:38,042 INFO  [main] cctv is now recording...
+2022-08-24 11:30:38,043 INFO  [main] Recording...
+2022-08-24 11:30:38,043 INFO  [main] Systems connected
+2022-08-24 11:30:38,044 INFO  [main] Turning on computers...
+2022-08-24 11:30:38,044 INFO  [main] Metal detector activated...
+2022-08-24 11:30:38,050 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:30:39,997 INFO  [main] Enter Client DNI: 
+2022-08-24 11:30:41,539 INFO  [main] The employer client was found
+2022-08-24 11:30:41,542 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:30:43,726 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-24 11:30:48,503 INFO  [main] Ok juanpablogordillo375@gmail.com on the day you will be receiving an email
+2022-08-24 11:30:48,531 INFO c.s.s.StaticMethods [main] sending...
+2022-08-24 11:30:49,976 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:37:42,070 DEBUG  [main] ---------------24/08/2022 11:37---------------
+2022-08-24 11:37:42,077 INFO  [main] Turning on atm system...
+2022-08-24 11:37:42,077 INFO  [main] Alarm system turned off
+2022-08-24 11:37:42,077 INFO  [main] cctv is now recording...
+2022-08-24 11:37:42,078 INFO  [main] Recording...
+2022-08-24 11:37:42,078 INFO  [main] Systems connected
+2022-08-24 11:37:42,078 INFO  [main] Turning on computers...
+2022-08-24 11:37:42,079 INFO  [main] Metal detector activated...
+2022-08-24 11:37:42,084 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-24 11:37:44,567 INFO  [main] Enter Client DNI: 
+2022-08-24 11:37:46,341 INFO  [main] The employer client was found
+2022-08-24 11:37:46,344 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+--------------------------
+2022-08-24 11:37:47,638 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-24 11:37:52,118 INFO  [main] Ok juanpablogordillo375@gmail.com on the day you will be receiving an email
+2022-08-24 11:37:52,146 INFO c.s.s.StaticMethods [main] sending...
+2022-08-24 11:37:55,063 INFO c.s.s.StaticMethods [main] Sent message successfully....
+2022-08-24 11:37:55,063 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+0. Exit
+--------------------------------
+Enter your choice: 
+

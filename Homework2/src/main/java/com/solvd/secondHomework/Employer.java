@@ -2,8 +2,8 @@ package com.solvd.secondHomework;
 
 public class Employer extends Person {
 	
-	public Employer(String firstName, String lastName, String dni, int creditScore, double salary) {
-		super(firstName, lastName, dni, creditScore, salary);
+	public Employer(String firstName, String lastName, String dni, int creditScore, double salary, double balance) {
+		super(firstName, lastName, dni, creditScore, salary, balance);
 	}
 	private boolean isEmployer;
 	private String company;
@@ -30,7 +30,7 @@ public class Employer extends Person {
 
 	@Override
 	public String toString() {
-        return this.getFirstName()+" "+this.getLastName()+" "+this.getDni()+" "+this.getCreditScore()+" "+this.getSalary();
+        return getFirstName()+" "+getLastName()+" "+getDni()+" "+getCreditScore()+" "+getSalary()+" "+getBalance();
     }
 
 	@Override

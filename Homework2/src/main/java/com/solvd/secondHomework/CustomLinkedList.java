@@ -7,6 +7,7 @@ public class CustomLinkedList<T> {
 
     private static Logger logger = LogManager.getLogger(CustomLinkedList.class);
     private Node head;
+    int size = 0;
 
     class Node{
         private T value;
@@ -27,6 +28,7 @@ public class CustomLinkedList<T> {
                 currentNode= currentNode.next;
             }
             currentNode.next = newNode;
+            size++;
         }
     }
 
@@ -35,6 +37,7 @@ public class CustomLinkedList<T> {
 
         newNode.next = head;
         head = newNode;
+        size++;
     }
 
     public void insertAt(int index, T value) {
@@ -49,6 +52,7 @@ public class CustomLinkedList<T> {
             }
             newNode.next = currentNode.next;
             currentNode.next = newNode;
+            size++;
         }
     }
 
@@ -61,6 +65,7 @@ public class CustomLinkedList<T> {
                 currentNode = currentNode.next;
             }
             currentNode.next = currentNode.next.next;
+            size--;
         }
     }
 
@@ -88,4 +93,9 @@ public class CustomLinkedList<T> {
         }
         return (currentNode.value);
     }
+
+    public int size() {
+        return size;
+    }
+
 }

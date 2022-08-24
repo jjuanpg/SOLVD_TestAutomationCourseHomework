@@ -2,8 +2,8 @@ package com.solvd.secondHomework;
 
 public class Employee extends Person{
 	
-	public Employee(String firstName, String lastName, String dni, int creditScore, double salary) {
-		super(firstName, lastName, dni, creditScore, salary);
+	public Employee(String firstName, String lastName, String dni, int creditScore, double salary, double balance) {
+		super(firstName, lastName, dni, creditScore, salary, balance);
 	}
 	private boolean isEmployee;
 	private String workPlace;
