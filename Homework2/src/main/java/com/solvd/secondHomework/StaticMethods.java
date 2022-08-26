@@ -64,6 +64,7 @@ public class StaticMethods {
                 Check balance : 4
                 Withdraw : 5
                 Deposit : 6
+                Exit : 0
                 --------------------------""");
     }
 
@@ -161,12 +162,17 @@ public class StaticMethods {
         return employeesFile;
     }
 
-    public static void saveToFile(String fileName, String text, boolean append) throws IOException {
+    public static void saveToFile(String fileName, String text, boolean append) {
         //1: Create a file
         File file = new File(fileName);
 
         //2: Create a file writer class
-        FileWriter fw = new FileWriter(file, append);
+        FileWriter fw;
+        try {
+            fw = new FileWriter(file, append);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
         //3: Create a print writer class
         PrintWriter pw = new PrintWriter(fw);

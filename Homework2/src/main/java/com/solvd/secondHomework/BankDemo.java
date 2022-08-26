@@ -2,6 +2,7 @@ package com.solvd.secondHomework;
 import com.solvd.secondHomework.Exceptions.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.io.*;
@@ -78,6 +79,7 @@ public class BankDemo implements Serializable {
                     3. Read from file
                     4. Display updated linked lists
                     5. Check if Client exist
+                    6. Unsubscribe bank account
                     0. Exit
                     --------------------------------
                     Enter your choice:\040
@@ -179,252 +181,310 @@ public class BankDemo implements Serializable {
                     if (res) {
                         logger.info("The employer client was found");
                         Employer employer = StaticMethods.returnEmployer(employerFile, DNI);
+                        int menu;
 
-                        //menu with options of the bank
-                        logger.info(StaticMethods.showMenu());
-                        int menu = sc.nextInt();
+                        do{
+                            //menu with options of the bank
+                            logger.info(StaticMethods.showMenu());
+                            menu = sc.nextInt();
 
-                        //Print the result
-                        if (menu == 1) {
-                            logger.info("\r\nThe available credits are: ");
-                            logger.info(StaticMethods.showCredits());
-                            int election = sc.nextInt();
-                            if (election == 1) {
-                                loan = 30000;
-                            } else if (election == 2) {
-                                loan = 50000;
-                            } else if (election == 3) {
-                                loan = 100000;
-                            } else {
-                                logger.error("ERROR: Input Mismatch.");
-                                throw new InputMismatchFoundException("Could not find the selected election " + election);
-                            }
+                            //Print the result
+                            if (menu == 1) {
+                                logger.info("\r\nThe available credits are: ");
+                                logger.info(StaticMethods.showCredits());
+                                int election = sc.nextInt();
+                                if (election == 1) {
+                                    loan = 30000;
+                                } else if (election == 2) {
+                                    loan = 50000;
+                                } else if (election == 3) {
+                                    loan = 100000;
+                                } else {
+                                    logger.error("ERROR: Input Mismatch.");
+                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                }
 
-                            assert employer != null;
-                            boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
-                            if (qualify) {
+                                assert employer != null;
+                                boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
+                                if (qualify) {
+                                    logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                                    logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                                    logger.info("We are happy to announce you " + employer.getFirstName() + ", " + employer.getLastName() + " " + employer.getDni() + " that the loan of $" + loan + " will be transferred to your account");
+                                    logger.info("If you want to withdraw now the security " + security.getFirstName() + " ID: " + security.getID() + " will help you");
+                                } else {
+                                    logger.warn("Minimum requirements not met");
+                                    throw new MinimumRequirementsException("The client do not met the requirements " + employer.getFirstName());
+                                }
+                            } else if (menu == 2) {
+                                logger.info("\r\nEnter an email to get in touch with a teller");
+                                String email = sc.next();
+                                boolean validate = StaticMethods.validate(email);
+                                if (validate) {
+                                    logger.info("Ok " + email + " on the day you will be receiving an email");
+                                    StaticMethods.sendEmail(email);
+                                } else {
+                                    logger.warn("Invalid email type");
+                                    throw new InvalidEmailException("ERROR: Invalid email " + email);
+                                }
+                            } else if (menu == 3) {
+                                logger.info("\r\nThe available credit cards are: ");
+                                logger.info(StaticMethods.showCreditCards());
+                                int election = sc.nextInt();
+                                if (election == 1) {
+                                    creditCard = "White card";
+                                } else if (election == 2) {
+                                    creditCard = "Black card";
+                                } else if (election == 3) {
+                                    creditCard = "Platinum card";
+                                } else {
+                                    logger.error("ERROR: Input Mismatch.");
+                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                }
+
+                                assert employer != null;
+                                boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
+                                if (qualify) {
+                                    logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                                    logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                                    logger.info("We are happy to announce you " + employer.getFirstName() + ", " + employer.getLastName() + " " + employer.getDni() + " that your " + creditCard + " will be to your home address");
+                                } else {
+                                    logger.fatal("Minimum requirements not met");
+                                    throw new MinimumRequirementsException("The client do not met the requirements " + employer.getFirstName());
+                                }
+                            } else if (menu == 4) {
+                                assert employer != null;
+                                logger.info("\nThe balance of the account is: "+employer.getBalance());
+                            } else if (menu == 5) {
+                                logger.info("\nEnter the client amount to withdraw: ");
+                                Double amount = sc.nextDouble();
+                                assert employer != null;
+                                Double balance = employer.getBalance();
+                                employer.setBalance(balance-amount);
+
                                 logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
                                 logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                                logger.info("We are happy to announce you " + employer.getFirstName() + ", " + employer.getLastName() + " " + employer.getDni() + " that the loan of $" + loan + " will be transferred to your account");
-                                logger.info("If you want to withdraw now the security " + security.getFirstName() + " ID: " + security.getID() + " will help you");
-                            } else {
-                                logger.warn("Minimum requirements not met");
-                                throw new MinimumRequirementsException("The client do not met the requirements " + employer.getFirstName());
-                            }
-                        } else if (menu == 2) {
-                            logger.info("\r\nEnter an email to get in touch with a teller");
-                            String email = sc.next();
-                            boolean validate = StaticMethods.validate(email);
-                            if (validate) {
-                                logger.info("Ok " + email + " on the day you will be receiving an email");
-                                StaticMethods.sendEmail(email);
-                            } else {
-                                logger.warn("Invalid email type");
-                                throw new InvalidEmailException("ERROR: Invalid email " + email);
-                            }
-                        } else if (menu == 3) {
-                            logger.info("\r\nThe available credit cards are: ");
-                            logger.info(StaticMethods.showCreditCards());
-                            int election = sc.nextInt();
-                            if (election == 1) {
-                                creditCard = "White card";
-                            } else if (election == 2) {
-                                creditCard = "Black card";
-                            } else if (election == 3) {
-                                creditCard = "Platinum card";
-                            } else {
-                                logger.error("ERROR: Input Mismatch.");
-                                throw new InputMismatchFoundException("Could not find the selected election " + election);
-                            }
+                                logger.info("The remaining balance in the account is: " + employer.getBalance());
 
-                            assert employer != null;
-                            boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
-                            if (qualify) {
+                                ArrayList<Employer> employers;
+                                employers = (StaticMethods.employersArray(employerFile));
+                                int index = StaticMethods.getIndex(employer.getDni());
+                                employers.remove(index);
+                                employers.add(index, employer);
+
+                                String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
+                                StaticMethods.saveToFile(employerFile, outputText, false);
+                                for (int i = 1; i < employers.size(); i++) {
+                                    outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
+                                    StaticMethods.saveToFile(employerFile, outputText, true);
+                                }
+                            } else if (menu == 6) {
+                                logger.info("\nEnter the client amount to deposit: ");
+                                Double amount = sc.nextDouble();
+                                assert employer != null;
+                                Double balance = employer.getBalance();
+                                employer.setBalance(balance+amount);
+
                                 logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
                                 logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                                logger.info("We are happy to announce you " + employer.getFirstName() + ", " + employer.getLastName() + " " + employer.getDni() + " that your " + creditCard + " will be to your home address");
-                            } else {
-                                logger.fatal("Minimum requirements not met");
-                                throw new MinimumRequirementsException("The client do not met the requirements " + employer.getFirstName());
+                                logger.info("The remaining balance in the account is: " + employer.getBalance());
+
+                                ArrayList<Employer> employers;
+                                employers = (StaticMethods.employersArray(employerFile));
+                                int index = StaticMethods.getIndex(employer.getDni());
+                                employers.remove(index);
+                                employers.add(index, employer);
+
+                                String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
+                                StaticMethods.saveToFile(employerFile, outputText, false);
+                                for (int i = 1; i < employers.size(); i++) {
+                                    outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
+                                    StaticMethods.saveToFile(employerFile, outputText, true);
+                                }
                             }
-                        } else if (menu == 4) {
-                            assert employer != null;
-                            logger.info("\nThe balance of the account is: "+employer.getBalance());
-                        } else if (menu == 5) {
-                            logger.info("\nEnter the client amount to withdraw: ");
-                            Double amount = sc.nextDouble();
-                            assert employer != null;
-                            Double balance = employer.getBalance();
-                            employer.setBalance(balance-amount);
-
-                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
-                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                            logger.info("The remaining balance in the account is: " + employer.getBalance());
-
-                            ArrayList<Employer> employers;
-                            employers = (StaticMethods.employersArray(employerFile));
-                            int index = StaticMethods.getIndex(employer.getDni());
-                            employers.remove(index);
-                            employers.add(index, employer);
-
-                            String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
-                            StaticMethods.saveToFile(employerFile, outputText, false);
-                            for (int i = 1; i < employers.size(); i++) {
-                                outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
-                                StaticMethods.saveToFile(employerFile, outputText, true);
-                            }
-                        } else if (menu == 6) {
-                            logger.info("\nEnter the client amount to deposit: ");
-                            Double amount = sc.nextDouble();
-                            assert employer != null;
-                            Double balance = employer.getBalance();
-                            employer.setBalance(balance+amount);
-
-                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
-                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                            logger.info("The remaining balance in the account is: " + employer.getBalance());
-
-                            ArrayList<Employer> employers;
-                            employers = (StaticMethods.employersArray(employerFile));
-                            int index = StaticMethods.getIndex(employer.getDni());
-                            employers.remove(index);
-                            employers.add(index, employer);
-
-                            String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
-                            StaticMethods.saveToFile(employerFile, outputText, false);
-                            for (int i = 1; i < employers.size(); i++) {
-                                outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
-                                StaticMethods.saveToFile(employerFile, outputText, true);
-                            }
-                        }
-
+                        }while(menu != 0);
                     }
 
                     if (res1) {
                         logger.info("The employee client exist");
-                        Employee employee = StaticMethods.returnEmployee("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt", DNI);
+                        Employee employee = StaticMethods.returnEmployee(employeeFile, DNI);
+                        int menu;
 
-                        //menu with options of the bank
-                        logger.info(StaticMethods.showMenu());
-                        int menu = sc.nextInt();
+                        do{
+                            //menu with options of the bank
+                            logger.info(StaticMethods.showMenu());
+                            menu = sc.nextInt();
 
-                        //Print the result
-                        if (menu == 1) {
-                            logger.info("\r\nThe available credits are: ");
-                            logger.info(StaticMethods.showCredits());
-                            int election = sc.nextInt();
-                            if (election == 1) {
-                                loan = 30000;
-                            } else if (election == 2) {
-                                loan = 50000;
-                            } else if (election == 3) {
-                                loan = 100000;
-                            } else {
-                                logger.error("ERROR: Input Mismatch.");
-                                throw new InputMismatchFoundException("Could not find the selected election " + election);
-                            }
+                            //Print the result
+                            if (menu == 1) {
+                                logger.info("\r\nThe available credits are: ");
+                                logger.info(StaticMethods.showCredits());
+                                int election = sc.nextInt();
+                                if (election == 1) {
+                                    loan = 30000;
+                                } else if (election == 2) {
+                                    loan = 50000;
+                                } else if (election == 3) {
+                                    loan = 100000;
+                                } else {
+                                    logger.error("ERROR: Input Mismatch.");
+                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                }
 
-                            assert employee != null;
-                            boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
-                            if (qualify) {
+                                assert employee != null;
+                                boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
+                                if (qualify) {
+                                    logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                                    logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                                    logger.info("We are happy to announce you " + employee.getFirstName() + ", " + employee.getLastName() + " " + employee.getDni() + " that the loan of $" + loan + " will be transferred to your account");
+                                    logger.info("If you want to withdraw now the security " + security.getFirstName() + " ID: " + security.getID() + " will help you");
+                                } else {
+                                    logger.warn("Minimum requirements not met");
+                                    throw new MinimumRequirementsException("The client do not met the requirements " + employee.getFirstName());
+                                }
+
+                            } else if (menu == 2) {
+                                logger.info("\r\nEnter an email to get in touch with a teller");
+                                String email = sc.next();
+                                boolean validate = StaticMethods.validate(email);
+                                if (validate) {
+                                    logger.info("Ok " + email + " on the day you will be receiving an email");
+                                    StaticMethods.sendEmail(email);
+                                } else {
+                                    logger.warn("Invalid email type");
+                                    throw new InvalidEmailException("ERROR: Invalid email " + email);
+                                }
+
+                            } else if (menu == 3) {
+                                logger.info("\r\nThe available credit cards are: ");
+                                logger.info(StaticMethods.showCreditCards());
+                                int election = sc.nextInt();
+                                if (election == 1) {
+                                    creditCard = "White card";
+                                } else if (election == 2) {
+                                    creditCard = "Black card";
+                                } else if (election == 3) {
+                                    creditCard = "Platinum card";
+                                } else {
+                                    logger.error("ERROR: Input Mismatch.");
+                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                }
+
+                                assert employee != null;
+                                boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
+                                if (qualify) {
+                                    logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
+                                    logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
+                                    logger.info("We are happy to announce you " + employee.getFirstName() + ", " + employee.getLastName() + " " + employee.getDni() + " that your " + creditCard + " will be to your home address");
+                                } else {
+                                    logger.warn("Minimum requirements not met");
+                                    throw new MinimumRequirementsException("The client do not met the requirements " + employee.getFirstName());
+                                }
+                            } else if (menu == 4) {
+                                assert employee != null;
+                                logger.info("\nThe balance of the account is: "+employee.getBalance());
+                            } else if (menu == 5) {
+                                logger.info("\nEnter the client amount to withdraw: ");
+                                Double amount = sc.nextDouble();
+                                assert employee != null;
+                                Double balance = employee.getBalance();
+                                employee.setBalance(balance-amount);
+
                                 logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
                                 logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                                logger.info("We are happy to announce you " + employee.getFirstName() + ", " + employee.getLastName() + " " + employee.getDni() + " that the loan of $" + loan + " will be transferred to your account");
-                                logger.info("If you want to withdraw now the security " + security.getFirstName() + " ID: " + security.getID() + " will help you");
-                            } else {
-                                logger.warn("Minimum requirements not met");
-                                throw new MinimumRequirementsException("The client do not met the requirements " + employee.getFirstName());
-                            }
+                                logger.info("The remaining balance in the account is: " + employee.getBalance());
 
-                        } else if (menu == 2) {
-                            logger.info("\r\nEnter an email to get in touch with a teller");
-                            String email = sc.next();
-                            boolean validate = StaticMethods.validate(email);
-                            if (validate) {
-                                logger.info("Ok " + email + " on the day you will be receiving an email");
-                                StaticMethods.sendEmail(email);
-                            } else {
-                                logger.warn("Invalid email type");
-                                throw new InvalidEmailException("ERROR: Invalid email " + email);
-                            }
+                                ArrayList<Employee> employeeArray;
+                                employeeArray = (StaticMethods.employeeArray(employeeFile));
+                                int index = StaticMethods.getIndex(employee.getDni());
+                                employeeArray.remove(index);
+                                employeeArray.add(index, employee);
 
-                        } else if (menu == 3) {
-                            logger.info("\r\nThe available credit cards are: ");
-                            logger.info(StaticMethods.showCreditCards());
-                            int election = sc.nextInt();
-                            if (election == 1) {
-                                creditCard = "White card";
-                            } else if (election == 2) {
-                                creditCard = "Black card";
-                            } else if (election == 3) {
-                                creditCard = "Platinum card";
-                            } else {
-                                logger.error("ERROR: Input Mismatch.");
-                                throw new InputMismatchFoundException("Could not find the selected election " + election);
-                            }
+                                String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
+                                StaticMethods.saveToFile(employeeFile, outputText, false);
+                                for (int i = 1; i < employeeArray.size(); i++) {
+                                    outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
+                                    StaticMethods.saveToFile(employeeFile, outputText, true);
+                                }
+                            } else if (menu == 6) {
+                                logger.info("\nEnter the client amount to deposit: ");
+                                Double amount = sc.nextDouble();
+                                assert employee != null;
+                                Double balance = employee.getBalance();
+                                employee.setBalance(balance+amount);
 
-                            assert employee != null;
-                            boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
-                            if (qualify) {
                                 logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
                                 logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                                logger.info("We are happy to announce you " + employee.getFirstName() + ", " + employee.getLastName() + " " + employee.getDni() + " that your " + creditCard + " will be to your home address");
-                            } else {
-                                logger.warn("Minimum requirements not met");
-                                throw new MinimumRequirementsException("The client do not met the requirements " + employee.getFirstName());
+                                logger.info("The remaining balance in the account is: " + employee.getBalance());
+
+                                ArrayList<Employee> employeeArray;
+                                employeeArray = (StaticMethods.employeeArray(employeeFile));
+                                int index = StaticMethods.getIndex(employee.getDni());
+                                employeeArray.remove(index);
+                                employeeArray.add(index, employee);
+
+                                String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
+                                StaticMethods.saveToFile(employeeFile, outputText, false);
+                                for (int i = 1; i < employeeArray.size(); i++) {
+                                    outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
+                                    StaticMethods.saveToFile(employeeFile, outputText, true);
+                                }
                             }
-                        } else if (menu == 4) {
-                            assert employee != null;
-                            logger.info("\nThe balance of the account is: "+employee.getBalance());
-                        } else if (menu == 5) {
-                            logger.info("\nEnter the client amount to withdraw: ");
-                            Double amount = sc.nextDouble();
-                            assert employee != null;
-                            Double balance = employee.getBalance();
-                            employee.setBalance(balance-amount);
-
-                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
-                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                            logger.info("The remaining balance in the account is: " + employee.getBalance());
-
-                            ArrayList<Employee> employeeArray;
-                            employeeArray = (StaticMethods.employeeArray(employeeFile));
-                            int index = StaticMethods.getIndex(employee.getDni());
-                            employeeArray.remove(index);
-                            employeeArray.add(index, employee);
-
-                            String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
-                            StaticMethods.saveToFile(employeeFile, outputText, false);
-                            for (int i = 1; i < employeeArray.size(); i++) {
-                                outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
-                                StaticMethods.saveToFile(employeeFile, outputText, true);
-                            }
-                        } else if (menu == 6) {
-                            logger.info("\nEnter the client amount to deposit: ");
-                            Double amount = sc.nextDouble();
-                            assert employee != null;
-                            Double balance = employee.getBalance();
-                            employee.setBalance(balance+amount);
-
-                            logger.info("\r\n" + branch.getBranch() + " " + branch.getAddress());
-                            logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
-                            logger.info("The remaining balance in the account is: " + employee.getBalance());
-
-                            ArrayList<Employee> employeeArray;
-                            employeeArray = (StaticMethods.employeeArray(employeeFile));
-                            int index = StaticMethods.getIndex(employee.getDni());
-                            employeeArray.remove(index);
-                            employeeArray.add(index, employee);
-
-                            String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
-                            StaticMethods.saveToFile(employeeFile, outputText, false);
-                            for (int i = 1; i < employeeArray.size(); i++) {
-                                outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
-                                StaticMethods.saveToFile(employeeFile, outputText, true);
-                            }
-                        }
+                        }while(menu != 0);
                     }
                     if (!res && !res1){
+                        logger.error("You have to create a new client");
+                        throw new ClientNotFoundException("Could not find client with DNI " + DNI);
+                    }
+                }
+                case 6 -> {
+                    logger.info("Enter Client DNI: ");
+                    String DNI = sc1.next();
+                    boolean res = StaticMethods.checkClient(employerFile, DNI);
+                    boolean res1 = StaticMethods.checkClient(employeeFile, DNI);
+
+                    if(res){
+                        logger.info("The employer client was found");
+                        Employer employer = StaticMethods.returnEmployer(employerFile, DNI);
+
+                        ArrayList<Employer> employerArray;
+                        employerArray = (StaticMethods.employersArray(employerFile));
+                        assert employer != null;
+                        int index = StaticMethods.getIndex(employer.getDni());
+                        employerArray.remove(index);
+
+                        PrintWriter pw = new PrintWriter(employerFile);
+                        pw.close();
+
+                        /*
+                        for(Employer value : employerArray){
+                            String outputText = value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance();
+                            StaticMethods.saveToFile(employerFile, outputText, true);
+                        }
+                         */
+                        //Replace for loop with lambda expression
+                        employerArray.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employerFile, e, true));
+
+                    }
+                    if(res1){
+                        logger.info("The employee client was found");
+                        Employee employee = StaticMethods.returnEmployee(employeeFile, DNI);
+
+                        ArrayList<Employee> employeeArray;
+                        employeeArray = (StaticMethods.employeeArray(employeeFile));
+                        assert employee != null; //Java assert
+                        //Assert.assertNotNull(employee, "This object should not be null"); //TestNG assert
+                        int index = StaticMethods.getIndex(employee.getDni());
+                        employeeArray.remove(index);
+
+                        //Delete the content of the txt file
+                        PrintWriter pw = new PrintWriter(employeeFile);
+                        pw.close();
+
+                        //Rewrite the update content
+                        employeeArray.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employeeFile, e, true));
+
+                    }
+                    if(!res && !res1){
                         logger.error("You have to create a new client");
                         throw new ClientNotFoundException("Could not find client with DNI " + DNI);
                     }
