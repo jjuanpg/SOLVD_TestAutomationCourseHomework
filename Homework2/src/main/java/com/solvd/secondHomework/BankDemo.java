@@ -1,13 +1,15 @@
 package com.solvd.secondHomework;
+
 import com.solvd.secondHomework.Exceptions.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.io.*;
-import java.util.*;
-import java.io.Serializable;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Scanner;
+import java.util.stream.Collectors;
 
 @SuppressWarnings("FieldCanBeLocal")
 public class BankDemo implements Serializable {
@@ -28,6 +30,8 @@ public class BankDemo implements Serializable {
         //Set the file
         final String employerFile = "E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employers.txt";
         final String employeeFile = "E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\Employee.txt";
+        final String employerDebtor = "E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\EmployerDebtors.txt";
+        final String employeeDebtor = "E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\EmployeeDebtors.txt";
 
         //Set the branch
         BranchOffice branch = new BranchOffice("Resistencia", "French414", 20);
@@ -80,6 +84,7 @@ public class BankDemo implements Serializable {
                     4. Display updated linked lists
                     5. Check if Client exist
                     6. Unsubscribe bank account
+                    7. Display list of debtor
                     0. Exit
                     --------------------------------
                     Enter your choice:\040
@@ -131,23 +136,27 @@ public class BankDemo implements Serializable {
                             Enter the type of file:\040
                             """);
                     int election = sc.nextInt();
-                    if (election == 1) {
-                        String line;
-                        logger.info("-----------------------------------");
-                        while ((line = br.readLine()) != null) {
-                            logger.info(line);
+                    switch (election){
+                        case 1 -> {
+                            String line;
+                            logger.info("-----------------------------------");
+                            while ((line = br.readLine()) != null) {
+                                logger.info(line);
+                            }
+                            logger.info("-----------------------------------");
                         }
-                        logger.info("-----------------------------------");
-                    } else if (election == 2) {
-                        String line;
-                        logger.info("-----------------------------------");
-                        while ((line = br1.readLine()) != null) {
-                            logger.info(line);
+                        case 2 -> {
+                            String line;
+                            logger.info("-----------------------------------");
+                            while ((line = br1.readLine()) != null) {
+                                logger.info(line);
+                            }
+                            logger.info("-----------------------------------");
                         }
-                        logger.info("-----------------------------------");
-                    } else {
-                        logger.error("ERROR: Input Mismatch.");
-                        throw new InputMismatchFoundException("Could not find the selected election " + election);
+                        default -> {
+                            logger.error("ERROR: Input Mismatch.");
+                            throw new InputMismatchFoundException("Could not find the selected election " + election);
+                        }
                     }
                 }
                 case 3 -> {
@@ -155,6 +164,8 @@ public class BankDemo implements Serializable {
                     employeeList = StaticMethods.employeesFromFile(employeeFile);
                 }
                 case 4 -> {
+                    ArrayList<Employer> employers;
+                    ArrayList<Employee> employee;
                     logger.info("""
                             \n--------------Menu--------------
                             1. Employers list
@@ -163,13 +174,19 @@ public class BankDemo implements Serializable {
                             Enter the type of list:\040
                             """);
                     int election = sc.nextInt();
-                    if (election == 1) {
-                        employerList.show();
-                    } else if (election == 2) {
-                        employeeList.show();
-                    } else {
-                        logger.error("ERROR: Input Mismatch.");
-                        throw new InputMismatchFoundException("Could not find the selected election " + election);
+                    switch (election){
+                        case 1 -> {
+                            employers = (StaticMethods.employersArray(employerFile));
+                            employers.forEach(logger::info);
+                        }
+                        case 2 -> {
+                            employee = (StaticMethods.employeeArray(employeeFile));
+                            employee.forEach(logger::info);
+                        }
+                        default -> {
+                            logger.error("ERROR: Input Mismatch.");
+                            throw new InputMismatchFoundException("Could not find the selected election " + election);
+                        }
                     }
                 }
                 case 5 -> {
@@ -193,17 +210,15 @@ public class BankDemo implements Serializable {
                                 logger.info("\r\nThe available credits are: ");
                                 logger.info(StaticMethods.showCredits());
                                 int election = sc.nextInt();
-                                if (election == 1) {
-                                    loan = 30000;
-                                } else if (election == 2) {
-                                    loan = 50000;
-                                } else if (election == 3) {
-                                    loan = 100000;
-                                } else {
-                                    logger.error("ERROR: Input Mismatch.");
-                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                switch (election){
+                                    case 1 -> loan = 30000;
+                                    case 2 -> loan = 50000;
+                                    case 3 -> loan = 100000;
+                                    default -> {
+                                        logger.error("ERROR: Input Mismatch.");
+                                        throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                    }
                                 }
-
                                 assert employer != null;
                                 boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
                                 if (qualify) {
@@ -211,6 +226,17 @@ public class BankDemo implements Serializable {
                                     logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
                                     logger.info("We are happy to announce you " + employer.getFirstName() + ", " + employer.getLastName() + " " + employer.getDni() + " that the loan of $" + loan + " will be transferred to your account");
                                     logger.info("If you want to withdraw now the security " + security.getFirstName() + " ID: " + security.getID() + " will help you");
+
+                                    employer.setBalance(employer.getBalance()+loan);
+                                    ArrayList<Employer> employers;
+                                    employers = StaticMethods.employersArray(employerFile);
+                                    int index = StaticMethods.getIndex(employer.getDni());
+                                    employers.remove(index);
+                                    employers.add(index, employer);
+
+                                    PrintWriter pw = new PrintWriter(employerFile);
+                                    pw.close();
+                                    employers.stream().map(v -> v.getFirstName()+"|"+v.getLastName()+"|"+v.getDni()+"|"+v.getCreditScore()+"|"+v.getSalary()+"|"+v.getBalance()).forEach(e -> StaticMethods.saveToFile(employerFile, e, true));
                                 } else {
                                     logger.warn("Minimum requirements not met");
                                     throw new MinimumRequirementsException("The client do not met the requirements " + employer.getFirstName());
@@ -230,17 +256,15 @@ public class BankDemo implements Serializable {
                                 logger.info("\r\nThe available credit cards are: ");
                                 logger.info(StaticMethods.showCreditCards());
                                 int election = sc.nextInt();
-                                if (election == 1) {
-                                    creditCard = "White card";
-                                } else if (election == 2) {
-                                    creditCard = "Black card";
-                                } else if (election == 3) {
-                                    creditCard = "Platinum card";
-                                } else {
-                                    logger.error("ERROR: Input Mismatch.");
-                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                switch (election){
+                                    case 1 -> creditCard = "White card";
+                                    case 2 -> creditCard = "Black card";
+                                    case 3 -> creditCard = "Platinum card";
+                                    default -> {
+                                        logger.info("ERROR: Input Mismatch.");
+                                        throw new InputMismatchFoundException("Could not find the selected option "+election);
+                                    }
                                 }
-
                                 assert employer != null;
                                 boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
                                 if (qualify) {
@@ -271,12 +295,9 @@ public class BankDemo implements Serializable {
                                 employers.remove(index);
                                 employers.add(index, employer);
 
-                                String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
-                                StaticMethods.saveToFile(employerFile, outputText, false);
-                                for (int i = 1; i < employers.size(); i++) {
-                                    outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
-                                    StaticMethods.saveToFile(employerFile, outputText, true);
-                                }
+                                PrintWriter pw = new PrintWriter(employerFile);
+                                pw.close();
+                                employers.stream().map(v -> v.getFirstName()+"|"+v.getLastName()+"|"+v.getDni()+"|"+v.getCreditScore()+"|"+v.getSalary()+"|"+v.getBalance()).forEach(e -> StaticMethods.saveToFile(employerFile, e, true));
                             } else if (menu == 6) {
                                 logger.info("\nEnter the client amount to deposit: ");
                                 Double amount = sc.nextDouble();
@@ -294,12 +315,9 @@ public class BankDemo implements Serializable {
                                 employers.remove(index);
                                 employers.add(index, employer);
 
-                                String outputText = employers.get(0).getFirstName()+ "|" + employers.get(0).getLastName() + "|" + employers.get(0).getDni() + "|" + employers.get(0).getCreditScore() + "|" + employers.get(0).getSalary() + "|" + employers.get(0).getBalance();
-                                StaticMethods.saveToFile(employerFile, outputText, false);
-                                for (int i = 1; i < employers.size(); i++) {
-                                    outputText = employers.get(i).getFirstName() + "|" + employers.get(i).getLastName() + "|" + employers.get(i).getDni() + "|" + employers.get(i).getCreditScore() + "|" + employers.get(i).getSalary() + "|" + employers.get(i).getBalance();
-                                    StaticMethods.saveToFile(employerFile, outputText, true);
-                                }
+                                PrintWriter pw = new PrintWriter(employerFile);
+                                pw.close();
+                                employers.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employerFile, e, true));
                             }
                         }while(menu != 0);
                     }
@@ -319,15 +337,14 @@ public class BankDemo implements Serializable {
                                 logger.info("\r\nThe available credits are: ");
                                 logger.info(StaticMethods.showCredits());
                                 int election = sc.nextInt();
-                                if (election == 1) {
-                                    loan = 30000;
-                                } else if (election == 2) {
-                                    loan = 50000;
-                                } else if (election == 3) {
-                                    loan = 100000;
-                                } else {
-                                    logger.error("ERROR: Input Mismatch.");
-                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                switch (election) {
+                                    case 1 -> loan = 30000;
+                                    case 2 -> loan = 50000;
+                                    case 3 -> loan = 100000;
+                                    default -> {
+                                        logger.error("ERROR: Input Mismatch.");
+                                        throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                    }
                                 }
 
                                 assert employee != null;
@@ -337,6 +354,17 @@ public class BankDemo implements Serializable {
                                     logger.info("Attended by: " + banker.getFirstName() + ", " + banker.getLastName() + " ID: " + banker.getID());
                                     logger.info("We are happy to announce you " + employee.getFirstName() + ", " + employee.getLastName() + " " + employee.getDni() + " that the loan of $" + loan + " will be transferred to your account");
                                     logger.info("If you want to withdraw now the security " + security.getFirstName() + " ID: " + security.getID() + " will help you");
+
+                                    employee.setBalance(employee.getBalance()+loan);
+                                    ArrayList<Employee> employees;
+                                    employees = StaticMethods.employeeArray(employeeFile);
+                                    int index = StaticMethods.getIndex(employee.getDni());
+                                    employees.remove(index);
+                                    employees.add(index, employee);
+
+                                    PrintWriter pw = new PrintWriter(employeeFile);
+                                    pw.close();
+                                    employees.stream().map(v -> v.getFirstName()+"|"+v.getLastName()+"|"+v.getDni()+"|"+v.getCreditScore()+"|"+v.getSalary()+"|"+v.getBalance()).forEach(e -> StaticMethods.saveToFile(employeeFile, e, true));
                                 } else {
                                     logger.warn("Minimum requirements not met");
                                     throw new MinimumRequirementsException("The client do not met the requirements " + employee.getFirstName());
@@ -358,17 +386,16 @@ public class BankDemo implements Serializable {
                                 logger.info("\r\nThe available credit cards are: ");
                                 logger.info(StaticMethods.showCreditCards());
                                 int election = sc.nextInt();
-                                if (election == 1) {
-                                    creditCard = "White card";
-                                } else if (election == 2) {
-                                    creditCard = "Black card";
-                                } else if (election == 3) {
-                                    creditCard = "Platinum card";
-                                } else {
-                                    logger.error("ERROR: Input Mismatch.");
-                                    throw new InputMismatchFoundException("Could not find the selected election " + election);
-                                }
 
+                                switch (election){
+                                    case 1 -> creditCard = "White card";
+                                    case 2 -> creditCard = "Black card";
+                                    case 3 -> creditCard = "Platinum card";
+                                    default -> {
+                                        logger.error("ERROR: Input Mismatch.");
+                                        throw new InputMismatchFoundException("Could not find the selected election " + election);
+                                    }
+                                }
                                 assert employee != null;
                                 boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
                                 if (qualify) {
@@ -399,12 +426,10 @@ public class BankDemo implements Serializable {
                                 employeeArray.remove(index);
                                 employeeArray.add(index, employee);
 
-                                String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
-                                StaticMethods.saveToFile(employeeFile, outputText, false);
-                                for (int i = 1; i < employeeArray.size(); i++) {
-                                    outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
-                                    StaticMethods.saveToFile(employeeFile, outputText, true);
-                                }
+                                PrintWriter pw = new PrintWriter(employeeFile);
+                                pw.close();
+                                employeeArray.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employeeFile, e, true));
+
                             } else if (menu == 6) {
                                 logger.info("\nEnter the client amount to deposit: ");
                                 Double amount = sc.nextDouble();
@@ -422,12 +447,10 @@ public class BankDemo implements Serializable {
                                 employeeArray.remove(index);
                                 employeeArray.add(index, employee);
 
-                                String outputText = employeeArray.get(0).getFirstName()+ "|" + employeeArray.get(0).getLastName() + "|" + employeeArray.get(0).getDni() + "|" + employeeArray.get(0).getCreditScore() + "|" + employeeArray.get(0).getSalary() + "|" + employeeArray.get(0).getBalance();
-                                StaticMethods.saveToFile(employeeFile, outputText, false);
-                                for (int i = 1; i < employeeArray.size(); i++) {
-                                    outputText = employeeArray.get(i).getFirstName() + "|" + employeeArray.get(i).getLastName() + "|" + employeeArray.get(i).getDni() + "|" + employeeArray.get(i).getCreditScore() + "|" + employeeArray.get(i).getSalary() + "|" + employeeArray.get(i).getBalance();
-                                    StaticMethods.saveToFile(employeeFile, outputText, true);
-                                }
+                                PrintWriter pw = new PrintWriter(employeeFile);
+                                pw.close();
+                                employeeArray.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employeeFile, e, true));
+
                             }
                         }while(menu != 0);
                     }
@@ -454,16 +477,7 @@ public class BankDemo implements Serializable {
 
                         PrintWriter pw = new PrintWriter(employerFile);
                         pw.close();
-
-                        /*
-                        for(Employer value : employerArray){
-                            String outputText = value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance();
-                            StaticMethods.saveToFile(employerFile, outputText, true);
-                        }
-                         */
-                        //Replace for loop with lambda expression
                         employerArray.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employerFile, e, true));
-
                     }
                     if(res1){
                         logger.info("The employee client was found");
@@ -482,11 +496,46 @@ public class BankDemo implements Serializable {
 
                         //Rewrite the update content
                         employeeArray.stream().map(value -> value.getFirstName() + "|" + value.getLastName() + "|" + value.getDni() + "|" + value.getCreditScore() + "|" + value.getSalary() + "|" + value.getBalance()).forEach(e -> StaticMethods.saveToFile(employeeFile, e, true));
-
                     }
                     if(!res && !res1){
                         logger.error("You have to create a new client");
                         throw new ClientNotFoundException("Could not find client with DNI " + DNI);
+                    }
+                }
+                case 7 -> {
+                    ArrayList<Employer> employers;
+                    ArrayList<Employee> employee;
+                    logger.info("""
+                            \n--------------Menu--------------
+                            1. Employers debtor list
+                            2. Employee debtor list
+                            --------------------------------
+                            Enter the type of list:\040
+                            """);
+                    int election = sc.nextInt();
+                    switch (election){
+                        case 1 -> {
+                            employers = (StaticMethods.employersArray(employerFile));
+                            employers.stream().filter(v -> v.getBalance() < 0).forEach(logger::info);
+                            ArrayList<Employer> employerDebtors = employers.stream().filter(v -> v.getBalance() < 0).collect(Collectors.toCollection(ArrayList::new));
+
+                            PrintWriter pw = new PrintWriter(employerDebtor);
+                            pw.close();
+                            employerDebtors.stream().map(v -> v.getFirstName()+"|"+v.getLastName()+"|"+v.getDni()+"|"+v.getCreditScore()+"|"+v.getSalary()+"|"+v.getBalance()).forEach(e -> StaticMethods.saveToFile(employerDebtor, e, true));
+                        }
+                        case 2 -> {
+                            employee = (StaticMethods.employeeArray(employeeFile));
+                            employee.stream().filter(v -> v.getBalance() < 0).forEach(logger::info);
+                            ArrayList<Employee> employeeDebtors = employee.stream().filter(v -> v.getBalance() < 0).collect(Collectors.toCollection(ArrayList::new));
+
+                            PrintWriter pw = new PrintWriter(employeeDebtor);
+                            pw.close();
+                            employeeDebtors.stream().map(v -> v.getFirstName()+"|"+v.getLastName()+"|"+v.getDni()+"|"+v.getCreditScore()+"|"+v.getSalary()+"|"+v.getBalance()).forEach(e -> StaticMethods.saveToFile(employeeDebtor, e, true));
+                        }
+                        default -> {
+                            logger.error("ERROR: Input Mismatch.");
+                            throw new InputMismatchFoundException("Could not find the selected election " + election);
+                        }
                     }
                 }
             }

@@ -30,7 +30,7 @@ public class Employee extends Person{
 
 	@Override
 	public String toString() {
-		return this.getFirstName() + " " + this.getLastName() + " " + this.getDni() + " " + this.getCreditScore()  + " " + this.getSalary();
+		return this.getFirstName()+" "+this.getLastName()+" "+this.getDni()+" "+this.getCreditScore()+" "+this.getSalary()+" "+this.getBalance();
 	}
 	
 	@Override
