@@ -1,5 +1,7 @@
 package com.solvd.secondHomework;
 
+import com.solvd.secondHomework.Enums.CreditCards;
+import com.solvd.secondHomework.Enums.Loans;
 import com.solvd.secondHomework.Exceptions.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -7,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -164,8 +167,6 @@ public class BankDemo implements Serializable {
                     employeeList = StaticMethods.employeesFromFile(employeeFile);
                 }
                 case 4 -> {
-                    ArrayList<Employer> employers;
-                    ArrayList<Employee> employee;
                     logger.info("""
                             \n--------------Menu--------------
                             1. Employers list
@@ -175,14 +176,8 @@ public class BankDemo implements Serializable {
                             """);
                     int election = sc.nextInt();
                     switch (election){
-                        case 1 -> {
-                            employers = (StaticMethods.employersArray(employerFile));
-                            employers.forEach(logger::info);
-                        }
-                        case 2 -> {
-                            employee = (StaticMethods.employeeArray(employeeFile));
-                            employee.forEach(logger::info);
-                        }
+                        case 1 -> employerList.show();
+                        case 2 -> employeeList.show();
                         default -> {
                             logger.error("ERROR: Input Mismatch.");
                             throw new InputMismatchFoundException("Could not find the selected election " + election);
@@ -199,7 +194,6 @@ public class BankDemo implements Serializable {
                         logger.info("The employer client was found");
                         Employer employer = StaticMethods.returnEmployer(employerFile, DNI);
                         int menu;
-
                         do{
                             //menu with options of the bank
                             logger.info(StaticMethods.showMenu());
@@ -208,17 +202,9 @@ public class BankDemo implements Serializable {
                             //Print the result
                             if (menu == 1) {
                                 logger.info("\r\nThe available credits are: ");
-                                logger.info(StaticMethods.showCredits());
-                                int election = sc.nextInt();
-                                switch (election){
-                                    case 1 -> loan = 30000;
-                                    case 2 -> loan = 50000;
-                                    case 3 -> loan = 100000;
-                                    default -> {
-                                        logger.error("ERROR: Input Mismatch.");
-                                        throw new InputMismatchFoundException("Could not find the selected election " + election);
-                                    }
-                                }
+                                Loans[] loans = Loans.values();
+                                Arrays.stream(loans).map(v -> (v.ordinal()+1)+") "+ v.toString()).forEach(e -> logger.info(e));
+                                loan = Loans.getLoan(sc.nextInt());
                                 assert employer != null;
                                 boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
                                 if (qualify) {
@@ -254,17 +240,10 @@ public class BankDemo implements Serializable {
                                 }
                             } else if (menu == 3) {
                                 logger.info("\r\nThe available credit cards are: ");
-                                logger.info(StaticMethods.showCreditCards());
-                                int election = sc.nextInt();
-                                switch (election){
-                                    case 1 -> creditCard = "White card";
-                                    case 2 -> creditCard = "Black card";
-                                    case 3 -> creditCard = "Platinum card";
-                                    default -> {
-                                        logger.info("ERROR: Input Mismatch.");
-                                        throw new InputMismatchFoundException("Could not find the selected option "+election);
-                                    }
-                                }
+                                //logger.info(StaticMethods.showCreditCards());
+                                CreditCards[] cards = CreditCards.values();
+                                Arrays.stream(cards).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+                                creditCard = CreditCards.getCard(sc.nextInt());
                                 assert employer != null;
                                 boolean qualify = employer.isUserQualified(employer.getCreditScore(), employer.getSalary());
                                 if (qualify) {
@@ -335,18 +314,9 @@ public class BankDemo implements Serializable {
                             //Print the result
                             if (menu == 1) {
                                 logger.info("\r\nThe available credits are: ");
-                                logger.info(StaticMethods.showCredits());
-                                int election = sc.nextInt();
-                                switch (election) {
-                                    case 1 -> loan = 30000;
-                                    case 2 -> loan = 50000;
-                                    case 3 -> loan = 100000;
-                                    default -> {
-                                        logger.error("ERROR: Input Mismatch.");
-                                        throw new InputMismatchFoundException("Could not find the selected election " + election);
-                                    }
-                                }
-
+                                Loans[] loans = Loans.values();
+                                Arrays.stream(loans).map(v -> (v.ordinal()+1)+") "+ v.toString()).forEach(e -> logger.info(e));
+                                loan = Loans.getLoan(sc.nextInt());
                                 assert employee != null;
                                 boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
                                 if (qualify) {
@@ -384,18 +354,10 @@ public class BankDemo implements Serializable {
 
                             } else if (menu == 3) {
                                 logger.info("\r\nThe available credit cards are: ");
-                                logger.info(StaticMethods.showCreditCards());
-                                int election = sc.nextInt();
-
-                                switch (election){
-                                    case 1 -> creditCard = "White card";
-                                    case 2 -> creditCard = "Black card";
-                                    case 3 -> creditCard = "Platinum card";
-                                    default -> {
-                                        logger.error("ERROR: Input Mismatch.");
-                                        throw new InputMismatchFoundException("Could not find the selected election " + election);
-                                    }
-                                }
+                                //logger.info(StaticMethods.showCreditCards());
+                                CreditCards[] cards = CreditCards.values();
+                                Arrays.stream(cards).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+                                creditCard = CreditCards.getCard(sc.nextInt());
                                 assert employee != null;
                                 boolean qualify = employee.isUserQualified(employee.getCreditScore(), employee.getSalary());
                                 if (qualify) {

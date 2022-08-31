@@ -68,43 +68,12 @@ public class StaticMethods {
                 --------------------------""");
     }
 
-    public static String showCredits(){
-        return("""
-                \n$30.000  (1)
-                $50.000  (2)
-                $100.000 (3)""");
-    }
-
-    public static String showCreditCards(){
-        return("""
-                \nWhite Card with a limit of $3.000 per month  (1)
-                Black Card with a limit of $10.000 per month (2)
-                Platinum Card without limits per month       (3)
-                """);
-    }
-
     public static final Pattern VALID_EMAIL_ADDRESS_REGEX =
             Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
 
     public static boolean validate(String emailStr) {
         Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(emailStr);
         return matcher.find();
-    }
-
-    public static boolean checkClient(String dni) throws IOException {
-        try {
-            File file = new File("E:\\INTELLIJ_COURSES\\Homework2\\src\\main\\resources\\clients.txt");
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String line;
-            while ((line = br.readLine()) != null) {
-                if(line.equals(dni)){
-                    return true;
-                }
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return false;
     }
 
     public static String getType(int election) throws UnemployedClientException {

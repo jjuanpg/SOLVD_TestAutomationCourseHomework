@@ -4371,3 +4371,1030 @@ Enter the type of list:
 --------------------------------
 Enter your choice: 
 
+2022-08-30 12:59:51,945 DEBUG  [main] ---------------30/08/2022 12:59---------------
+2022-08-30 12:59:51,954 INFO  [main] 0
+2022-08-30 12:59:51,955 INFO  [main] WHITE_CARD
+2022-08-30 12:59:51,955 INFO  [main] WHITE_CARD
+2022-08-30 12:59:51,965 INFO  [main] Turning on atm system...
+2022-08-30 12:59:51,965 INFO  [main] Alarm system turned off
+2022-08-30 12:59:51,966 INFO  [main] cctv is now recording...
+2022-08-30 12:59:51,966 INFO  [main] Recording...
+2022-08-30 12:59:51,967 INFO  [main] Systems connected
+2022-08-30 12:59:51,967 INFO  [main] Turning on computers...
+2022-08-30 12:59:51,967 INFO  [main] Metal detector activated...
+2022-08-30 12:59:51,977 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 13:04:01,179 DEBUG  [main] ---------------30/08/2022 13:04---------------
+2022-08-30 13:04:01,188 INFO  [main] 0
+2022-08-30 13:04:01,188 INFO  [main] WHITE_CARD
+2022-08-30 13:04:01,188 INFO  [main] WHITE_CARD
+2022-08-30 13:04:01,189 INFO  [main] WHITE_CARD
+2022-08-30 13:04:01,190 INFO  [main] BLACK_CARD
+2022-08-30 13:04:01,190 INFO  [main] PLATINUM_CARD
+2022-08-30 13:04:01,197 INFO  [main] Turning on atm system...
+2022-08-30 13:04:01,197 INFO  [main] Alarm system turned off
+2022-08-30 13:04:01,197 INFO  [main] cctv is now recording...
+2022-08-30 13:04:01,198 INFO  [main] Recording...
+2022-08-30 13:04:01,198 INFO  [main] Systems connected
+2022-08-30 13:04:01,198 INFO  [main] Turning on computers...
+2022-08-30 13:04:01,198 INFO  [main] Metal detector activated...
+2022-08-30 13:04:01,206 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 13:05:28,593 DEBUG  [main] ---------------30/08/2022 13:05---------------
+2022-08-30 13:05:28,598 INFO  [main] 0
+2022-08-30 13:05:28,598 INFO  [main] WHITE_CARD
+2022-08-30 13:05:28,598 INFO  [main] WHITE_CARD
+2022-08-30 13:05:28,599 INFO  [main] WHITE_CARD
+2022-08-30 13:05:28,600 INFO  [main] BLACK_CARD
+2022-08-30 13:05:28,600 INFO  [main] PLATINUM_CARD
+2022-08-30 13:05:28,607 INFO  [main] Turning on atm system...
+2022-08-30 13:05:28,607 INFO  [main] Alarm system turned off
+2022-08-30 13:05:28,607 INFO  [main] cctv is now recording...
+2022-08-30 13:05:28,607 INFO  [main] Recording...
+2022-08-30 13:05:28,608 INFO  [main] Systems connected
+2022-08-30 13:05:28,608 INFO  [main] Turning on computers...
+2022-08-30 13:05:28,608 INFO  [main] Metal detector activated...
+2022-08-30 13:05:28,615 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 13:06:03,028 DEBUG  [main] ---------------30/08/2022 13:06---------------
+2022-08-30 13:06:03,034 INFO  [main] 0
+2022-08-30 13:06:03,035 INFO  [main] WHITE_CARD
+2022-08-30 13:06:03,036 INFO  [main] BLACK_CARD
+2022-08-30 13:06:03,036 INFO  [main] PLATINUM_CARD
+2022-08-30 13:06:03,043 INFO  [main] Turning on atm system...
+2022-08-30 13:06:03,044 INFO  [main] Alarm system turned off
+2022-08-30 13:06:03,044 INFO  [main] cctv is now recording...
+2022-08-30 13:06:03,044 INFO  [main] Recording...
+2022-08-30 13:06:03,045 INFO  [main] Systems connected
+2022-08-30 13:06:03,045 INFO  [main] Turning on computers...
+2022-08-30 13:06:03,045 INFO  [main] Metal detector activated...
+2022-08-30 13:06:03,051 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 13:06:09,136 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 13:09:56,106 DEBUG  [main] ---------------30/08/2022 13:09---------------
+2022-08-30 13:09:56,114 INFO  [main] 1) WHITE_CARD
+2022-08-30 13:09:56,114 INFO  [main] 2) BLACK_CARD
+2022-08-30 13:09:56,115 INFO  [main] 3) PLATINUM_CARD
+2022-08-30 13:09:56,121 INFO  [main] Turning on atm system...
+2022-08-30 13:09:56,122 INFO  [main] Alarm system turned off
+2022-08-30 13:09:56,122 INFO  [main] cctv is now recording...
+2022-08-30 13:09:56,122 INFO  [main] Recording...
+2022-08-30 13:09:56,123 INFO  [main] Systems connected
+2022-08-30 13:09:56,123 INFO  [main] Turning on computers...
+2022-08-30 13:09:56,123 INFO  [main] Metal detector activated...
+2022-08-30 13:09:56,130 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 14:54:41,712 DEBUG  [main] ---------------30/08/2022 14:54---------------
+2022-08-30 14:54:41,722 INFO  [main] Turning on atm system...
+2022-08-30 14:54:41,722 INFO  [main] Alarm system turned off
+2022-08-30 14:54:41,722 INFO  [main] cctv is now recording...
+2022-08-30 14:54:41,723 INFO  [main] Recording...
+2022-08-30 14:54:41,723 INFO  [main] Systems connected
+2022-08-30 14:54:41,723 INFO  [main] Turning on computers...
+2022-08-30 14:54:41,724 INFO  [main] Metal detector activated...
+2022-08-30 14:54:41,730 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 14:54:43,936 INFO  [main] Enter Client DNI: 
+2022-08-30 14:54:46,382 INFO  [main] The employer client was found
+2022-08-30 14:54:46,385 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 14:54:49,134 INFO  [main] 
+The available credit cards are: 
+2022-08-30 14:54:49,138 INFO  [main] 1) WHITE_CARD
+2022-08-30 14:54:49,139 INFO  [main] 2) BLACK_CARD
+2022-08-30 14:54:49,139 INFO  [main] 3) PLATINUM_CARD
+2022-08-30 14:55:11,728 INFO  [main] 
+Resistencia French414
+2022-08-30 14:55:11,731 INFO  [main] Attended by: Hannah, Warren ID: 1961002599
+2022-08-30 14:55:11,735 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your BLACK CARD will be to your home address
+2022-08-30 14:55:11,735 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 14:55:34,447 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:01:02,919 DEBUG  [main] ---------------30/08/2022 15:01---------------
+2022-08-30 15:01:02,929 INFO  [main] Turning on atm system...
+2022-08-30 15:01:02,930 INFO  [main] Alarm system turned off
+2022-08-30 15:01:02,930 INFO  [main] cctv is now recording...
+2022-08-30 15:01:02,931 INFO  [main] Recording...
+2022-08-30 15:01:02,931 INFO  [main] Systems connected
+2022-08-30 15:01:02,931 INFO  [main] Turning on computers...
+2022-08-30 15:01:02,931 INFO  [main] Metal detector activated...
+2022-08-30 15:01:02,938 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:01:04,823 INFO  [main] Enter Client DNI: 
+2022-08-30 15:01:06,886 INFO  [main] The employer client was found
+2022-08-30 15:01:06,889 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:01:08,903 INFO  [main] 
+The available credit cards are: 
+2022-08-30 15:01:08,907 INFO  [main] 1) Credit card  Limit of $3.000 per month
+2022-08-30 15:01:08,908 INFO  [main] 2) Credit card  Limit of $10.000 per month
+2022-08-30 15:01:08,908 INFO  [main] 3) Credit card  Without limits per month
+2022-08-30 15:01:28,680 INFO  [main] 
+Resistencia French414
+2022-08-30 15:01:28,683 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-30 15:01:28,687 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your WHITE CARD will be to your home address
+2022-08-30 15:01:28,687 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:01:36,592 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:02:14,781 DEBUG  [main] ---------------30/08/2022 15:02---------------
+2022-08-30 15:02:14,793 INFO  [main] Turning on atm system...
+2022-08-30 15:02:14,793 INFO  [main] Alarm system turned off
+2022-08-30 15:02:14,794 INFO  [main] cctv is now recording...
+2022-08-30 15:02:14,794 INFO  [main] Recording...
+2022-08-30 15:02:14,795 INFO  [main] Systems connected
+2022-08-30 15:02:14,795 INFO  [main] Turning on computers...
+2022-08-30 15:02:14,796 INFO  [main] Metal detector activated...
+2022-08-30 15:02:14,802 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:02:16,336 INFO  [main] Enter Client DNI: 
+2022-08-30 15:02:18,287 INFO  [main] The employer client was found
+2022-08-30 15:02:18,289 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:02:19,912 INFO  [main] 
+The available credit cards are: 
+2022-08-30 15:02:19,916 INFO  [main] 1) CreditCards{description='Limit of $3.000 per month'}
+2022-08-30 15:02:19,917 INFO  [main] 2) CreditCards{description='Limit of $10.000 per month'}
+2022-08-30 15:02:19,917 INFO  [main] 3) CreditCards{description='Without limits per month'}
+2022-08-30 15:02:48,359 INFO  [main] 
+Resistencia French414
+2022-08-30 15:02:48,363 INFO  [main] Attended by: Hannah, Warren ID: 1961002599
+2022-08-30 15:02:48,367 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your WHITE CARD will be to your home address
+2022-08-30 15:02:48,367 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:02:49,695 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:06:29,638 DEBUG  [main] ---------------30/08/2022 15:06---------------
+2022-08-30 15:06:29,650 INFO  [main] Turning on atm system...
+2022-08-30 15:06:29,651 INFO  [main] Alarm system turned off
+2022-08-30 15:06:29,651 INFO  [main] cctv is now recording...
+2022-08-30 15:06:29,651 INFO  [main] Recording...
+2022-08-30 15:06:29,651 INFO  [main] Systems connected
+2022-08-30 15:06:29,652 INFO  [main] Turning on computers...
+2022-08-30 15:06:29,652 INFO  [main] Metal detector activated...
+2022-08-30 15:06:29,659 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:06:32,336 INFO  [main] Enter Client DNI: 
+2022-08-30 15:06:34,824 INFO  [main] The employer client was found
+2022-08-30 15:06:34,827 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:06:36,392 INFO  [main] 
+The available credit cards are: 
+2022-08-30 15:06:36,397 INFO  [main] 1) WHITE_CARDLimit of $3.000 per month
+2022-08-30 15:06:36,398 INFO  [main] 2) BLACK_CARDLimit of $10.000 per month
+2022-08-30 15:06:36,398 INFO  [main] 3) PLATINUM_CARDWithout limits per month
+2022-08-30 15:06:46,569 INFO  [main] 
+Resistencia French414
+2022-08-30 15:06:46,572 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-30 15:06:46,576 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your PLATINUM CARD will be to your home address
+2022-08-30 15:06:46,576 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:06:47,488 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:08:45,275 DEBUG  [main] ---------------30/08/2022 15:08---------------
+2022-08-30 15:08:45,285 INFO  [main] Turning on atm system...
+2022-08-30 15:08:45,286 INFO  [main] Alarm system turned off
+2022-08-30 15:08:45,286 INFO  [main] cctv is now recording...
+2022-08-30 15:08:45,286 INFO  [main] Recording...
+2022-08-30 15:08:45,286 INFO  [main] Systems connected
+2022-08-30 15:08:45,287 INFO  [main] Turning on computers...
+2022-08-30 15:08:45,287 INFO  [main] Metal detector activated...
+2022-08-30 15:08:45,294 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-30 15:08:47,736 INFO  [main] Enter Client DNI: 
+2022-08-30 15:08:49,864 INFO  [main] The employer client was found
+2022-08-30 15:08:49,866 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:08:51,937 INFO  [main] 
+The available credit cards are: 
+2022-08-30 15:08:51,941 INFO  [main] 1) WHITE_CARD - Limit of $3.000 per month
+2022-08-30 15:08:51,942 INFO  [main] 2) BLACK_CARD - Limit of $10.000 per month
+2022-08-30 15:08:51,942 INFO  [main] 3) PLATINUM_CARD - Without limits per month
+2022-08-30 15:09:03,385 INFO  [main] 
+Resistencia French414
+2022-08-30 15:09:03,388 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-30 15:09:03,392 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your BLACK CARD will be to your home address
+2022-08-30 15:09:03,392 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-30 15:09:05,040 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:44:57,282 DEBUG  [main] ---------------31/08/2022 11:44---------------
+2022-08-31 11:44:57,300 INFO  [main] Turning on atm system...
+2022-08-31 11:44:57,300 INFO  [main] Alarm system turned off
+2022-08-31 11:44:57,300 INFO  [main] cctv is now recording...
+2022-08-31 11:44:57,300 INFO  [main] Recording...
+2022-08-31 11:44:57,301 INFO  [main] Systems connected
+2022-08-31 11:44:57,301 INFO  [main] Turning on computers...
+2022-08-31 11:44:57,301 INFO  [main] Metal detector activated...
+2022-08-31 11:44:57,308 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:45:03,456 INFO  [main] 
+--------------Menu--------------
+1. Employers debtor list
+2. Employee debtor list
+--------------------------------
+Enter the type of list: 
+
+2022-08-31 11:45:05,809 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:45:09,792 INFO  [main] 
+--------------Menu--------------
+1. Employers debtor list
+2. Employee debtor list
+--------------------------------
+Enter the type of list: 
+
+2022-08-31 11:45:12,075 INFO  [main] Macaya Marquez 18345124 700 21000.0 -100.0
+2022-08-31 11:45:12,075 INFO  [main] Matias Perez 41254873 500 9000.0 -500.0
+2022-08-31 11:45:12,080 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:45:22,080 INFO  [main] Enter Client DNI: 
+2022-08-31 11:45:24,722 INFO  [main] The employer client was found
+2022-08-31 11:45:24,723 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:45:31,712 INFO  [main] 
+The available credit cards are: 
+2022-08-31 11:45:31,736 INFO  [main] 1) WHITE_CARD - Limit of $3.000 per month
+2022-08-31 11:45:31,737 INFO  [main] 2) BLACK_CARD - Limit of $10.000 per month
+2022-08-31 11:45:31,737 INFO  [main] 3) PLATINUM_CARD - Without limits per month
+2022-08-31 11:45:44,665 INFO  [main] 
+Resistencia French414
+2022-08-31 11:45:44,668 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-31 11:45:44,671 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that your WHITE CARD will be to your home address
+2022-08-31 11:45:44,671 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:45:54,760 INFO  [main] 
+The balance of the account is: 2900.0
+2022-08-31 11:45:54,761 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:46:03,336 INFO  [main] 
+Enter an email to get in touch with a teller
+2022-08-31 11:46:08,945 INFO  [main] Ok juanpablogordillo375@gmail.com on the day you will be receiving an email
+2022-08-31 11:46:09,013 INFO c.s.s.StaticMethods [main] sending...
+2022-08-31 11:46:13,892 INFO c.s.s.StaticMethods [main] Sent message successfully....
+2022-08-31 11:46:13,893 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:46:20,719 INFO  [main] 
+The available credits are: 
+2022-08-31 11:46:20,720 INFO  [main] 
+$30.000  (1)
+$50.000  (2)
+$100.000 (3)
+2022-08-31 11:46:22,432 INFO  [main] 
+Resistencia French414
+2022-08-31 11:46:22,433 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-31 11:46:22,438 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that the loan of $30000 will be transferred to your account
+2022-08-31 11:46:22,441 INFO  [main] If you want to withdraw now the security Michael ID: 1976804832 will help you
+2022-08-31 11:46:22,449 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:46:24,511 INFO  [main] 
+The balance of the account is: 32900.0
+2022-08-31 11:46:24,511 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:46:30,295 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-31 11:46:33,000 INFO  [main] 
+Resistencia French414
+2022-08-31 11:46:33,000 INFO  [main] Attended by: Hannah, Warren ID: 1902237905
+2022-08-31 11:46:33,001 INFO  [main] The remaining balance in the account is: 2900.0
+2022-08-31 11:46:33,007 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:46:37,231 INFO  [main] 
+The balance of the account is: 2900.0
+2022-08-31 11:46:37,231 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:46:39,480 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:55:38,840 DEBUG  [main] ---------------31/08/2022 11:55---------------
+2022-08-31 11:55:38,850 INFO  [main] Turning on atm system...
+2022-08-31 11:55:38,851 INFO  [main] Alarm system turned off
+2022-08-31 11:55:38,851 INFO  [main] cctv is now recording...
+2022-08-31 11:55:38,852 INFO  [main] Recording...
+2022-08-31 11:55:38,852 INFO  [main] Systems connected
+2022-08-31 11:55:38,853 INFO  [main] Turning on computers...
+2022-08-31 11:55:38,853 INFO  [main] Metal detector activated...
+2022-08-31 11:55:38,861 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:55:43,826 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:55:49,599 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-08-31 11:55:57,882 INFO  [main] Juan Gordillo 42182923 900 25000.0 2400.0
+2022-08-31 11:55:57,883 INFO  [main] Melanie Rodriguez 40928721 850 35000.0 3400.0
+2022-08-31 11:55:57,883 INFO  [main] Leandro Ramirez 38972435 820 24500.0 2500.0
+2022-08-31 11:55:57,884 INFO  [main] Macaya Marquez 18345124 700 21000.0 -100.0
+2022-08-31 11:55:57,884 INFO  [main] Matias Perez 41254873 500 9000.0 -500.0
+2022-08-31 11:55:57,884 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:56:00,047 INFO  [main] Enter Client DNI: 
+2022-08-31 11:56:11,216 INFO  [main] The employee client exist
+2022-08-31 11:56:11,217 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:56:14,271 INFO  [main] 
+The available credit cards are: 
+2022-08-31 11:56:14,276 INFO  [main] 1) null Limit of $3.000 per month
+2022-08-31 11:56:14,276 INFO  [main] 2) null Limit of $10.000 per month
+2022-08-31 11:56:14,276 INFO  [main] 3) null Without limits per month
+2022-08-31 11:56:33,328 WARN  [main] Minimum requirements not met
+2022-08-31 11:58:47,758 DEBUG  [main] ---------------31/08/2022 11:58---------------
+2022-08-31 11:58:47,770 INFO  [main] Turning on atm system...
+2022-08-31 11:58:47,770 INFO  [main] Alarm system turned off
+2022-08-31 11:58:47,771 INFO  [main] cctv is now recording...
+2022-08-31 11:58:47,771 INFO  [main] Recording...
+2022-08-31 11:58:47,771 INFO  [main] Systems connected
+2022-08-31 11:58:47,772 INFO  [main] Turning on computers...
+2022-08-31 11:58:47,772 INFO  [main] Metal detector activated...
+2022-08-31 11:58:47,779 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:58:50,256 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-31 11:58:51,367 INFO  [main] -----------------------------------
+2022-08-31 11:58:51,368 INFO  [main] Juan|Gordillo|42182923|900|25000.0|2400.0
+2022-08-31 11:58:51,368 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|3400.0
+2022-08-31 11:58:51,368 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|2500.0
+2022-08-31 11:58:51,368 INFO  [main] Macaya|Marquez|18345124|700|21000|-100
+2022-08-31 11:58:51,369 INFO  [main] Matias|Perez|41254873|500|9000|-500
+2022-08-31 11:58:51,369 INFO  [main] -----------------------------------
+2022-08-31 11:58:51,369 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 11:58:53,431 INFO  [main] Enter Client DNI: 
+2022-08-31 11:59:02,231 INFO  [main] The employee client exist
+2022-08-31 11:59:02,234 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:59:04,207 INFO  [main] 
+The available credit cards are: 
+2022-08-31 11:59:04,212 INFO  [main] 1) null Limit of $3.000 per month
+2022-08-31 11:59:04,212 INFO  [main] 2) null Limit of $10.000 per month
+2022-08-31 11:59:04,212 INFO  [main] 3) null Without limits per month
+2022-08-31 11:59:13,479 INFO  [main] 
+Resistencia French414
+2022-08-31 11:59:13,483 INFO  [main] Attended by: Hannah, Warren ID: 1961002599
+2022-08-31 11:59:13,487 INFO  [main] We are happy to announce you Juan, Gordillo 42182923 that your BLACK CARD will be to your home address
+2022-08-31 11:59:13,487 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 11:59:23,440 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 12:03:30,321 DEBUG  [main] ---------------31/08/2022 12:03---------------
+2022-08-31 12:03:30,334 INFO  [main] Turning on atm system...
+2022-08-31 12:03:30,334 INFO  [main] Alarm system turned off
+2022-08-31 12:03:30,335 INFO  [main] cctv is now recording...
+2022-08-31 12:03:30,335 INFO  [main] Recording...
+2022-08-31 12:03:30,335 INFO  [main] Systems connected
+2022-08-31 12:03:30,335 INFO  [main] Turning on computers...
+2022-08-31 12:03:30,336 INFO  [main] Metal detector activated...
+2022-08-31 12:03:30,342 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 12:03:32,520 INFO  [main] 
+--------------Menu--------------
+1. Employer file
+2. Employee file
+--------------------------------
+Enter the type of file: 
+
+2022-08-31 12:03:34,631 INFO  [main] -----------------------------------
+2022-08-31 12:03:34,632 INFO  [main] Juan|Gordillo|42182923|900|25000.0|2400.0
+2022-08-31 12:03:34,632 INFO  [main] Melanie|Rodriguez|40928721|850|35000.0|3400.0
+2022-08-31 12:03:34,632 INFO  [main] Leandro|Ramirez|38972435|820|24500.0|2500.0
+2022-08-31 12:03:34,632 INFO  [main] Macaya|Marquez|18345124|700|21000|-100
+2022-08-31 12:03:34,632 INFO  [main] Matias|Perez|41254873|500|9000|-500
+2022-08-31 12:03:34,633 INFO  [main] -----------------------------------
+2022-08-31 12:03:34,633 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 12:03:37,607 INFO  [main] Enter Client DNI: 
+2022-08-31 12:03:44,671 INFO  [main] The employee client exist
+2022-08-31 12:03:44,673 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:03:47,640 INFO  [main] 
+The available credit cards are: 
+2022-08-31 12:03:47,644 INFO  [main] 1) White Card Limit of $3.000 per month
+2022-08-31 12:03:47,644 INFO  [main] 2) Black Card Limit of $10.000 per month
+2022-08-31 12:03:47,645 INFO  [main] 3) Platinum Card Without limits per month
+2022-08-31 12:04:00,001 INFO  [main] 
+Resistencia French414
+2022-08-31 12:04:00,005 INFO  [main] Attended by: Hannah, Warren ID: 1961002599
+2022-08-31 12:04:00,011 INFO  [main] We are happy to announce you Juan, Gordillo 42182923 that your PLATINUM CARD will be to your home address
+2022-08-31 12:04:00,012 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:04:06,943 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 12:24:34,293 DEBUG  [main] ---------------31/08/2022 12:24---------------
+2022-08-31 12:24:34,305 INFO  [main] Turning on atm system...
+2022-08-31 12:24:34,305 INFO  [main] Alarm system turned off
+2022-08-31 12:24:34,306 INFO  [main] cctv is now recording...
+2022-08-31 12:24:34,306 INFO  [main] Recording...
+2022-08-31 12:24:34,306 INFO  [main] Systems connected
+2022-08-31 12:24:34,307 INFO  [main] Turning on computers...
+2022-08-31 12:24:34,307 INFO  [main] Metal detector activated...
+2022-08-31 12:24:34,314 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-08-31 12:24:36,793 INFO  [main] Enter Client DNI: 
+2022-08-31 12:24:39,304 INFO  [main] The employer client was found
+2022-08-31 12:24:39,307 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:24:40,650 INFO  [main] 
+The balance of the account is: 2900.0
+2022-08-31 12:24:40,650 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:24:44,457 INFO  [main] 
+The available credits are: 
+2022-08-31 12:24:44,461 INFO  [main] 0) $ 30000
+2022-08-31 12:24:44,461 INFO  [main] 1) $ 50000
+2022-08-31 12:24:44,461 INFO  [main] 2) $ 100000
+2022-08-31 12:24:57,033 INFO  [main] 
+Resistencia French414
+2022-08-31 12:24:57,038 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-31 12:24:57,045 INFO  [main] We are happy to announce you Juan, Pablo 43111773 that the loan of $30000 will be transferred to your account
+2022-08-31 12:24:57,047 INFO  [main] If you want to withdraw now the security Michael ID: 1902237905 will help you
+2022-08-31 12:24:57,060 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:25:09,545 INFO  [main] 
+The balance of the account is: 32900.0
+2022-08-31 12:25:09,546 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:25:13,185 INFO  [main] 
+Enter the client amount to withdraw: 
+2022-08-31 12:25:15,513 INFO  [main] 
+Resistencia French414
+2022-08-31 12:25:15,514 INFO  [main] Attended by: Hannah, Warren ID: 485937598
+2022-08-31 12:25:15,514 INFO  [main] The remaining balance in the account is: 2900.0
+2022-08-31 12:25:15,520 INFO  [main] 
+---------- MENU ----------
+Take a loan: 1
+Talk with the teller: 2
+Apply for a credit card: 3
+Check balance : 4
+Withdraw : 5
+Deposit : 6
+Exit : 0
+--------------------------
+2022-08-31 12:25:17,705 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+0. Exit
+--------------------------------
+Enter your choice: 
+
