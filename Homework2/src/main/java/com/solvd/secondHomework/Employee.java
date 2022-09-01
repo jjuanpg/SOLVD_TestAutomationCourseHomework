@@ -5,28 +5,6 @@ public class Employee extends Person{
 	public Employee(String firstName, String lastName, String dni, int creditScore, double salary, double balance) {
 		super(firstName, lastName, dni, creditScore, salary, balance);
 	}
-	private boolean isEmployee;
-	private String workPlace;
-	private String typeWork;
-	
-	public boolean isEmployee() {
-		return isEmployee;
-	}
-	public void setEmployee(boolean isEmployee) {
-		this.isEmployee = isEmployee;
-	}
-	public String getWorkPlace() {
-		return workPlace;
-	}
-	public void setWorkPlace(String workPlace) {
-		this.workPlace = workPlace;
-	}
-	public String getTypeWork() {
-		return typeWork;
-	}
-	public void setTypeWork(String typeWork) {
-		this.typeWork = typeWork;
-	}
 
 	@Override
 	public String toString() {
@@ -40,6 +18,6 @@ public class Employee extends Person{
 	
 	@Override
 	public int hashCode(){
-		return workPlace.hashCode();
+		return getDni().hashCode();
 	}
 }

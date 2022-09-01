@@ -45,38 +45,19 @@ public abstract class Person {
 			return age;
 		}
 
-		public void setAge(int age) {
-			this.age = age;
-		}
-
 		public String getGender() {
 			return gender;
-		}
-
-		public void setGender(String gender) {
-			this.gender = gender;
 		}
 
 		public double getSalary() {
 			return salary;
 		}
 
-		public void setSalary(double salary) {
-			this.salary = salary;
-		}
-
 		public int getCreditScore() {
 			return creditScore;
 		}
 
-		public void setCreditScore(int creditScore) {
-			this.creditScore = creditScore;
-		}
-
 		public boolean isUserQualified(int score, double salary){
-			if(score >= REQUIREDSCORE && salary >= REQUIREDSALARY){
-				return true;
-			}
-			return false;
+			return score >= REQUIREDSCORE && salary >= REQUIREDSALARY;
 		}
 }

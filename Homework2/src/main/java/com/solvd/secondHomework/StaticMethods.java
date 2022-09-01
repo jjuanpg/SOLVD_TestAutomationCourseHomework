@@ -10,7 +10,6 @@ import javax.mail.internet.MimeMessage;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Properties;
-import java.util.Random;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -48,11 +47,6 @@ public class StaticMethods {
             index++;
         }
         return index;
-    }
-
-    public static int setTurn(int UPPERBOUND){
-        Random rand = new Random(); //instance of random class
-        return rand.nextInt(UPPERBOUND);
     }
 
     public static String showMenu(){
