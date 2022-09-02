@@ -5398,3 +5398,193 @@ Exit : 0
 --------------------------------
 Enter your choice: 
 
+2022-09-02 13:29:53,450 DEBUG  [main] ---------------02/09/2022 13:29---------------
+2022-09-02 13:29:53,484 INFO  [main] Turning on atm system...
+2022-09-02 13:29:53,485 INFO  [main] Alarm system turned off
+2022-09-02 13:29:53,485 INFO  [main] cctv is now recording...
+2022-09-02 13:29:53,485 INFO  [main] Recording...
+2022-09-02 13:29:53,485 INFO  [main] Systems connected
+2022-09-02 13:29:53,486 INFO  [main] Turning on computers...
+2022-09-02 13:29:53,486 INFO  [main] Metal detector activated...
+2022-09-02 13:29:53,492 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:30:58,343 DEBUG  [main] ---------------02/09/2022 13:30---------------
+2022-09-02 13:30:58,354 INFO  [main] Turning on atm system...
+2022-09-02 13:30:58,355 INFO  [main] Alarm system turned off
+2022-09-02 13:30:58,355 INFO  [main] cctv is now recording...
+2022-09-02 13:30:58,355 INFO  [main] Recording...
+2022-09-02 13:30:58,355 INFO  [main] Systems connected
+2022-09-02 13:30:58,356 INFO  [main] Turning on computers...
+2022-09-02 13:30:58,356 INFO  [main] Metal detector activated...
+2022-09-02 13:30:58,363 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:31:01,325 INFO  [main] State French 414.
+Phone +54 3624-543125.
+2022-09-02 13:31:01,325 INFO  [main] State Madariaga 200.
+Phone +54 3704-842536.
+2022-09-02 13:31:01,326 INFO  [main] State Belgrano 700.
+Phone +54 3794-642574.
+2022-09-02 13:31:01,326 INFO  [main] State Humboldt 1347.
+Phone +54 9 11-187542.
+2022-09-02 13:31:01,326 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:32:56,467 DEBUG  [main] ---------------02/09/2022 13:32---------------
+2022-09-02 13:32:56,480 INFO  [main] Turning on atm system...
+2022-09-02 13:32:56,480 INFO  [main] Alarm system turned off
+2022-09-02 13:32:56,480 INFO  [main] cctv is now recording...
+2022-09-02 13:32:56,481 INFO  [main] Recording...
+2022-09-02 13:32:56,481 INFO  [main] Systems connected
+2022-09-02 13:32:56,482 INFO  [main] Turning on computers...
+2022-09-02 13:32:56,482 INFO  [main] Metal detector activated...
+2022-09-02 13:32:56,489 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:32:59,387 INFO  [main] CHACO: French 414.
+Phone +54 3624-543125.
+2022-09-02 13:32:59,387 INFO  [main] FORMOSA: Madariaga 200.
+Phone +54 3704-842536.
+2022-09-02 13:32:59,388 INFO  [main] CORRIENTES: Belgrano 700.
+Phone +54 3794-642574.
+2022-09-02 13:32:59,388 INFO  [main] BUENOS AIRES: Humboldt 1347.
+Phone +54 9 11-187542.
+2022-09-02 13:32:59,388 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:33:32,651 DEBUG  [main] ---------------02/09/2022 13:33---------------
+2022-09-02 13:33:32,661 INFO  [main] Turning on atm system...
+2022-09-02 13:33:32,661 INFO  [main] Alarm system turned off
+2022-09-02 13:33:32,661 INFO  [main] cctv is now recording...
+2022-09-02 13:33:32,662 INFO  [main] Recording...
+2022-09-02 13:33:32,662 INFO  [main] Systems connected
+2022-09-02 13:33:32,662 INFO  [main] Turning on computers...
+2022-09-02 13:33:32,663 INFO  [main] Metal detector activated...
+2022-09-02 13:33:32,669 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:33:34,928 INFO  [main] CHACO: French 414. Phone +54 3624-543125.
+2022-09-02 13:33:34,929 INFO  [main] FORMOSA: Madariaga 200. Phone +54 3704-842536.
+2022-09-02 13:33:34,929 INFO  [main] CORRIENTES: Belgrano 700. Phone +54 3794-642574.
+2022-09-02 13:33:34,929 INFO  [main] BUENOS AIRES: Humboldt 1347. Phone +54 9 11-187542.
+2022-09-02 13:33:34,929 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:34:40,686 DEBUG  [main] ---------------02/09/2022 13:34---------------
+2022-09-02 13:34:40,698 INFO  [main] Turning on atm system...
+2022-09-02 13:34:40,698 INFO  [main] Alarm system turned off
+2022-09-02 13:34:40,698 INFO  [main] cctv is now recording...
+2022-09-02 13:34:40,699 INFO  [main] Recording...
+2022-09-02 13:34:40,699 INFO  [main] Systems connected
+2022-09-02 13:34:40,699 INFO  [main] Turning on computers...
+2022-09-02 13:34:40,700 INFO  [main] Metal detector activated...
+2022-09-02 13:34:40,708 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-02 13:34:43,509 INFO  [main] CHACO: French 414. PHONE: +54 3624-543125.
+2022-09-02 13:34:43,510 INFO  [main] FORMOSA: Madariaga 200. PHONE: +54 3704-842536.
+2022-09-02 13:34:43,510 INFO  [main] CORRIENTES: Belgrano 700. PHONE: +54 3794-642574.
+2022-09-02 13:34:43,510 INFO  [main] BUENOS AIRES: Humboldt 1347. PHONE: +54 9 11-187542.
+2022-09-02 13:34:43,510 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+

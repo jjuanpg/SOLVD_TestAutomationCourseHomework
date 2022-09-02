@@ -1,5 +1,6 @@
 package com.solvd.secondHomework;
 
+import com.solvd.secondHomework.Enums.Branches;
 import com.solvd.secondHomework.Enums.CreditCards;
 import com.solvd.secondHomework.Enums.Loans;
 import com.solvd.secondHomework.Exceptions.*;
@@ -88,6 +89,7 @@ public class BankDemo implements Serializable {
                     5. Check if Client exist
                     6. Unsubscribe bank account
                     7. Display list of debtor
+                    8. Display available branches
                     0. Exit
                     --------------------------------
                     Enter your choice:\040
@@ -499,6 +501,10 @@ public class BankDemo implements Serializable {
                             throw new InputMismatchFoundException("Could not find the selected election " + election);
                         }
                     }
+                }
+                case 8 -> {
+                    Branches[] branches = Branches.values();
+                    Arrays.stream(branches).map(Branches::toString).forEach(e -> logger.info(e));
                 }
             }
         } while (choice != 0);
