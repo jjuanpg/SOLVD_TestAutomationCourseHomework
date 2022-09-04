@@ -5588,3 +5588,176 @@ Enter your choice:
 --------------------------------
 Enter your choice: 
 
+2022-09-04 16:06:48,914 DEBUG  [main] ---------------04/09/2022 16:06---------------
+2022-09-04 16:06:48,921 INFO  [main] Turning on atm system...
+2022-09-04 16:06:48,921 INFO  [main] Alarm system turned off
+2022-09-04 16:06:48,921 INFO  [main] cctv is now recording...
+2022-09-04 16:06:48,922 INFO  [main] Recording...
+2022-09-04 16:06:48,922 INFO  [main] Systems connected
+2022-09-04 16:06:48,922 INFO  [main] Turning on computers...
+2022-09-04 16:06:48,922 INFO  [main] Metal detector activated...
+2022-09-04 16:06:48,927 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-04 16:06:54,877 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-04 16:06:56,364 INFO  [main] 
+--------------Menu--------------
+1. Employers list
+2. Employee list
+--------------------------------
+Enter the type of list: 
+
+2022-09-04 16:06:57,413 INFO c.s.s.CustomLinkedList [main] Juan Gordillo 42182923 900 25000.0 2400.0 
+2022-09-04 16:06:57,413 INFO c.s.s.CustomLinkedList [main] Melanie Rodriguez 40928721 850 35000.0 3400.0 
+2022-09-04 16:06:57,414 INFO c.s.s.CustomLinkedList [main] Leandro Ramirez 38972435 820 24500.0 2500.0 
+2022-09-04 16:06:57,414 INFO c.s.s.CustomLinkedList [main] Macaya Marquez 18345124 700 21000.0 -100.0 
+2022-09-04 16:06:57,414 INFO c.s.s.CustomLinkedList [main] Matias Perez 41254873 500 9000.0 -500.0 
+2022-09-04 16:06:57,414 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-04 16:07:00,579 INFO  [main] Enter Client DNI: 
+2022-09-04 16:07:08,436 INFO  [main] The employee client exist
+2022-09-04 16:07:08,440 INFO  [main] 1) Take a loan.
+2022-09-04 16:07:08,441 INFO  [main] 2) Talk with a teller.
+2022-09-04 16:07:08,441 INFO  [main] 3) Apply for a credit card.
+2022-09-04 16:07:08,441 INFO  [main] 4) Check balance.
+2022-09-04 16:07:08,442 INFO  [main] 5) Withdraw.
+2022-09-04 16:07:08,442 INFO  [main] 6) Deposit.
+2022-09-04 16:07:08,442 INFO  [main] 7) Exit.
+2022-09-04 16:09:53,133 DEBUG  [main] ---------------04/09/2022 16:09---------------
+2022-09-04 16:09:53,141 INFO  [main] Turning on atm system...
+2022-09-04 16:09:53,141 INFO  [main] Alarm system turned off
+2022-09-04 16:09:53,142 INFO  [main] cctv is now recording...
+2022-09-04 16:09:53,142 INFO  [main] Recording...
+2022-09-04 16:09:53,143 INFO  [main] Systems connected
+2022-09-04 16:09:53,143 INFO  [main] Turning on computers...
+2022-09-04 16:09:53,143 INFO  [main] Metal detector activated...
+2022-09-04 16:09:53,150 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-04 16:09:55,483 INFO  [main] Enter Client DNI: 
+2022-09-04 16:09:57,538 INFO  [main] The employer client was found
+2022-09-04 16:09:57,544 INFO  [main] 1) Take a loan.
+2022-09-04 16:09:57,544 INFO  [main] 2) Talk with a teller.
+2022-09-04 16:09:57,544 INFO  [main] 3) Apply for a credit card.
+2022-09-04 16:09:57,544 INFO  [main] 4) Check balance.
+2022-09-04 16:09:57,545 INFO  [main] 5) Withdraw.
+2022-09-04 16:09:57,545 INFO  [main] 6) Deposit.
+2022-09-04 16:09:57,545 INFO  [main] 0) Exit.
+2022-09-04 16:10:03,268 INFO  [main] 
+--------------Menu--------------
+1. Create new client
+2. Display file
+3. Read from file
+4. Display updated linked lists
+5. Check if Client exist
+6. Unsubscribe bank account
+7. Display list of debtor
+8. Display available branches
+0. Exit
+--------------------------------
+Enter your choice: 
+
+2022-09-04 16:16:32,082 DEBUG  [main] ---------------04/09/2022 16:16---------------
+2022-09-04 16:16:32,090 INFO  [main] Turning on atm system...
+2022-09-04 16:16:32,091 INFO  [main] Alarm system turned off
+2022-09-04 16:16:32,091 INFO  [main] cctv is now recording...
+2022-09-04 16:16:32,091 INFO  [main] Recording...
+2022-09-04 16:16:32,092 INFO  [main] Systems connected
+2022-09-04 16:16:32,092 INFO  [main] Turning on computers...
+2022-09-04 16:16:32,093 INFO  [main] Metal detector activated...
+2022-09-04 16:16:32,103 INFO  [main] 1) Create new client.
+2022-09-04 16:16:32,103 INFO  [main] 2) Display file.
+2022-09-04 16:16:32,104 INFO  [main] 3) Read from file.
+2022-09-04 16:16:32,104 INFO  [main] 4) Display updated linked lists.
+2022-09-04 16:16:32,104 INFO  [main] 5) Check if Client exist.
+2022-09-04 16:16:32,104 INFO  [main] 6) Unsubscribe bank account.
+2022-09-04 16:16:32,105 INFO  [main] 7) Display list of debtor.
+2022-09-04 16:16:32,105 INFO  [main] 8) Display available branches.
+2022-09-04 16:16:32,105 INFO  [main] 0) Exit.
+2022-09-04 16:17:17,533 DEBUG  [main] ---------------04/09/2022 16:17---------------
+2022-09-04 16:17:17,541 INFO  [main] Turning on atm system...
+2022-09-04 16:17:17,541 INFO  [main] Alarm system turned off
+2022-09-04 16:17:17,541 INFO  [main] cctv is now recording...
+2022-09-04 16:17:17,542 INFO  [main] Recording...
+2022-09-04 16:17:17,542 INFO  [main] Systems connected
+2022-09-04 16:17:17,542 INFO  [main] Turning on computers...
+2022-09-04 16:17:17,543 INFO  [main] Metal detector activated...
+2022-09-04 16:17:17,548 INFO  [main] 
+
+
+2022-09-04 16:17:17,553 INFO  [main] 1) Create new client.
+2022-09-04 16:17:17,553 INFO  [main] 2) Display file.
+2022-09-04 16:17:17,554 INFO  [main] 3) Read from file.
+2022-09-04 16:17:17,554 INFO  [main] 4) Display updated linked lists.
+2022-09-04 16:17:17,554 INFO  [main] 5) Check if Client exist.
+2022-09-04 16:17:17,555 INFO  [main] 6) Unsubscribe bank account.
+2022-09-04 16:17:17,555 INFO  [main] 7) Display list of debtor.
+2022-09-04 16:17:17,556 INFO  [main] 8) Display available branches.
+2022-09-04 16:17:17,556 INFO  [main] 0) Exit.
+2022-09-04 16:18:21,439 DEBUG  [main] ---------------04/09/2022 16:18---------------
+2022-09-04 16:18:21,446 INFO  [main] Turning on atm system...
+2022-09-04 16:18:21,447 INFO  [main] Alarm system turned off
+2022-09-04 16:18:21,447 INFO  [main] cctv is now recording...
+2022-09-04 16:18:21,448 INFO  [main] Recording...
+2022-09-04 16:18:21,448 INFO  [main] Systems connected
+2022-09-04 16:18:21,448 INFO  [main] Turning on computers...
+2022-09-04 16:18:21,449 INFO  [main] Metal detector activated...
+2022-09-04 16:18:21,454 INFO  [main] --------------Systems ready--------------
+
+
+2022-09-04 16:18:21,458 INFO  [main] 1) Create new client.
+2022-09-04 16:18:21,459 INFO  [main] 2) Display file.
+2022-09-04 16:18:21,459 INFO  [main] 3) Read from file.
+2022-09-04 16:18:21,459 INFO  [main] 4) Display updated linked lists.
+2022-09-04 16:18:21,460 INFO  [main] 5) Check if Client exist.
+2022-09-04 16:18:21,460 INFO  [main] 6) Unsubscribe bank account.
+2022-09-04 16:18:21,460 INFO  [main] 7) Display list of debtor.
+2022-09-04 16:18:21,461 INFO  [main] 8) Display available branches.
+2022-09-04 16:18:21,461 INFO  [main] 0) Exit.

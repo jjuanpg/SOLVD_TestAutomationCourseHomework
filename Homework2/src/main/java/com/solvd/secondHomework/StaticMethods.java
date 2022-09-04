@@ -49,19 +49,6 @@ public class StaticMethods {
         return index;
     }
 
-    public static String showMenu(){
-        return("""
-                \n---------- MENU ----------
-                Take a loan: 1
-                Talk with the teller: 2
-                Apply for a credit card: 3
-                Check balance : 4
-                Withdraw : 5
-                Deposit : 6
-                Exit : 0
-                --------------------------""");
-    }
-
     public static final Pattern VALID_EMAIL_ADDRESS_REGEX =
             Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
 

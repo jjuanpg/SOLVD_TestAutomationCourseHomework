@@ -1,8 +1,6 @@
 package com.solvd.secondHomework;
 
-import com.solvd.secondHomework.Enums.Branches;
-import com.solvd.secondHomework.Enums.CreditCards;
-import com.solvd.secondHomework.Enums.Loans;
+import com.solvd.secondHomework.Enums.*;
 import com.solvd.secondHomework.Exceptions.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -80,20 +78,10 @@ public class BankDemo implements Serializable {
         CustomLinkedList<Employee> employeeList = new CustomLinkedList<>();
 
         do {
-            logger.info("""
-                    \n--------------Menu--------------
-                    1. Create new client
-                    2. Display file
-                    3. Read from file
-                    4. Display updated linked lists
-                    5. Check if Client exist
-                    6. Unsubscribe bank account
-                    7. Display list of debtor
-                    8. Display available branches
-                    0. Exit
-                    --------------------------------
-                    Enter your choice:\040
-                    """);
+            logger.info(("---------------Systems ready---------------\n\n"));
+            MainMenu[] main = MainMenu.values();
+            Arrays.stream(main).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+            logger.info("0) Exit.");
             choice = sc.nextInt();
             switch (choice) {
                 case 1 -> {
@@ -198,7 +186,9 @@ public class BankDemo implements Serializable {
                         int menu;
                         do{
                             //menu with options of the bank
-                            logger.info(StaticMethods.showMenu());
+                            ClientMenu[] options = ClientMenu.values();
+                            Arrays.stream(options).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+                            logger.info("0) Exit.");
                             menu = sc.nextInt();
 
                             //Print the result
@@ -310,7 +300,9 @@ public class BankDemo implements Serializable {
 
                         do{
                             //menu with options of the bank
-                            logger.info(StaticMethods.showMenu());
+                            ClientMenu[] options = ClientMenu.values();
+                            Arrays.stream(options).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+                            logger.info("0) Exit.");
                             menu = sc.nextInt();
 
                             //Print the result
