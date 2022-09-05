@@ -8,7 +8,8 @@ public enum MainMenu {
     CHECK_CLIENT("Check if Client exist."),
     UNSUBSCRIBE("Unsubscribe bank account."),
     DEBTOR_LIST("Display list of debtor."),
-    BRANCHES("Display available branches.");
+    BRANCHES("Display available branches."),
+    THREADS("Show a thread example");
 
     private final String description;
     MainMenu(String s) {

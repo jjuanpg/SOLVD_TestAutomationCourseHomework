@@ -2,6 +2,8 @@ package com.solvd.secondHomework;
 
 import com.solvd.secondHomework.Enums.*;
 import com.solvd.secondHomework.Exceptions.*;
+import com.solvd.secondHomework.Threads.Multithread;
+import com.solvd.secondHomework.Threads.Multithreading;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,7 +16,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("FieldCanBeLocal")
-public class BankDemo implements Serializable {
+public class BankDemo implements Serializable{
 
     final static String typeA = "employer";
     final static String typeB = "employee";
@@ -77,8 +79,8 @@ public class BankDemo implements Serializable {
         BufferedReader br1 = new BufferedReader(new FileReader(employeeFile));
         CustomLinkedList<Employee> employeeList = new CustomLinkedList<>();
 
+        logger.info(("---------------Systems ready---------------\n\n"));
         do {
-            logger.info(("---------------Systems ready---------------\n\n"));
             MainMenu[] main = MainMenu.values();
             Arrays.stream(main).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
             logger.info("0) Exit.");
@@ -497,6 +499,34 @@ public class BankDemo implements Serializable {
                 case 8 -> {
                     Branches[] branches = Branches.values();
                     Arrays.stream(branches).map(Branches::toString).forEach(e -> logger.info(e));
+                }
+                case 9 -> {
+                    int menu;
+                    ThreadsMenu[] t_menu = ThreadsMenu.values();
+                    Arrays.stream(t_menu).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+                    menu = sc.nextInt();
+                    switch (menu){
+                        case 1 ->{
+                            for(int i= 0; i<5; i++){
+                                Multithreading myThing = new Multithreading(i);
+                                myThing.start();
+                            }
+                        }
+                        case 2 ->{
+                            //The difference between use Runnable and Thread is that I have to instantiate a Thread.
+                            //Another difference is that if I extend the Thread class I wouldn't need to instantiate anything
+                            //but there is a major advantage using Runnable. If I extend thread I cannot extend any other class
+                            //but if I use Runnable I can implement as much as interfaces I need and extend any other class
+                            for(int i= 0; i<5; i++){
+                                Multithread myThing = new Multithread(i);
+                                Thread myThread = new Thread(myThing);
+                                myThread.start();
+                            }
+                        }
+                        case 3 ->{
+                            //Thread pool not done yet
+                        }
+                    }
                 }
             }
         } while (choice != 0);
