@@ -5983,3 +5983,1235 @@ Enter your choice:
 2022-09-04 21:35:18,553 INFO  [main] 8) Display available branches.
 2022-09-04 21:35:18,554 INFO  [main] 9) Show a thread example
 2022-09-04 21:35:18,554 INFO  [main] 0) Exit.
+2022-09-05 09:29:21,278 DEBUG  [main] ---------------05/09/2022 09:29---------------
+2022-09-05 09:29:21,285 INFO  [main] Turning on atm system...
+2022-09-05 09:29:21,285 INFO  [main] Alarm system turned off
+2022-09-05 09:29:21,285 INFO  [main] cctv is now recording...
+2022-09-05 09:29:21,286 INFO  [main] Recording...
+2022-09-05 09:29:21,286 INFO  [main] Systems connected
+2022-09-05 09:29:21,286 INFO  [main] Turning on computers...
+2022-09-05 09:29:21,286 INFO  [main] Metal detector activated...
+2022-09-05 09:29:21,326 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-05 09:29:21,330 INFO  [main] 1) Create new client.
+2022-09-05 09:29:21,330 INFO  [main] 2) Display file.
+2022-09-05 09:29:21,331 INFO  [main] 3) Read from file.
+2022-09-05 09:29:21,331 INFO  [main] 4) Display updated linked lists.
+2022-09-05 09:29:21,331 INFO  [main] 5) Check if Client exist.
+2022-09-05 09:29:21,331 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 09:29:21,332 INFO  [main] 7) Display list of debtor.
+2022-09-05 09:29:21,332 INFO  [main] 8) Display available branches.
+2022-09-05 09:29:21,332 INFO  [main] 9) Show a thread example
+2022-09-05 09:29:21,332 INFO  [main] 0) Exit.
+2022-09-05 09:29:25,083 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-05 09:29:25,083 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-05 09:29:25,084 INFO  [main] 3) Thread pool.
+2022-09-05 09:29:34,782 INFO  [main] 1) Create new client.
+2022-09-05 09:29:34,782 INFO  [main] 2) Display file.
+2022-09-05 09:29:34,783 INFO  [main] 3) Read from file.
+2022-09-05 09:29:34,784 INFO  [main] 4) Display updated linked lists.
+2022-09-05 09:29:34,784 INFO  [main] 5) Check if Client exist.
+2022-09-05 09:29:34,784 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 09:29:34,785 INFO  [main] 7) Display list of debtor.
+2022-09-05 09:29:34,785 INFO  [main] 8) Display available branches.
+2022-09-05 09:29:34,785 INFO  [main] 9) Show a thread example
+2022-09-05 09:29:34,786 INFO  [main] 0) Exit.
+2022-09-05 09:42:48,450 DEBUG  [main] ---------------05/09/2022 09:42---------------
+2022-09-05 09:42:48,459 INFO  [main] Turning on atm system...
+2022-09-05 09:42:48,460 INFO  [main] Alarm system turned off
+2022-09-05 09:42:48,460 INFO  [main] cctv is now recording...
+2022-09-05 09:42:48,461 INFO  [main] Recording...
+2022-09-05 09:42:48,461 INFO  [main] Systems connected
+2022-09-05 09:42:48,461 INFO  [main] Turning on computers...
+2022-09-05 09:42:48,462 INFO  [main] Metal detector activated...
+2022-09-05 09:42:48,468 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-05 09:42:48,472 INFO  [main] 1) Create new client.
+2022-09-05 09:42:48,472 INFO  [main] 2) Display file.
+2022-09-05 09:42:48,473 INFO  [main] 3) Read from file.
+2022-09-05 09:42:48,473 INFO  [main] 4) Display updated linked lists.
+2022-09-05 09:42:48,473 INFO  [main] 5) Check if Client exist.
+2022-09-05 09:42:48,473 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 09:42:48,474 INFO  [main] 7) Display list of debtor.
+2022-09-05 09:42:48,474 INFO  [main] 8) Display available branches.
+2022-09-05 09:42:48,474 INFO  [main] 9) Show a thread example
+2022-09-05 09:42:48,475 INFO  [main] 0) Exit.
+2022-09-05 09:42:50,559 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-05 09:42:50,559 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-05 09:42:50,559 INFO  [main] 3) Thread pool.
+2022-09-05 09:42:52,565 INFO  [main] 1) Create new client.
+2022-09-05 09:42:52,566 INFO  [main] 2) Display file.
+2022-09-05 09:42:52,566 INFO  [main] 3) Read from file.
+2022-09-05 09:42:52,566 INFO  [main] 4) Display updated linked lists.
+2022-09-05 09:42:52,567 INFO  [main] 5) Check if Client exist.
+2022-09-05 09:42:52,567 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 09:42:52,568 INFO  [main] 7) Display list of debtor.
+2022-09-05 09:42:52,568 INFO  [main] 8) Display available branches.
+2022-09-05 09:42:52,568 INFO  [main] 9) Show a thread example
+2022-09-05 09:42:52,569 INFO  [main] 0) Exit.
+2022-09-05 09:43:27,925 DEBUG  [main] ---------------05/09/2022 09:43---------------
+2022-09-05 09:43:27,937 INFO  [main] Turning on atm system...
+2022-09-05 09:43:27,938 INFO  [main] Alarm system turned off
+2022-09-05 09:43:27,938 INFO  [main] cctv is now recording...
+2022-09-05 09:43:27,938 INFO  [main] Recording...
+2022-09-05 09:43:27,939 INFO  [main] Systems connected
+2022-09-05 09:43:27,941 INFO  [main] Turning on computers...
+2022-09-05 09:43:27,941 INFO  [main] Metal detector activated...
+2022-09-05 09:43:27,951 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-05 09:43:27,956 INFO  [main] 1) Create new client.
+2022-09-05 09:43:27,956 INFO  [main] 2) Display file.
+2022-09-05 09:43:27,957 INFO  [main] 3) Read from file.
+2022-09-05 09:43:27,958 INFO  [main] 4) Display updated linked lists.
+2022-09-05 09:43:27,958 INFO  [main] 5) Check if Client exist.
+2022-09-05 09:43:27,959 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 09:43:27,959 INFO  [main] 7) Display list of debtor.
+2022-09-05 09:43:27,960 INFO  [main] 8) Display available branches.
+2022-09-05 09:43:27,960 INFO  [main] 9) Show a thread example
+2022-09-05 09:43:27,961 INFO  [main] 0) Exit.
+2022-09-05 09:43:35,232 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-05 09:43:35,232 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-05 09:43:35,233 INFO  [main] 3) Thread pool.
+2022-09-05 09:43:36,237 INFO  [main] 1) Create new client.
+2022-09-05 09:43:36,237 INFO  [main] 2) Display file.
+2022-09-05 09:43:36,238 INFO  [main] 3) Read from file.
+2022-09-05 09:43:36,238 INFO  [main] 4) Display updated linked lists.
+2022-09-05 09:43:36,239 INFO  [main] 5) Check if Client exist.
+2022-09-05 09:43:36,239 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 09:43:36,240 INFO  [main] 7) Display list of debtor.
+2022-09-05 09:43:36,240 INFO  [main] 8) Display available branches.
+2022-09-05 09:43:36,240 INFO  [main] 9) Show a thread example
+2022-09-05 09:43:36,241 INFO  [main] 0) Exit.
+2022-09-05 16:10:33,988 DEBUG  [main] ---------------05/09/2022 16:10---------------
+2022-09-05 16:10:34,016 INFO  [main] Turning on atm system...
+2022-09-05 16:10:34,017 INFO  [main] Alarm system turned off
+2022-09-05 16:10:34,017 INFO  [main] cctv is now recording...
+2022-09-05 16:10:34,018 INFO  [main] Recording...
+2022-09-05 16:10:34,018 INFO  [main] Systems connected
+2022-09-05 16:10:34,019 INFO  [main] Turning on computers...
+2022-09-05 16:10:34,019 INFO  [main] Metal detector activated...
+2022-09-05 16:10:34,028 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-05 16:10:34,034 INFO  [main] 1) Create new client.
+2022-09-05 16:10:34,035 INFO  [main] 2) Display file.
+2022-09-05 16:10:34,035 INFO  [main] 3) Read from file.
+2022-09-05 16:10:34,035 INFO  [main] 4) Display updated linked lists.
+2022-09-05 16:10:34,036 INFO  [main] 5) Check if Client exist.
+2022-09-05 16:10:34,036 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 16:10:34,037 INFO  [main] 7) Display list of debtor.
+2022-09-05 16:10:34,037 INFO  [main] 8) Display available branches.
+2022-09-05 16:10:34,037 INFO  [main] 9) Show a thread example
+2022-09-05 16:10:34,038 INFO  [main] 0) Exit.
+2022-09-05 16:10:40,087 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-05 16:10:40,088 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-05 16:10:40,088 INFO  [main] 3) Thread pool.
+2022-09-05 16:10:48,635 INFO  [main] 1) Create new client.
+2022-09-05 16:10:48,636 INFO  [main] 2) Display file.
+2022-09-05 16:10:48,637 INFO  [main] 3) Read from file.
+2022-09-05 16:10:48,637 INFO  [main] 4) Display updated linked lists.
+2022-09-05 16:10:48,638 INFO  [main] 5) Check if Client exist.
+2022-09-05 16:10:48,638 INFO  [main] 6) Unsubscribe bank account.
+2022-09-05 16:10:48,648 INFO  [main] 7) Display list of debtor.
+2022-09-05 16:10:48,648 INFO  [main] 8) Display available branches.
+2022-09-05 16:10:48,649 INFO  [main] 9) Show a thread example
+2022-09-05 16:10:48,649 INFO  [main] 0) Exit.
+2022-09-06 10:50:54,177 DEBUG  [main] ---------------06/09/2022 10:50---------------
+2022-09-06 10:50:54,193 INFO  [main] Turning on atm system...
+2022-09-06 10:50:54,193 INFO  [main] Alarm system turned off
+2022-09-06 10:50:54,194 INFO  [main] cctv is now recording...
+2022-09-06 10:50:54,194 INFO  [main] Recording...
+2022-09-06 10:50:54,194 INFO  [main] Systems connected
+2022-09-06 10:50:54,194 INFO  [main] Turning on computers...
+2022-09-06 10:50:54,195 INFO  [main] Metal detector activated...
+2022-09-06 10:50:54,200 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:50:54,204 INFO  [main] 1) Create new client.
+2022-09-06 10:50:54,204 INFO  [main] 2) Display file.
+2022-09-06 10:50:54,204 INFO  [main] 3) Read from file.
+2022-09-06 10:50:54,204 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:50:54,205 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:50:54,205 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:50:54,205 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:50:54,205 INFO  [main] 8) Display available branches.
+2022-09-06 10:50:54,206 INFO  [main] 9) Show a thread example
+2022-09-06 10:50:54,206 INFO  [main] 0) Exit.
+2022-09-06 10:50:58,559 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:50:58,560 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:50:58,560 INFO  [main] 3) Thread pool.
+2022-09-06 10:51:00,572 INFO  [main] 1) Create new client.
+2022-09-06 10:51:00,572 INFO  [main] 2) Display file.
+2022-09-06 10:51:00,573 INFO  [main] 3) Read from file.
+2022-09-06 10:51:00,573 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:51:00,574 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:51:00,574 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:51:00,574 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:51:00,574 INFO  [main] 8) Display available branches.
+2022-09-06 10:51:00,575 INFO  [main] 9) Show a thread example
+2022-09-06 10:51:00,575 INFO  [main] 0) Exit.
+2022-09-06 10:51:46,917 DEBUG  [main] ---------------06/09/2022 10:51---------------
+2022-09-06 10:51:46,924 INFO  [main] Turning on atm system...
+2022-09-06 10:51:46,925 INFO  [main] Alarm system turned off
+2022-09-06 10:51:46,925 INFO  [main] cctv is now recording...
+2022-09-06 10:51:46,925 INFO  [main] Recording...
+2022-09-06 10:51:46,926 INFO  [main] Systems connected
+2022-09-06 10:51:46,926 INFO  [main] Turning on computers...
+2022-09-06 10:51:46,926 INFO  [main] Metal detector activated...
+2022-09-06 10:51:46,931 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:51:46,935 INFO  [main] 1) Create new client.
+2022-09-06 10:51:46,936 INFO  [main] 2) Display file.
+2022-09-06 10:51:46,936 INFO  [main] 3) Read from file.
+2022-09-06 10:51:46,936 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:51:46,937 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:51:46,937 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:51:46,938 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:51:46,938 INFO  [main] 8) Display available branches.
+2022-09-06 10:51:46,938 INFO  [main] 9) Show a thread example
+2022-09-06 10:51:46,938 INFO  [main] 0) Exit.
+2022-09-06 10:51:50,607 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:51:50,607 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:51:50,608 INFO  [main] 3) Thread pool.
+2022-09-06 10:51:51,996 INFO  [main] 1) Create new client.
+2022-09-06 10:51:51,996 INFO  [main] 2) Display file.
+2022-09-06 10:51:51,997 INFO  [main] 3) Read from file.
+2022-09-06 10:51:51,997 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:51:51,997 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:51:51,998 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:51:51,998 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:51:51,999 INFO  [main] 8) Display available branches.
+2022-09-06 10:51:51,999 INFO  [main] 9) Show a thread example
+2022-09-06 10:51:52,000 INFO  [main] 0) Exit.
+2022-09-06 10:52:00,628 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:52:00,629 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:52:00,629 INFO  [main] 3) Thread pool.
+2022-09-06 10:52:01,724 INFO  [main] 1) Create new client.
+2022-09-06 10:52:01,725 INFO  [main] 2) Display file.
+2022-09-06 10:52:01,725 INFO  [main] 3) Read from file.
+2022-09-06 10:52:01,725 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:52:01,725 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:52:01,725 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:52:01,726 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:52:01,726 INFO  [main] 8) Display available branches.
+2022-09-06 10:52:01,726 INFO  [main] 9) Show a thread example
+2022-09-06 10:52:01,726 INFO  [main] 0) Exit.
+2022-09-06 10:52:03,147 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:52:03,147 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:52:03,147 INFO  [main] 3) Thread pool.
+2022-09-06 10:52:04,076 INFO  [main] 1) Create new client.
+2022-09-06 10:52:04,077 INFO  [main] 2) Display file.
+2022-09-06 10:52:04,077 INFO  [main] 3) Read from file.
+2022-09-06 10:52:04,077 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:52:04,077 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:52:04,078 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:52:04,078 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:52:04,078 INFO  [main] 8) Display available branches.
+2022-09-06 10:52:04,078 INFO  [main] 9) Show a thread example
+2022-09-06 10:52:04,078 INFO  [main] 0) Exit.
+2022-09-06 10:52:06,011 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:52:06,012 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:52:06,012 INFO  [main] 3) Thread pool.
+2022-09-06 10:52:07,885 INFO  [main] 1) Create new client.
+2022-09-06 10:52:07,886 INFO  [main] 2) Display file.
+2022-09-06 10:52:07,886 INFO  [main] 3) Read from file.
+2022-09-06 10:52:07,887 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:52:07,887 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:52:07,887 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:52:07,888 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:52:07,888 INFO  [main] 8) Display available branches.
+2022-09-06 10:52:07,888 INFO  [main] 9) Show a thread example
+2022-09-06 10:52:07,888 INFO  [main] 0) Exit.
+2022-09-06 10:52:08,724 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:52:08,725 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:52:08,725 INFO  [main] 3) Thread pool.
+2022-09-06 10:52:09,876 INFO  [main] 1) Create new client.
+2022-09-06 10:52:09,877 INFO  [main] 2) Display file.
+2022-09-06 10:52:09,877 INFO  [main] 3) Read from file.
+2022-09-06 10:52:09,877 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:52:09,877 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:52:09,877 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:52:09,878 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:52:09,878 INFO  [main] 8) Display available branches.
+2022-09-06 10:52:09,878 INFO  [main] 9) Show a thread example
+2022-09-06 10:52:09,878 INFO  [main] 0) Exit.
+2022-09-06 10:52:24,690 DEBUG  [main] ---------------06/09/2022 10:52---------------
+2022-09-06 10:52:24,697 INFO  [main] Turning on atm system...
+2022-09-06 10:52:24,697 INFO  [main] Alarm system turned off
+2022-09-06 10:52:24,697 INFO  [main] cctv is now recording...
+2022-09-06 10:52:24,698 INFO  [main] Recording...
+2022-09-06 10:52:24,698 INFO  [main] Systems connected
+2022-09-06 10:52:24,698 INFO  [main] Turning on computers...
+2022-09-06 10:52:24,698 INFO  [main] Metal detector activated...
+2022-09-06 10:52:24,704 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:52:24,708 INFO  [main] 1) Create new client.
+2022-09-06 10:52:24,709 INFO  [main] 2) Display file.
+2022-09-06 10:52:24,709 INFO  [main] 3) Read from file.
+2022-09-06 10:52:24,709 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:52:24,710 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:52:24,710 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:52:24,710 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:52:24,710 INFO  [main] 8) Display available branches.
+2022-09-06 10:52:24,711 INFO  [main] 9) Show a thread example
+2022-09-06 10:52:24,711 INFO  [main] 0) Exit.
+2022-09-06 10:52:26,886 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:52:26,887 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:52:26,887 INFO  [main] 3) Thread pool.
+2022-09-06 10:52:27,781 INFO  [main] 1) Create new client.
+2022-09-06 10:52:27,781 INFO  [main] 2) Display file.
+2022-09-06 10:52:27,782 INFO  [main] 3) Read from file.
+2022-09-06 10:52:27,782 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:52:27,782 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:52:27,782 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:52:27,783 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:52:27,783 INFO  [main] 8) Display available branches.
+2022-09-06 10:52:27,783 INFO  [main] 9) Show a thread example
+2022-09-06 10:52:27,784 INFO  [main] 0) Exit.
+2022-09-06 10:54:16,551 DEBUG  [main] ---------------06/09/2022 10:54---------------
+2022-09-06 10:54:16,558 INFO  [main] Turning on atm system...
+2022-09-06 10:54:16,558 INFO  [main] Alarm system turned off
+2022-09-06 10:54:16,558 INFO  [main] cctv is now recording...
+2022-09-06 10:54:16,559 INFO  [main] Recording...
+2022-09-06 10:54:16,559 INFO  [main] Systems connected
+2022-09-06 10:54:16,559 INFO  [main] Turning on computers...
+2022-09-06 10:54:16,559 INFO  [main] Metal detector activated...
+2022-09-06 10:54:16,565 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:54:16,568 INFO  [main] 1) Create new client.
+2022-09-06 10:54:16,569 INFO  [main] 2) Display file.
+2022-09-06 10:54:16,569 INFO  [main] 3) Read from file.
+2022-09-06 10:54:16,569 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:54:16,569 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:54:16,569 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:54:16,570 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:54:16,570 INFO  [main] 8) Display available branches.
+2022-09-06 10:54:16,570 INFO  [main] 9) Show a thread example
+2022-09-06 10:54:16,571 INFO  [main] 0) Exit.
+2022-09-06 10:54:18,390 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:54:18,391 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:54:18,391 INFO  [main] 3) Thread pool.
+2022-09-06 10:54:19,415 INFO  [main] 1) Create new client.
+2022-09-06 10:54:19,415 INFO  [main] 2) Display file.
+2022-09-06 10:54:19,416 INFO  [main] 3) Read from file.
+2022-09-06 10:54:19,416 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:54:19,416 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:54:19,416 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:54:19,416 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:54:19,417 INFO  [main] 8) Display available branches.
+2022-09-06 10:54:19,417 INFO  [main] 9) Show a thread example
+2022-09-06 10:54:19,417 INFO  [main] 0) Exit.
+2022-09-06 10:54:41,474 DEBUG  [main] ---------------06/09/2022 10:54---------------
+2022-09-06 10:54:41,481 INFO  [main] Turning on atm system...
+2022-09-06 10:54:41,481 INFO  [main] Alarm system turned off
+2022-09-06 10:54:41,482 INFO  [main] cctv is now recording...
+2022-09-06 10:54:41,482 INFO  [main] Recording...
+2022-09-06 10:54:41,482 INFO  [main] Systems connected
+2022-09-06 10:54:41,483 INFO  [main] Turning on computers...
+2022-09-06 10:54:41,483 INFO  [main] Metal detector activated...
+2022-09-06 10:54:41,488 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:54:41,492 INFO  [main] 1) Create new client.
+2022-09-06 10:54:41,493 INFO  [main] 2) Display file.
+2022-09-06 10:54:41,493 INFO  [main] 3) Read from file.
+2022-09-06 10:54:41,493 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:54:41,494 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:54:41,494 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:54:41,494 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:54:41,494 INFO  [main] 8) Display available branches.
+2022-09-06 10:54:41,495 INFO  [main] 9) Show a thread example
+2022-09-06 10:54:41,495 INFO  [main] 0) Exit.
+2022-09-06 10:54:45,925 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:54:45,926 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:54:45,926 INFO  [main] 3) Thread pool.
+2022-09-06 10:54:47,119 INFO  [main] 1) Create new client.
+2022-09-06 10:54:47,119 INFO  [main] 2) Display file.
+2022-09-06 10:54:47,119 INFO  [main] 3) Read from file.
+2022-09-06 10:54:47,120 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:54:47,120 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:54:47,120 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:54:47,121 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:54:47,121 INFO  [main] 8) Display available branches.
+2022-09-06 10:54:47,121 INFO  [main] 9) Show a thread example
+2022-09-06 10:54:47,121 INFO  [main] 0) Exit.
+2022-09-06 10:57:03,651 DEBUG  [main] ---------------06/09/2022 10:57---------------
+2022-09-06 10:57:03,659 INFO  [main] Turning on atm system...
+2022-09-06 10:57:03,660 INFO  [main] Alarm system turned off
+2022-09-06 10:57:03,660 INFO  [main] cctv is now recording...
+2022-09-06 10:57:03,660 INFO  [main] Recording...
+2022-09-06 10:57:03,661 INFO  [main] Systems connected
+2022-09-06 10:57:03,661 INFO  [main] Turning on computers...
+2022-09-06 10:57:03,662 INFO  [main] Metal detector activated...
+2022-09-06 10:57:03,668 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:57:03,672 INFO  [main] 1) Create new client.
+2022-09-06 10:57:03,673 INFO  [main] 2) Display file.
+2022-09-06 10:57:03,673 INFO  [main] 3) Read from file.
+2022-09-06 10:57:03,674 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:57:03,674 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:57:03,674 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:57:03,674 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:57:03,674 INFO  [main] 8) Display available branches.
+2022-09-06 10:57:03,675 INFO  [main] 9) Show a thread example
+2022-09-06 10:57:03,675 INFO  [main] 0) Exit.
+2022-09-06 10:57:05,790 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:57:05,791 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:57:05,791 INFO  [main] 3) Thread pool.
+2022-09-06 10:57:06,831 INFO  [main] 1) Create new client.
+2022-09-06 10:57:06,831 INFO  [main] 2) Display file.
+2022-09-06 10:57:06,832 INFO  [main] 3) Read from file.
+2022-09-06 10:57:06,832 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:57:06,832 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:57:06,832 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:57:06,832 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:57:06,833 INFO  [main] 8) Display available branches.
+2022-09-06 10:57:06,833 INFO  [main] 9) Show a thread example
+2022-09-06 10:57:06,833 INFO  [main] 0) Exit.
+2022-09-06 10:58:28,928 DEBUG  [main] ---------------06/09/2022 10:58---------------
+2022-09-06 10:58:28,936 INFO  [main] Turning on atm system...
+2022-09-06 10:58:28,936 INFO  [main] Alarm system turned off
+2022-09-06 10:58:28,937 INFO  [main] cctv is now recording...
+2022-09-06 10:58:28,937 INFO  [main] Recording...
+2022-09-06 10:58:28,937 INFO  [main] Systems connected
+2022-09-06 10:58:28,938 INFO  [main] Turning on computers...
+2022-09-06 10:58:28,938 INFO  [main] Metal detector activated...
+2022-09-06 10:58:28,944 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 10:58:28,948 INFO  [main] 1) Create new client.
+2022-09-06 10:58:28,948 INFO  [main] 2) Display file.
+2022-09-06 10:58:28,948 INFO  [main] 3) Read from file.
+2022-09-06 10:58:28,949 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:58:28,949 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:58:28,949 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:58:28,950 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:58:28,950 INFO  [main] 8) Display available branches.
+2022-09-06 10:58:28,950 INFO  [main] 9) Show a thread example
+2022-09-06 10:58:28,950 INFO  [main] 0) Exit.
+2022-09-06 10:58:30,757 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 10:58:30,757 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 10:58:30,758 INFO  [main] 3) Thread pool.
+2022-09-06 10:58:31,631 INFO  [main] 1) Create new client.
+2022-09-06 10:58:31,632 INFO  [main] 2) Display file.
+2022-09-06 10:58:31,632 INFO  [main] 3) Read from file.
+2022-09-06 10:58:31,632 INFO  [main] 4) Display updated linked lists.
+2022-09-06 10:58:31,633 INFO  [main] 5) Check if Client exist.
+2022-09-06 10:58:31,633 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 10:58:31,633 INFO  [main] 7) Display list of debtor.
+2022-09-06 10:58:31,633 INFO  [main] 8) Display available branches.
+2022-09-06 10:58:31,634 INFO  [main] 9) Show a thread example
+2022-09-06 10:58:31,634 INFO  [main] 0) Exit.
+2022-09-06 11:02:20,097 DEBUG  [main] ---------------06/09/2022 11:02---------------
+2022-09-06 11:02:20,105 INFO  [main] Turning on atm system...
+2022-09-06 11:02:20,105 INFO  [main] Alarm system turned off
+2022-09-06 11:02:20,105 INFO  [main] cctv is now recording...
+2022-09-06 11:02:20,106 INFO  [main] Recording...
+2022-09-06 11:02:20,106 INFO  [main] Systems connected
+2022-09-06 11:02:20,106 INFO  [main] Turning on computers...
+2022-09-06 11:02:20,107 INFO  [main] Metal detector activated...
+2022-09-06 11:02:20,112 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 11:02:20,116 INFO  [main] 1) Create new client.
+2022-09-06 11:02:20,116 INFO  [main] 2) Display file.
+2022-09-06 11:02:20,117 INFO  [main] 3) Read from file.
+2022-09-06 11:02:20,117 INFO  [main] 4) Display updated linked lists.
+2022-09-06 11:02:20,117 INFO  [main] 5) Check if Client exist.
+2022-09-06 11:02:20,117 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 11:02:20,118 INFO  [main] 7) Display list of debtor.
+2022-09-06 11:02:20,118 INFO  [main] 8) Display available branches.
+2022-09-06 11:02:20,118 INFO  [main] 9) Show a thread example
+2022-09-06 11:02:20,119 INFO  [main] 0) Exit.
+2022-09-06 11:02:22,039 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 11:02:22,039 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 11:02:22,039 INFO  [main] 3) Thread pool.
+2022-09-06 11:02:36,023 INFO  [main] 1) Create new client.
+2022-09-06 11:02:36,023 INFO  [main] 2) Display file.
+2022-09-06 11:02:36,024 INFO  [main] 3) Read from file.
+2022-09-06 11:02:36,024 INFO  [main] 4) Display updated linked lists.
+2022-09-06 11:02:36,024 INFO  [main] 5) Check if Client exist.
+2022-09-06 11:02:36,025 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 11:02:36,025 INFO  [main] 7) Display list of debtor.
+2022-09-06 11:02:36,026 INFO  [main] 8) Display available branches.
+2022-09-06 11:02:36,026 INFO  [main] 9) Show a thread example
+2022-09-06 11:02:36,026 INFO  [main] 0) Exit.
+2022-09-06 11:58:28,144 DEBUG  [main] ---------------06/09/2022 11:58---------------
+2022-09-06 11:58:28,153 INFO  [main] Turning on atm system...
+2022-09-06 11:58:28,154 INFO  [main] Alarm system turned off
+2022-09-06 11:58:28,154 INFO  [main] cctv is now recording...
+2022-09-06 11:58:28,154 INFO  [main] Recording...
+2022-09-06 11:58:28,155 INFO  [main] Systems connected
+2022-09-06 11:58:28,155 INFO  [main] Turning on computers...
+2022-09-06 11:58:28,155 INFO  [main] Metal detector activated...
+2022-09-06 11:58:28,161 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 11:58:28,164 INFO  [main] 1) Create new client.
+2022-09-06 11:58:28,165 INFO  [main] 2) Display file.
+2022-09-06 11:58:28,165 INFO  [main] 3) Read from file.
+2022-09-06 11:58:28,165 INFO  [main] 4) Display updated linked lists.
+2022-09-06 11:58:28,166 INFO  [main] 5) Check if Client exist.
+2022-09-06 11:58:28,166 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 11:58:28,166 INFO  [main] 7) Display list of debtor.
+2022-09-06 11:58:28,166 INFO  [main] 8) Display available branches.
+2022-09-06 11:58:28,167 INFO  [main] 9) Show a thread example
+2022-09-06 11:58:28,167 INFO  [main] 0) Exit.
+2022-09-06 11:58:32,602 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 11:58:32,603 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 11:58:32,603 INFO  [main] 3) Thread pool.
+2022-09-06 11:58:33,738 INFO  [main] 1) Create new client.
+2022-09-06 11:58:33,738 INFO  [main] 2) Display file.
+2022-09-06 11:58:33,739 INFO  [main] 3) Read from file.
+2022-09-06 11:58:33,739 INFO  [main] 4) Display updated linked lists.
+2022-09-06 11:58:33,739 INFO  [main] 5) Check if Client exist.
+2022-09-06 11:58:33,739 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 11:58:33,740 INFO  [main] 7) Display list of debtor.
+2022-09-06 11:58:33,740 INFO  [main] 8) Display available branches.
+2022-09-06 11:58:33,740 INFO  [main] 9) Show a thread example
+2022-09-06 11:58:33,740 INFO  [main] 0) Exit.
+2022-09-06 12:00:37,544 DEBUG  [main] ---------------06/09/2022 12:00---------------
+2022-09-06 12:00:37,551 INFO  [main] Turning on atm system...
+2022-09-06 12:00:37,551 INFO  [main] Alarm system turned off
+2022-09-06 12:00:37,552 INFO  [main] cctv is now recording...
+2022-09-06 12:00:37,552 INFO  [main] Recording...
+2022-09-06 12:00:37,552 INFO  [main] Systems connected
+2022-09-06 12:00:37,552 INFO  [main] Turning on computers...
+2022-09-06 12:00:37,553 INFO  [main] Metal detector activated...
+2022-09-06 12:00:37,559 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:00:37,564 INFO  [main] 1) Create new client.
+2022-09-06 12:00:37,564 INFO  [main] 2) Display file.
+2022-09-06 12:00:37,564 INFO  [main] 3) Read from file.
+2022-09-06 12:00:37,564 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:00:37,565 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:00:37,565 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:00:37,565 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:00:37,565 INFO  [main] 8) Display available branches.
+2022-09-06 12:00:37,566 INFO  [main] 9) Show a thread example
+2022-09-06 12:00:37,566 INFO  [main] 0) Exit.
+2022-09-06 12:00:39,889 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:00:39,890 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:00:39,890 INFO  [main] 3) Thread pool.
+2022-09-06 12:00:40,906 INFO  [main] 1) Create new client.
+2022-09-06 12:00:40,906 INFO  [main] 2) Display file.
+2022-09-06 12:00:40,907 INFO  [main] 3) Read from file.
+2022-09-06 12:00:40,907 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:00:40,908 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:00:40,908 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:00:40,908 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:00:40,909 INFO  [main] 8) Display available branches.
+2022-09-06 12:00:40,909 INFO  [main] 9) Show a thread example
+2022-09-06 12:00:40,909 INFO  [main] 0) Exit.
+2022-09-06 12:02:21,184 DEBUG  [main] ---------------06/09/2022 12:02---------------
+2022-09-06 12:02:21,191 INFO  [main] Turning on atm system...
+2022-09-06 12:02:21,192 INFO  [main] Alarm system turned off
+2022-09-06 12:02:21,192 INFO  [main] cctv is now recording...
+2022-09-06 12:02:21,192 INFO  [main] Recording...
+2022-09-06 12:02:21,193 INFO  [main] Systems connected
+2022-09-06 12:02:21,193 INFO  [main] Turning on computers...
+2022-09-06 12:02:21,193 INFO  [main] Metal detector activated...
+2022-09-06 12:02:21,199 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:02:21,203 INFO  [main] 1) Create new client.
+2022-09-06 12:02:21,203 INFO  [main] 2) Display file.
+2022-09-06 12:02:21,203 INFO  [main] 3) Read from file.
+2022-09-06 12:02:21,204 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:02:21,205 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:02:21,205 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:02:21,205 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:02:21,205 INFO  [main] 8) Display available branches.
+2022-09-06 12:02:21,206 INFO  [main] 9) Show a thread example
+2022-09-06 12:02:21,206 INFO  [main] 0) Exit.
+2022-09-06 12:02:23,514 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:02:23,514 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:02:23,515 INFO  [main] 3) Thread pool.
+2022-09-06 12:02:34,795 INFO  [main] 1) Create new client.
+2022-09-06 12:02:34,796 INFO  [main] 2) Display file.
+2022-09-06 12:02:34,796 INFO  [main] 3) Read from file.
+2022-09-06 12:02:34,797 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:02:34,797 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:02:34,797 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:02:34,798 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:02:34,798 INFO  [main] 8) Display available branches.
+2022-09-06 12:02:34,799 INFO  [main] 9) Show a thread example
+2022-09-06 12:02:34,799 INFO  [main] 0) Exit.
+2022-09-06 12:03:37,507 DEBUG  [main] ---------------06/09/2022 12:03---------------
+2022-09-06 12:03:37,514 INFO  [main] Turning on atm system...
+2022-09-06 12:03:37,514 INFO  [main] Alarm system turned off
+2022-09-06 12:03:37,515 INFO  [main] cctv is now recording...
+2022-09-06 12:03:37,515 INFO  [main] Recording...
+2022-09-06 12:03:37,515 INFO  [main] Systems connected
+2022-09-06 12:03:37,516 INFO  [main] Turning on computers...
+2022-09-06 12:03:37,516 INFO  [main] Metal detector activated...
+2022-09-06 12:03:37,522 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:03:37,526 INFO  [main] 1) Create new client.
+2022-09-06 12:03:37,526 INFO  [main] 2) Display file.
+2022-09-06 12:03:37,526 INFO  [main] 3) Read from file.
+2022-09-06 12:03:37,527 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:03:37,527 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:03:37,527 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:03:37,527 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:03:37,528 INFO  [main] 8) Display available branches.
+2022-09-06 12:03:37,528 INFO  [main] 9) Show a thread example
+2022-09-06 12:03:37,528 INFO  [main] 0) Exit.
+2022-09-06 12:03:40,521 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:03:40,522 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:03:40,522 INFO  [main] 3) Thread pool.
+2022-09-06 12:03:51,382 INFO  [main] 1) Create new client.
+2022-09-06 12:03:51,383 INFO  [main] 2) Display file.
+2022-09-06 12:03:51,383 INFO  [main] 3) Read from file.
+2022-09-06 12:03:51,384 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:03:51,384 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:03:51,384 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:03:51,385 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:03:51,385 INFO  [main] 8) Display available branches.
+2022-09-06 12:03:51,386 INFO  [main] 9) Show a thread example
+2022-09-06 12:03:51,386 INFO  [main] 0) Exit.
+2022-09-06 12:04:46,413 DEBUG  [main] ---------------06/09/2022 12:04---------------
+2022-09-06 12:04:46,421 INFO  [main] Turning on atm system...
+2022-09-06 12:04:46,421 INFO  [main] Alarm system turned off
+2022-09-06 12:04:46,421 INFO  [main] cctv is now recording...
+2022-09-06 12:04:46,422 INFO  [main] Recording...
+2022-09-06 12:04:46,422 INFO  [main] Systems connected
+2022-09-06 12:04:46,422 INFO  [main] Turning on computers...
+2022-09-06 12:04:46,423 INFO  [main] Metal detector activated...
+2022-09-06 12:04:46,428 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:04:46,431 INFO  [main] 1) Create new client.
+2022-09-06 12:04:46,432 INFO  [main] 2) Display file.
+2022-09-06 12:04:46,432 INFO  [main] 3) Read from file.
+2022-09-06 12:04:46,432 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:04:46,433 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:04:46,433 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:04:46,433 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:04:46,433 INFO  [main] 8) Display available branches.
+2022-09-06 12:04:46,434 INFO  [main] 9) Show a thread example
+2022-09-06 12:04:46,434 INFO  [main] 0) Exit.
+2022-09-06 12:04:48,177 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:04:48,177 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:04:48,177 INFO  [main] 3) Thread pool.
+2022-09-06 12:04:59,309 INFO  [main] 1) Create new client.
+2022-09-06 12:04:59,310 INFO  [main] 2) Display file.
+2022-09-06 12:04:59,310 INFO  [main] 3) Read from file.
+2022-09-06 12:04:59,311 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:04:59,311 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:04:59,311 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:04:59,312 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:04:59,312 INFO  [main] 8) Display available branches.
+2022-09-06 12:04:59,313 INFO  [main] 9) Show a thread example
+2022-09-06 12:04:59,313 INFO  [main] 0) Exit.
+2022-09-06 12:05:49,156 DEBUG  [main] ---------------06/09/2022 12:05---------------
+2022-09-06 12:05:49,164 INFO  [main] Turning on atm system...
+2022-09-06 12:05:49,164 INFO  [main] Alarm system turned off
+2022-09-06 12:05:49,164 INFO  [main] cctv is now recording...
+2022-09-06 12:05:49,165 INFO  [main] Recording...
+2022-09-06 12:05:49,165 INFO  [main] Systems connected
+2022-09-06 12:05:49,165 INFO  [main] Turning on computers...
+2022-09-06 12:05:49,166 INFO  [main] Metal detector activated...
+2022-09-06 12:05:49,171 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:05:49,175 INFO  [main] 1) Create new client.
+2022-09-06 12:05:49,176 INFO  [main] 2) Display file.
+2022-09-06 12:05:49,176 INFO  [main] 3) Read from file.
+2022-09-06 12:05:49,177 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:05:49,177 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:05:49,178 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:05:49,178 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:05:49,179 INFO  [main] 8) Display available branches.
+2022-09-06 12:05:49,179 INFO  [main] 9) Show a thread example
+2022-09-06 12:05:49,179 INFO  [main] 0) Exit.
+2022-09-06 12:05:52,986 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:05:52,986 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:05:52,987 INFO  [main] 3) Thread pool.
+2022-09-06 12:06:04,338 INFO  [main] 1) Create new client.
+2022-09-06 12:06:04,339 INFO  [main] 2) Display file.
+2022-09-06 12:06:04,339 INFO  [main] 3) Read from file.
+2022-09-06 12:06:04,339 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:06:04,340 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:06:04,340 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:06:04,341 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:06:04,341 INFO  [main] 8) Display available branches.
+2022-09-06 12:06:04,341 INFO  [main] 9) Show a thread example
+2022-09-06 12:06:04,342 INFO  [main] 0) Exit.
+2022-09-06 12:09:50,852 DEBUG  [main] ---------------06/09/2022 12:09---------------
+2022-09-06 12:09:50,859 INFO  [main] Turning on atm system...
+2022-09-06 12:09:50,859 INFO  [main] Alarm system turned off
+2022-09-06 12:09:50,859 INFO  [main] cctv is now recording...
+2022-09-06 12:09:50,860 INFO  [main] Recording...
+2022-09-06 12:09:50,860 INFO  [main] Systems connected
+2022-09-06 12:09:50,860 INFO  [main] Turning on computers...
+2022-09-06 12:09:50,860 INFO  [main] Metal detector activated...
+2022-09-06 12:09:50,866 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:09:50,870 INFO  [main] 1) Create new client.
+2022-09-06 12:09:50,871 INFO  [main] 2) Display file.
+2022-09-06 12:09:50,871 INFO  [main] 3) Read from file.
+2022-09-06 12:09:50,871 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:09:50,872 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:09:50,872 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:09:50,872 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:09:50,872 INFO  [main] 8) Display available branches.
+2022-09-06 12:09:50,873 INFO  [main] 9) Show a thread example
+2022-09-06 12:09:50,873 INFO  [main] 0) Exit.
+2022-09-06 12:09:53,473 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:09:53,474 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:09:53,474 INFO  [main] 3) Thread pool.
+2022-09-06 12:10:04,594 INFO  [main] 1) Create new client.
+2022-09-06 12:10:04,595 INFO  [main] 2) Display file.
+2022-09-06 12:10:04,595 INFO  [main] 3) Read from file.
+2022-09-06 12:10:04,596 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:10:04,596 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:10:04,597 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:10:04,597 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:10:04,598 INFO  [main] 8) Display available branches.
+2022-09-06 12:10:04,598 INFO  [main] 9) Show a thread example
+2022-09-06 12:10:04,599 INFO  [main] 0) Exit.
+2022-09-06 12:17:29,018 DEBUG  [main] ---------------06/09/2022 12:17---------------
+2022-09-06 12:17:29,025 INFO  [main] Turning on atm system...
+2022-09-06 12:17:29,025 INFO  [main] Alarm system turned off
+2022-09-06 12:17:29,026 INFO  [main] cctv is now recording...
+2022-09-06 12:17:29,026 INFO  [main] Recording...
+2022-09-06 12:17:29,026 INFO  [main] Systems connected
+2022-09-06 12:17:29,027 INFO  [main] Turning on computers...
+2022-09-06 12:17:29,027 INFO  [main] Metal detector activated...
+2022-09-06 12:17:29,032 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 12:17:29,036 INFO  [main] 1) Create new client.
+2022-09-06 12:17:29,036 INFO  [main] 2) Display file.
+2022-09-06 12:17:29,036 INFO  [main] 3) Read from file.
+2022-09-06 12:17:29,037 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:17:29,037 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:17:29,037 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:17:29,037 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:17:29,038 INFO  [main] 8) Display available branches.
+2022-09-06 12:17:29,038 INFO  [main] 9) Show a thread example
+2022-09-06 12:17:29,038 INFO  [main] 0) Exit.
+2022-09-06 12:17:31,250 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 12:17:31,250 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 12:17:31,251 INFO  [main] 3) Thread pool.
+2022-09-06 12:17:32,594 INFO  [main] Active: 5
+2022-09-06 12:17:32,595 INFO  [main] Queue: 2
+2022-09-06 12:18:02,607 INFO  [main] 1) Create new client.
+2022-09-06 12:18:02,608 INFO  [main] 2) Display file.
+2022-09-06 12:18:02,608 INFO  [main] 3) Read from file.
+2022-09-06 12:18:02,609 INFO  [main] 4) Display updated linked lists.
+2022-09-06 12:18:02,609 INFO  [main] 5) Check if Client exist.
+2022-09-06 12:18:02,609 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 12:18:02,609 INFO  [main] 7) Display list of debtor.
+2022-09-06 12:18:02,609 INFO  [main] 8) Display available branches.
+2022-09-06 12:18:02,610 INFO  [main] 9) Show a thread example
+2022-09-06 12:18:02,610 INFO  [main] 0) Exit.
+2022-09-06 13:03:37,639 DEBUG  [main] ---------------06/09/2022 13:03---------------
+2022-09-06 13:03:37,648 INFO  [main] Turning on atm system...
+2022-09-06 13:03:37,648 INFO  [main] Alarm system turned off
+2022-09-06 13:03:37,648 INFO  [main] cctv is now recording...
+2022-09-06 13:03:37,649 INFO  [main] Recording...
+2022-09-06 13:03:37,649 INFO  [main] Systems connected
+2022-09-06 13:03:37,650 INFO  [main] Turning on computers...
+2022-09-06 13:03:37,650 INFO  [main] Metal detector activated...
+2022-09-06 13:03:37,656 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 13:03:37,661 INFO  [main] 1) Create new client.
+2022-09-06 13:03:37,661 INFO  [main] 2) Display file.
+2022-09-06 13:03:37,662 INFO  [main] 3) Read from file.
+2022-09-06 13:03:37,662 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:03:37,662 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:03:37,663 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:03:37,663 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:03:37,663 INFO  [main] 8) Display available branches.
+2022-09-06 13:03:37,664 INFO  [main] 9) Show a thread example
+2022-09-06 13:03:37,664 INFO  [main] 0) Exit.
+2022-09-06 13:03:42,917 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:03:42,917 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:03:42,918 INFO  [main] 3) Thread pool.
+2022-09-06 13:03:45,196 INFO  [main] Current thread ID: 1
+2022-09-06 13:03:45,199 INFO  [main] Active: 5
+2022-09-06 13:03:45,199 INFO  [main] Queue: 2
+2022-09-06 13:03:45,201 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 4
+2022-09-06 13:03:45,201 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 2
+2022-09-06 13:03:45,201 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 1
+2022-09-06 13:03:45,201 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 3
+2022-09-06 13:03:45,201 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 5
+2022-09-06 13:03:45,703 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 1
+2022-09-06 13:03:45,713 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 5
+2022-09-06 13:03:45,713 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 4
+2022-09-06 13:03:45,713 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 2
+2022-09-06 13:03:45,713 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 3
+2022-09-06 13:03:46,213 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 1
+2022-09-06 13:03:46,215 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 4
+2022-09-06 13:03:46,228 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 2
+2022-09-06 13:03:46,228 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 3
+2022-09-06 13:03:46,228 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 5
+2022-09-06 13:03:46,726 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 4
+2022-09-06 13:03:46,726 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 1
+2022-09-06 13:03:46,742 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 5
+2022-09-06 13:03:46,742 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 3
+2022-09-06 13:03:46,742 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 2
+2022-09-06 13:03:47,227 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 4
+2022-09-06 13:03:47,242 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 1
+2022-09-06 13:03:47,258 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 3
+2022-09-06 13:03:47,258 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 2
+2022-09-06 13:03:47,258 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 5
+2022-09-06 13:03:47,729 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 6
+2022-09-06 13:03:47,744 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 7
+2022-09-06 13:03:48,242 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 6
+2022-09-06 13:03:48,257 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 7
+2022-09-06 13:03:48,743 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 6
+2022-09-06 13:03:48,759 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 7
+2022-09-06 13:03:49,245 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 6
+2022-09-06 13:03:49,260 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 7
+2022-09-06 13:03:49,748 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 6
+2022-09-06 13:03:49,764 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 7
+2022-09-06 13:04:00,208 INFO  [main] 1) Create new client.
+2022-09-06 13:04:00,209 INFO  [main] 2) Display file.
+2022-09-06 13:04:00,209 INFO  [main] 3) Read from file.
+2022-09-06 13:04:00,210 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:04:00,210 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:04:00,211 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:04:00,211 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:04:00,211 INFO  [main] 8) Display available branches.
+2022-09-06 13:04:00,212 INFO  [main] 9) Show a thread example
+2022-09-06 13:04:00,212 INFO  [main] 0) Exit.
+2022-09-06 13:05:24,120 DEBUG  [main] ---------------06/09/2022 13:05---------------
+2022-09-06 13:05:24,127 INFO  [main] Turning on atm system...
+2022-09-06 13:05:24,127 INFO  [main] Alarm system turned off
+2022-09-06 13:05:24,127 INFO  [main] cctv is now recording...
+2022-09-06 13:05:24,128 INFO  [main] Recording...
+2022-09-06 13:05:24,128 INFO  [main] Systems connected
+2022-09-06 13:05:24,128 INFO  [main] Turning on computers...
+2022-09-06 13:05:24,128 INFO  [main] Metal detector activated...
+2022-09-06 13:05:24,134 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 13:05:24,137 INFO  [main] 1) Create new client.
+2022-09-06 13:05:24,138 INFO  [main] 2) Display file.
+2022-09-06 13:05:24,138 INFO  [main] 3) Read from file.
+2022-09-06 13:05:24,138 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:05:24,139 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:05:24,139 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:05:24,139 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:05:24,139 INFO  [main] 8) Display available branches.
+2022-09-06 13:05:24,139 INFO  [main] 9) Show a thread example
+2022-09-06 13:05:24,140 INFO  [main] 0) Exit.
+2022-09-06 13:05:26,356 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:05:26,356 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:05:26,356 INFO  [main] 3) Thread pool.
+2022-09-06 13:05:27,934 INFO c.s.s.T.Multithreading [Thread-3] 1 From thread: 3
+2022-09-06 13:05:27,934 INFO c.s.s.T.Multithreading [Thread-0] 1 From thread: 0
+2022-09-06 13:05:27,934 INFO c.s.s.T.Multithreading [Thread-1] 1 From thread: 1
+2022-09-06 13:05:27,934 INFO c.s.s.T.Multithreading [Thread-2] 1 From thread: 2
+2022-09-06 13:05:27,934 INFO c.s.s.T.Multithreading [Thread-4] 1 From thread: 4
+2022-09-06 13:05:28,436 INFO c.s.s.T.Multithreading [Thread-3] 2 From thread: 3
+2022-09-06 13:05:28,438 INFO c.s.s.T.Multithreading [Thread-1] 2 From thread: 1
+2022-09-06 13:05:28,439 INFO c.s.s.T.Multithreading [Thread-4] 2 From thread: 4
+2022-09-06 13:05:28,439 INFO c.s.s.T.Multithreading [Thread-0] 2 From thread: 0
+2022-09-06 13:05:28,439 INFO c.s.s.T.Multithreading [Thread-2] 2 From thread: 2
+2022-09-06 13:05:28,938 INFO c.s.s.T.Multithreading [Thread-3] 3 From thread: 3
+2022-09-06 13:05:28,942 INFO c.s.s.T.Multithreading [Thread-4] 3 From thread: 4
+2022-09-06 13:05:28,942 INFO c.s.s.T.Multithreading [Thread-0] 3 From thread: 0
+2022-09-06 13:05:28,942 INFO c.s.s.T.Multithreading [Thread-1] 3 From thread: 1
+2022-09-06 13:05:28,942 INFO c.s.s.T.Multithreading [Thread-2] 3 From thread: 2
+2022-09-06 13:05:29,443 INFO c.s.s.T.Multithreading [Thread-1] 4 From thread: 1
+2022-09-06 13:05:29,443 INFO c.s.s.T.Multithreading [Thread-0] 4 From thread: 0
+2022-09-06 13:05:29,443 INFO c.s.s.T.Multithreading [Thread-2] 4 From thread: 2
+2022-09-06 13:05:29,443 INFO c.s.s.T.Multithreading [Thread-4] 4 From thread: 4
+2022-09-06 13:05:29,443 INFO c.s.s.T.Multithreading [Thread-3] 4 From thread: 3
+2022-09-06 13:05:29,944 INFO c.s.s.T.Multithreading [Thread-0] 5 From thread: 0
+2022-09-06 13:05:29,944 INFO c.s.s.T.Multithreading [Thread-2] 5 From thread: 2
+2022-09-06 13:05:29,944 INFO c.s.s.T.Multithreading [Thread-1] 5 From thread: 1
+2022-09-06 13:05:29,946 INFO c.s.s.T.Multithreading [Thread-3] 5 From thread: 3
+2022-09-06 13:05:29,946 INFO c.s.s.T.Multithreading [Thread-4] 5 From thread: 4
+2022-09-06 13:05:32,945 INFO  [main] 1) Create new client.
+2022-09-06 13:05:32,945 INFO  [main] 2) Display file.
+2022-09-06 13:05:32,945 INFO  [main] 3) Read from file.
+2022-09-06 13:05:32,945 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:05:32,946 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:05:32,946 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:05:32,946 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:05:32,946 INFO  [main] 8) Display available branches.
+2022-09-06 13:05:32,946 INFO  [main] 9) Show a thread example
+2022-09-06 13:05:32,947 INFO  [main] 0) Exit.
+2022-09-06 13:06:24,343 DEBUG  [main] ---------------06/09/2022 13:06---------------
+2022-09-06 13:06:24,350 INFO  [main] Turning on atm system...
+2022-09-06 13:06:24,350 INFO  [main] Alarm system turned off
+2022-09-06 13:06:24,351 INFO  [main] cctv is now recording...
+2022-09-06 13:06:24,351 INFO  [main] Recording...
+2022-09-06 13:06:24,351 INFO  [main] Systems connected
+2022-09-06 13:06:24,351 INFO  [main] Turning on computers...
+2022-09-06 13:06:24,352 INFO  [main] Metal detector activated...
+2022-09-06 13:06:24,357 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 13:06:24,361 INFO  [main] 1) Create new client.
+2022-09-06 13:06:24,361 INFO  [main] 2) Display file.
+2022-09-06 13:06:24,362 INFO  [main] 3) Read from file.
+2022-09-06 13:06:24,362 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:06:24,362 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:06:24,362 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:06:24,363 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:06:24,363 INFO  [main] 8) Display available branches.
+2022-09-06 13:06:24,364 INFO  [main] 9) Show a thread example
+2022-09-06 13:06:24,364 INFO  [main] 0) Exit.
+2022-09-06 13:06:27,532 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:06:27,533 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:06:27,533 INFO  [main] 3) Thread pool.
+2022-09-06 13:06:29,173 INFO c.s.s.T.Multithreading [Thread-0] 1 From thread: 0
+2022-09-06 13:06:29,173 INFO c.s.s.T.Multithreading [Thread-4] 1 From thread: 4
+2022-09-06 13:06:29,173 INFO c.s.s.T.Multithreading [Thread-1] 1 From thread: 1
+2022-09-06 13:06:29,173 INFO c.s.s.T.Multithreading [Thread-3] 1 From thread: 3
+2022-09-06 13:06:29,173 INFO c.s.s.T.Multithreading [Thread-2] 1 From thread: 2
+2022-09-06 13:06:29,676 INFO c.s.s.T.Multithreading [Thread-4] 2 From thread: 4
+2022-09-06 13:06:29,684 INFO c.s.s.T.Multithreading [Thread-2] 2 From thread: 2
+2022-09-06 13:06:29,684 INFO c.s.s.T.Multithreading [Thread-3] 2 From thread: 3
+2022-09-06 13:06:29,684 INFO c.s.s.T.Multithreading [Thread-0] 2 From thread: 0
+2022-09-06 13:06:29,684 INFO c.s.s.T.Multithreading [Thread-1] 2 From thread: 1
+2022-09-06 13:06:30,185 INFO c.s.s.T.Multithreading [Thread-3] 3 From thread: 3
+2022-09-06 13:06:30,189 INFO c.s.s.T.Multithreading [Thread-0] 3 From thread: 0
+2022-09-06 13:06:30,189 INFO c.s.s.T.Multithreading [Thread-4] 3 From thread: 4
+2022-09-06 13:06:30,189 INFO c.s.s.T.Multithreading [Thread-2] 3 From thread: 2
+2022-09-06 13:06:30,189 INFO c.s.s.T.Multithreading [Thread-1] 3 From thread: 1
+2022-09-06 13:06:30,689 INFO c.s.s.T.Multithreading [Thread-3] 4 From thread: 3
+2022-09-06 13:06:30,691 INFO c.s.s.T.Multithreading [Thread-0] 4 From thread: 0
+2022-09-06 13:06:30,704 INFO c.s.s.T.Multithreading [Thread-4] 4 From thread: 4
+2022-09-06 13:06:30,704 INFO c.s.s.T.Multithreading [Thread-2] 4 From thread: 2
+2022-09-06 13:06:30,704 INFO c.s.s.T.Multithreading [Thread-1] 4 From thread: 1
+2022-09-06 13:06:31,190 INFO c.s.s.T.Multithreading [Thread-3] 5 From thread: 3
+2022-09-06 13:06:31,204 INFO c.s.s.T.Multithreading [Thread-0] 5 From thread: 0
+2022-09-06 13:06:31,205 INFO c.s.s.T.Multithreading [Thread-2] 5 From thread: 2
+2022-09-06 13:06:31,206 INFO c.s.s.T.Multithreading [Thread-4] 5 From thread: 4
+2022-09-06 13:06:31,220 INFO c.s.s.T.Multithreading [Thread-1] 5 From thread: 1
+2022-09-06 13:06:34,183 INFO  [main] 1) Create new client.
+2022-09-06 13:06:34,184 INFO  [main] 2) Display file.
+2022-09-06 13:06:34,184 INFO  [main] 3) Read from file.
+2022-09-06 13:06:34,184 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:06:34,185 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:06:34,185 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:06:34,185 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:06:34,186 INFO  [main] 8) Display available branches.
+2022-09-06 13:06:34,186 INFO  [main] 9) Show a thread example
+2022-09-06 13:06:34,187 INFO  [main] 0) Exit.
+2022-09-06 13:06:47,874 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:06:47,874 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:06:47,875 INFO  [main] 3) Thread pool.
+2022-09-06 13:06:49,028 INFO c.s.s.T.Multithread [Thread-9] 1 From thread: 4
+2022-09-06 13:06:49,028 INFO c.s.s.T.Multithread [Thread-5] 1 From thread: 0
+2022-09-06 13:06:49,028 INFO c.s.s.T.Multithread [Thread-8] 1 From thread: 3
+2022-09-06 13:06:49,028 INFO c.s.s.T.Multithread [Thread-7] 1 From thread: 2
+2022-09-06 13:06:49,028 INFO c.s.s.T.Multithread [Thread-6] 1 From thread: 1
+2022-09-06 13:06:49,531 INFO c.s.s.T.Multithread [Thread-6] 2 From thread: 1
+2022-09-06 13:06:49,531 INFO c.s.s.T.Multithread [Thread-8] 2 From thread: 3
+2022-09-06 13:06:49,531 INFO c.s.s.T.Multithread [Thread-5] 2 From thread: 0
+2022-09-06 13:06:49,531 INFO c.s.s.T.Multithread [Thread-9] 2 From thread: 4
+2022-09-06 13:06:49,531 INFO c.s.s.T.Multithread [Thread-7] 2 From thread: 2
+2022-09-06 13:06:50,033 INFO c.s.s.T.Multithread [Thread-6] 3 From thread: 1
+2022-09-06 13:06:50,044 INFO c.s.s.T.Multithread [Thread-7] 3 From thread: 2
+2022-09-06 13:06:50,044 INFO c.s.s.T.Multithread [Thread-9] 3 From thread: 4
+2022-09-06 13:06:50,044 INFO c.s.s.T.Multithread [Thread-5] 3 From thread: 0
+2022-09-06 13:06:50,044 INFO c.s.s.T.Multithread [Thread-8] 3 From thread: 3
+2022-09-06 13:06:50,536 INFO c.s.s.T.Multithread [Thread-6] 4 From thread: 1
+2022-09-06 13:06:50,552 INFO c.s.s.T.Multithread [Thread-8] 4 From thread: 3
+2022-09-06 13:06:50,552 INFO c.s.s.T.Multithread [Thread-5] 4 From thread: 0
+2022-09-06 13:06:50,552 INFO c.s.s.T.Multithread [Thread-7] 4 From thread: 2
+2022-09-06 13:06:50,552 INFO c.s.s.T.Multithread [Thread-9] 4 From thread: 4
+2022-09-06 13:06:51,036 INFO c.s.s.T.Multithread [Thread-6] 5 From thread: 1
+2022-09-06 13:06:51,053 INFO c.s.s.T.Multithread [Thread-8] 5 From thread: 3
+2022-09-06 13:06:51,055 INFO c.s.s.T.Multithread [Thread-5] 5 From thread: 0
+2022-09-06 13:06:51,067 INFO c.s.s.T.Multithread [Thread-9] 5 From thread: 4
+2022-09-06 13:06:51,067 INFO c.s.s.T.Multithread [Thread-7] 5 From thread: 2
+2022-09-06 13:06:54,028 INFO  [main] 1) Create new client.
+2022-09-06 13:06:54,029 INFO  [main] 2) Display file.
+2022-09-06 13:06:54,029 INFO  [main] 3) Read from file.
+2022-09-06 13:06:54,029 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:06:54,030 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:06:54,030 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:06:54,031 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:06:54,031 INFO  [main] 8) Display available branches.
+2022-09-06 13:06:54,032 INFO  [main] 9) Show a thread example
+2022-09-06 13:06:54,032 INFO  [main] 0) Exit.
+2022-09-06 13:06:55,418 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:06:55,418 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:06:55,419 INFO  [main] 3) Thread pool.
+2022-09-06 13:06:56,724 INFO  [main] Current thread ID: 1
+2022-09-06 13:06:56,726 INFO  [main] Active: 5
+2022-09-06 13:06:56,726 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 3
+2022-09-06 13:06:56,726 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 1
+2022-09-06 13:06:56,726 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 4
+2022-09-06 13:06:56,726 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 2
+2022-09-06 13:06:56,726 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 5
+2022-09-06 13:06:56,726 INFO  [main] Queue: 2
+2022-09-06 13:06:57,228 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 3
+2022-09-06 13:06:57,228 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 4
+2022-09-06 13:06:57,240 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 2
+2022-09-06 13:06:57,240 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 5
+2022-09-06 13:06:57,240 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 1
+2022-09-06 13:06:57,739 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 4
+2022-09-06 13:06:57,739 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 3
+2022-09-06 13:06:57,754 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 2
+2022-09-06 13:06:57,754 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 5
+2022-09-06 13:06:57,754 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 1
+2022-09-06 13:06:58,254 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 4
+2022-09-06 13:06:58,254 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 3
+2022-09-06 13:06:58,257 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 2
+2022-09-06 13:06:58,269 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 5
+2022-09-06 13:06:58,269 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 1
+2022-09-06 13:06:58,755 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 4
+2022-09-06 13:06:58,757 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 3
+2022-09-06 13:06:58,759 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 2
+2022-09-06 13:06:58,773 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 1
+2022-09-06 13:06:58,773 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 5
+2022-09-06 13:06:59,258 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 6
+2022-09-06 13:06:59,260 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 7
+2022-09-06 13:06:59,760 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 6
+2022-09-06 13:06:59,774 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 7
+2022-09-06 13:07:00,261 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 6
+2022-09-06 13:07:00,275 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 7
+2022-09-06 13:07:00,763 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 6
+2022-09-06 13:07:00,777 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 7
+2022-09-06 13:07:01,267 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 6
+2022-09-06 13:07:01,283 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 7
+2022-09-06 13:07:06,731 INFO  [main] 1) Create new client.
+2022-09-06 13:07:06,731 INFO  [main] 2) Display file.
+2022-09-06 13:07:06,732 INFO  [main] 3) Read from file.
+2022-09-06 13:07:06,732 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:07:06,732 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:07:06,732 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:07:06,732 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:07:06,732 INFO  [main] 8) Display available branches.
+2022-09-06 13:07:06,733 INFO  [main] 9) Show a thread example
+2022-09-06 13:07:06,733 INFO  [main] 0) Exit.
+2022-09-06 13:08:47,658 DEBUG  [main] ---------------06/09/2022 13:08---------------
+2022-09-06 13:08:47,665 INFO  [main] Turning on atm system...
+2022-09-06 13:08:47,665 INFO  [main] Alarm system turned off
+2022-09-06 13:08:47,665 INFO  [main] cctv is now recording...
+2022-09-06 13:08:47,666 INFO  [main] Recording...
+2022-09-06 13:08:47,666 INFO  [main] Systems connected
+2022-09-06 13:08:47,666 INFO  [main] Turning on computers...
+2022-09-06 13:08:47,667 INFO  [main] Metal detector activated...
+2022-09-06 13:08:47,673 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 13:08:47,677 INFO  [main] 1) Create new client.
+2022-09-06 13:08:47,677 INFO  [main] 2) Display file.
+2022-09-06 13:08:47,678 INFO  [main] 3) Read from file.
+2022-09-06 13:08:47,678 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:08:47,678 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:08:47,678 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:08:47,679 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:08:47,679 INFO  [main] 8) Display available branches.
+2022-09-06 13:08:47,679 INFO  [main] 9) Show a thread example
+2022-09-06 13:08:47,680 INFO  [main] 0) Exit.
+2022-09-06 13:08:55,261 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:08:55,261 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:08:55,262 INFO  [main] 3) Thread pool.
+2022-09-06 13:08:57,374 INFO c.s.s.T.Multithreading [Thread-2] 1 From thread: 2
+2022-09-06 13:08:57,374 INFO c.s.s.T.Multithreading [Thread-1] 1 From thread: 1
+2022-09-06 13:08:57,374 INFO c.s.s.T.Multithreading [Thread-3] 1 From thread: 3
+2022-09-06 13:08:57,374 INFO c.s.s.T.Multithreading [Thread-0] 1 From thread: 0
+2022-09-06 13:08:57,374 INFO c.s.s.T.Multithreading [Thread-4] 1 From thread: 4
+2022-09-06 13:08:57,884 INFO c.s.s.T.Multithreading [Thread-3] 2 From thread: 3
+2022-09-06 13:08:57,884 INFO c.s.s.T.Multithreading [Thread-2] 2 From thread: 2
+2022-09-06 13:08:57,884 INFO c.s.s.T.Multithreading [Thread-1] 2 From thread: 1
+2022-09-06 13:08:57,884 INFO c.s.s.T.Multithreading [Thread-0] 2 From thread: 0
+2022-09-06 13:08:57,884 INFO c.s.s.T.Multithreading [Thread-4] 2 From thread: 4
+2022-09-06 13:08:58,385 INFO c.s.s.T.Multithreading [Thread-2] 3 From thread: 2
+2022-09-06 13:08:58,398 INFO c.s.s.T.Multithreading [Thread-0] 3 From thread: 0
+2022-09-06 13:08:58,398 INFO c.s.s.T.Multithreading [Thread-1] 3 From thread: 1
+2022-09-06 13:08:58,398 INFO c.s.s.T.Multithreading [Thread-4] 3 From thread: 4
+2022-09-06 13:08:58,398 INFO c.s.s.T.Multithreading [Thread-3] 3 From thread: 3
+2022-09-06 13:08:58,899 INFO c.s.s.T.Multithreading [Thread-4] 4 From thread: 4
+2022-09-06 13:08:58,899 INFO c.s.s.T.Multithreading [Thread-2] 4 From thread: 2
+2022-09-06 13:08:58,899 INFO c.s.s.T.Multithreading [Thread-3] 4 From thread: 3
+2022-09-06 13:08:58,899 INFO c.s.s.T.Multithreading [Thread-1] 4 From thread: 1
+2022-09-06 13:08:58,899 INFO c.s.s.T.Multithreading [Thread-0] 4 From thread: 0
+2022-09-06 13:08:59,401 INFO c.s.s.T.Multithreading [Thread-3] 5 From thread: 3
+2022-09-06 13:08:59,401 INFO c.s.s.T.Multithreading [Thread-0] 5 From thread: 0
+2022-09-06 13:08:59,401 INFO c.s.s.T.Multithreading [Thread-4] 5 From thread: 4
+2022-09-06 13:08:59,401 INFO c.s.s.T.Multithreading [Thread-1] 5 From thread: 1
+2022-09-06 13:08:59,401 INFO c.s.s.T.Multithreading [Thread-2] 5 From thread: 2
+2022-09-06 13:09:00,380 INFO  [main] 1) Create new client.
+2022-09-06 13:09:00,381 INFO  [main] 2) Display file.
+2022-09-06 13:09:00,381 INFO  [main] 3) Read from file.
+2022-09-06 13:09:00,381 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:09:00,382 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:09:00,382 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:09:00,382 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:09:00,383 INFO  [main] 8) Display available branches.
+2022-09-06 13:09:00,383 INFO  [main] 9) Show a thread example
+2022-09-06 13:09:00,384 INFO  [main] 0) Exit.
+2022-09-06 13:09:03,002 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:09:03,002 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:09:03,003 INFO  [main] 3) Thread pool.
+2022-09-06 13:09:04,588 INFO c.s.s.T.Multithread [Thread-5] 1 From thread: 0
+2022-09-06 13:09:04,588 INFO c.s.s.T.Multithread [Thread-9] 1 From thread: 4
+2022-09-06 13:09:04,588 INFO c.s.s.T.Multithread [Thread-7] 1 From thread: 2
+2022-09-06 13:09:04,588 INFO c.s.s.T.Multithread [Thread-6] 1 From thread: 1
+2022-09-06 13:09:04,588 INFO c.s.s.T.Multithread [Thread-8] 1 From thread: 3
+2022-09-06 13:09:05,093 INFO c.s.s.T.Multithread [Thread-7] 2 From thread: 2
+2022-09-06 13:09:05,093 INFO c.s.s.T.Multithread [Thread-9] 2 From thread: 4
+2022-09-06 13:09:05,093 INFO c.s.s.T.Multithread [Thread-8] 2 From thread: 3
+2022-09-06 13:09:05,093 INFO c.s.s.T.Multithread [Thread-5] 2 From thread: 0
+2022-09-06 13:09:05,093 INFO c.s.s.T.Multithread [Thread-6] 2 From thread: 1
+2022-09-06 13:09:05,595 INFO c.s.s.T.Multithread [Thread-7] 3 From thread: 2
+2022-09-06 13:09:05,595 INFO c.s.s.T.Multithread [Thread-9] 3 From thread: 4
+2022-09-06 13:09:05,598 INFO c.s.s.T.Multithread [Thread-6] 3 From thread: 1
+2022-09-06 13:09:05,598 INFO c.s.s.T.Multithread [Thread-8] 3 From thread: 3
+2022-09-06 13:09:05,598 INFO c.s.s.T.Multithread [Thread-5] 3 From thread: 0
+2022-09-06 13:09:06,110 INFO c.s.s.T.Multithread [Thread-7] 4 From thread: 2
+2022-09-06 13:09:06,110 INFO c.s.s.T.Multithread [Thread-5] 4 From thread: 0
+2022-09-06 13:09:06,110 INFO c.s.s.T.Multithread [Thread-8] 4 From thread: 3
+2022-09-06 13:09:06,110 INFO c.s.s.T.Multithread [Thread-9] 4 From thread: 4
+2022-09-06 13:09:06,110 INFO c.s.s.T.Multithread [Thread-6] 4 From thread: 1
+2022-09-06 13:09:06,613 INFO c.s.s.T.Multithread [Thread-8] 5 From thread: 3
+2022-09-06 13:09:06,613 INFO c.s.s.T.Multithread [Thread-6] 5 From thread: 1
+2022-09-06 13:09:06,613 INFO c.s.s.T.Multithread [Thread-5] 5 From thread: 0
+2022-09-06 13:09:06,613 INFO c.s.s.T.Multithread [Thread-9] 5 From thread: 4
+2022-09-06 13:09:06,613 INFO c.s.s.T.Multithread [Thread-7] 5 From thread: 2
+2022-09-06 13:09:07,601 INFO  [main] 1) Create new client.
+2022-09-06 13:09:07,601 INFO  [main] 2) Display file.
+2022-09-06 13:09:07,601 INFO  [main] 3) Read from file.
+2022-09-06 13:09:07,602 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:09:07,602 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:09:07,602 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:09:07,602 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:09:07,602 INFO  [main] 8) Display available branches.
+2022-09-06 13:09:07,602 INFO  [main] 9) Show a thread example
+2022-09-06 13:09:07,603 INFO  [main] 0) Exit.
+2022-09-06 13:09:11,730 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:09:11,731 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:09:11,731 INFO  [main] 3) Thread pool.
+2022-09-06 13:09:19,701 INFO  [main] Current thread ID: 1
+2022-09-06 13:09:19,702 INFO  [main] Active: 5
+Queue: 2
+2022-09-06 13:09:19,702 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 4
+2022-09-06 13:09:19,702 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 2
+2022-09-06 13:09:19,702 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 5
+2022-09-06 13:09:19,702 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 3
+2022-09-06 13:09:19,702 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 1
+2022-09-06 13:09:20,203 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 4
+2022-09-06 13:09:20,203 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 1
+2022-09-06 13:09:20,203 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 5
+2022-09-06 13:09:20,203 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 3
+2022-09-06 13:09:20,203 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 2
+2022-09-06 13:09:20,704 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 1
+2022-09-06 13:09:20,718 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 5
+2022-09-06 13:09:20,718 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 4
+2022-09-06 13:09:20,718 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 2
+2022-09-06 13:09:20,718 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 3
+2022-09-06 13:09:21,206 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 1
+2022-09-06 13:09:21,220 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 4
+2022-09-06 13:09:21,220 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 2
+2022-09-06 13:09:21,220 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 5
+2022-09-06 13:09:21,220 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 3
+2022-09-06 13:09:21,708 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 1
+2022-09-06 13:09:21,721 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 4
+2022-09-06 13:09:21,724 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 3
+2022-09-06 13:09:21,724 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 5
+2022-09-06 13:09:21,724 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 2
+2022-09-06 13:09:22,209 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 6
+2022-09-06 13:09:22,225 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 7
+2022-09-06 13:09:22,724 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 6
+2022-09-06 13:09:22,740 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 7
+2022-09-06 13:09:23,225 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 6
+2022-09-06 13:09:23,256 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 7
+2022-09-06 13:09:23,729 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 6
+2022-09-06 13:09:23,760 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 7
+2022-09-06 13:09:24,231 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 6
+2022-09-06 13:09:24,260 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 7
+2022-09-06 13:09:29,717 INFO  [main] 1) Create new client.
+2022-09-06 13:09:29,718 INFO  [main] 2) Display file.
+2022-09-06 13:09:29,718 INFO  [main] 3) Read from file.
+2022-09-06 13:09:29,719 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:09:29,719 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:09:29,719 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:09:29,720 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:09:29,720 INFO  [main] 8) Display available branches.
+2022-09-06 13:09:29,720 INFO  [main] 9) Show a thread example
+2022-09-06 13:09:29,721 INFO  [main] 0) Exit.
+2022-09-06 13:10:10,265 DEBUG  [main] ---------------06/09/2022 13:10---------------
+2022-09-06 13:10:10,274 INFO  [main] Turning on atm system...
+2022-09-06 13:10:10,274 INFO  [main] Alarm system turned off
+2022-09-06 13:10:10,274 INFO  [main] cctv is now recording...
+2022-09-06 13:10:10,275 INFO  [main] Recording...
+2022-09-06 13:10:10,275 INFO  [main] Systems connected
+2022-09-06 13:10:10,275 INFO  [main] Turning on computers...
+2022-09-06 13:10:10,276 INFO  [main] Metal detector activated...
+2022-09-06 13:10:10,282 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-06 13:10:10,286 INFO  [main] 1) Create new client.
+2022-09-06 13:10:10,286 INFO  [main] 2) Display file.
+2022-09-06 13:10:10,286 INFO  [main] 3) Read from file.
+2022-09-06 13:10:10,286 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:10:10,287 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:10:10,287 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:10:10,287 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:10:10,288 INFO  [main] 8) Display available branches.
+2022-09-06 13:10:10,288 INFO  [main] 9) Show a thread example
+2022-09-06 13:10:10,288 INFO  [main] 0) Exit.
+2022-09-06 13:10:12,805 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-06 13:10:12,805 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-06 13:10:12,806 INFO  [main] 3) Thread pool.
+2022-09-06 13:10:14,190 INFO  [main] Current thread ID: 1
+2022-09-06 13:10:14,195 INFO  [main] Active: 5 | Queue: 2
+2022-09-06 13:10:14,195 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 3
+2022-09-06 13:10:14,195 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 2
+2022-09-06 13:10:14,195 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 1
+2022-09-06 13:10:14,195 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 4
+2022-09-06 13:10:14,195 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 5
+2022-09-06 13:10:14,697 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 3
+2022-09-06 13:10:14,697 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 4
+2022-09-06 13:10:14,697 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 1
+2022-09-06 13:10:14,698 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 2
+2022-09-06 13:10:14,698 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 5
+2022-09-06 13:10:15,198 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 3
+2022-09-06 13:10:15,198 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 4
+2022-09-06 13:10:15,200 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 1
+2022-09-06 13:10:15,200 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 2
+2022-09-06 13:10:15,200 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 5
+2022-09-06 13:10:15,699 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 4
+2022-09-06 13:10:15,699 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 3
+2022-09-06 13:10:15,702 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 2
+2022-09-06 13:10:15,702 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 1
+2022-09-06 13:10:15,702 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 5
+2022-09-06 13:10:16,201 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 3
+2022-09-06 13:10:16,203 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 4
+2022-09-06 13:10:16,216 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 2
+2022-09-06 13:10:16,216 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 1
+2022-09-06 13:10:16,216 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 5
+2022-09-06 13:10:16,702 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 6
+2022-09-06 13:10:16,715 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 7
+2022-09-06 13:10:17,216 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 6
+2022-09-06 13:10:17,219 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 7
+2022-09-06 13:10:17,717 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 6
+2022-09-06 13:10:17,729 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 7
+2022-09-06 13:10:18,230 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 6
+2022-09-06 13:10:18,232 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 7
+2022-09-06 13:10:18,733 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 6
+2022-09-06 13:10:18,743 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 7
+2022-09-06 13:10:20,199 INFO  [main] 1) Create new client.
+2022-09-06 13:10:20,200 INFO  [main] 2) Display file.
+2022-09-06 13:10:20,200 INFO  [main] 3) Read from file.
+2022-09-06 13:10:20,200 INFO  [main] 4) Display updated linked lists.
+2022-09-06 13:10:20,200 INFO  [main] 5) Check if Client exist.
+2022-09-06 13:10:20,201 INFO  [main] 6) Unsubscribe bank account.
+2022-09-06 13:10:20,201 INFO  [main] 7) Display list of debtor.
+2022-09-06 13:10:20,201 INFO  [main] 8) Display available branches.
+2022-09-06 13:10:20,201 INFO  [main] 9) Show a thread example
+2022-09-06 13:10:20,201 INFO  [main] 0) Exit.

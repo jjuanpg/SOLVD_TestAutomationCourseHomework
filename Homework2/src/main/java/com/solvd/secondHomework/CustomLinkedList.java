@@ -5,11 +5,11 @@ import org.apache.logging.log4j.Logger;
 
 public class CustomLinkedList<T> {
 
-    private static Logger logger = LogManager.getLogger(CustomLinkedList.class);
+    private static final Logger logger = LogManager.getLogger(CustomLinkedList.class);
     private Node head;
 
     class Node{
-        private T value;
+        private final T value;
         private Node next;
 
         private Node(T value){

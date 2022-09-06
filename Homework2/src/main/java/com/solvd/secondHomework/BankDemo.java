@@ -13,6 +13,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("FieldCanBeLocal")
@@ -26,7 +29,7 @@ public class BankDemo implements Serializable{
     private static Logger logger = LogManager.getLogger(BankDemo.class);
     private static final SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 
-    public static void main(String[] args) throws IOException, UnemployedClientException, BankAlarmException, ComputersOffException, InputMismatchFoundException, MinimumRequirementsException, InvalidEmailException {
+    public static void main(String[] args) throws IOException, UnemployedClientException, BankAlarmException, ComputersOffException, InputMismatchFoundException, MinimumRequirementsException, InvalidEmailException, InterruptedException {
         Date date = new Date();
         logger = LogManager.getRootLogger();
         logger.debug("---------------" + formatter.format(date) + "---------------");
@@ -503,7 +506,7 @@ public class BankDemo implements Serializable{
                 case 9 -> {
                     int menu;
                     ThreadsMenu[] t_menu = ThreadsMenu.values();
-                    Arrays.stream(t_menu).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(e -> logger.info(e));
+                    Arrays.stream(t_menu).map(v -> (v.ordinal()+1)+") "+v.toString()).forEach(logger::info);
                     menu = sc.nextInt();
                     switch (menu){
                         case 1 ->{
@@ -511,6 +514,7 @@ public class BankDemo implements Serializable{
                                 Multithreading myThing = new Multithreading(i);
                                 myThing.start();
                             }
+                            TimeUnit.SECONDS.sleep(3);
                         }
                         case 2 ->{
                             //The difference between use Runnable and Thread is that I have to instantiate a Thread.
@@ -522,9 +526,19 @@ public class BankDemo implements Serializable{
                                 Thread myThread = new Thread(myThing);
                                 myThread.start();
                             }
+                            TimeUnit.SECONDS.sleep(3);
                         }
                         case 3 ->{
-                            //Thread pool not done yet
+                            logger.info("Current thread ID: "+Thread.currentThread().getId());
+
+                            ThreadPoolExecutor service = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
+                            for(int i=1; i<8; i++){
+                                Multithread myThing = new Multithread(i);
+                                service.submit(myThing);
+                            }
+                            logger.info("Active: "+service.getActiveCount()+" | "+"Queue: "+service.getQueue().size());
+                            service.awaitTermination(6, TimeUnit.SECONDS);
+                            service.shutdown();
                         }
                     }
                 }

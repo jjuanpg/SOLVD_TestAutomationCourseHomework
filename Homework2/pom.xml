@@ -16,15 +16,14 @@
 
     <repositories>
         <repository>
-            <id>SOLVD_TestAutomationCourseHomework-mvn-repo</id>
-            <url>https://github.com/jjuanpg/SOLVD_TestAutomationCourseHomework/raw/mvn-repo/</url>
+            <id>SOLVD_TestAutomationCourseHomework</id>
+            <url>https://github.com/jjuanpg/SOLVD_TestAutomationCourseHomework</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
-
 
     <distributionManagement>
         <repository>
