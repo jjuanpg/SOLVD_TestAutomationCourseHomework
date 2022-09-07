@@ -7215,3 +7215,894 @@ Queue: 2
 2022-09-06 13:10:20,201 INFO  [main] 8) Display available branches.
 2022-09-06 13:10:20,201 INFO  [main] 9) Show a thread example
 2022-09-06 13:10:20,201 INFO  [main] 0) Exit.
+2022-09-07 09:45:33,766 DEBUG  [main] ---------------07/09/2022 09:45---------------
+2022-09-07 09:45:33,844 INFO  [main] Turning on atm system...
+2022-09-07 09:45:33,844 INFO  [main] Alarm system turned off
+2022-09-07 09:45:33,844 INFO  [main] cctv is now recording...
+2022-09-07 09:45:33,845 INFO  [main] Recording...
+2022-09-07 09:45:33,845 INFO  [main] Systems connected
+2022-09-07 09:45:33,845 INFO  [main] Turning on computers...
+2022-09-07 09:45:33,846 INFO  [main] Metal detector activated...
+2022-09-07 09:45:33,900 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 09:45:33,934 INFO  [main] 1) Create new client.
+2022-09-07 09:45:33,935 INFO  [main] 2) Display file.
+2022-09-07 09:45:33,935 INFO  [main] 3) Read from file.
+2022-09-07 09:45:33,935 INFO  [main] 4) Display updated linked lists.
+2022-09-07 09:45:33,936 INFO  [main] 5) Check if Client exist.
+2022-09-07 09:45:33,936 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 09:45:33,936 INFO  [main] 7) Display list of debtor.
+2022-09-07 09:45:33,936 INFO  [main] 8) Display available branches.
+2022-09-07 09:45:33,937 INFO  [main] 9) Show a thread example
+2022-09-07 09:45:33,937 INFO  [main] 0) Exit.
+2022-09-07 09:45:36,554 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 09:45:36,555 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 09:45:36,555 INFO  [main] 3) Thread pool.
+2022-09-07 09:45:38,087 INFO  [main] Current thread ID: 1
+2022-09-07 09:45:38,118 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 5
+2022-09-07 09:45:38,119 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 4
+2022-09-07 09:45:38,119 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 3
+2022-09-07 09:45:38,118 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 09:45:38,119 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 2
+2022-09-07 09:45:38,119 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 1
+2022-09-07 09:45:38,621 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 5
+2022-09-07 09:45:38,621 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 4
+2022-09-07 09:45:38,642 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 2
+2022-09-07 09:45:38,642 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 1
+2022-09-07 09:45:38,642 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 3
+2022-09-07 09:45:39,125 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 4
+2022-09-07 09:45:39,125 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 5
+2022-09-07 09:45:39,145 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 2
+2022-09-07 09:45:39,156 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 1
+2022-09-07 09:45:39,156 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 3
+2022-09-07 09:45:39,639 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 5
+2022-09-07 09:45:39,639 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 4
+2022-09-07 09:45:39,655 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 2
+2022-09-07 09:45:39,671 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 1
+2022-09-07 09:45:39,671 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 3
+2022-09-07 09:45:40,142 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 4
+2022-09-07 09:45:40,142 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 5
+2022-09-07 09:45:40,158 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 2
+2022-09-07 09:45:40,174 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 1
+2022-09-07 09:45:40,174 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 3
+2022-09-07 09:45:40,645 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 6
+2022-09-07 09:45:40,645 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 7
+2022-09-07 09:45:41,155 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 7
+2022-09-07 09:45:41,155 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 6
+2022-09-07 09:45:41,659 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 6
+2022-09-07 09:45:41,659 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 7
+2022-09-07 09:45:42,172 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 7
+2022-09-07 09:45:42,172 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 6
+2022-09-07 09:45:42,687 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 6
+2022-09-07 09:45:42,687 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 7
+2022-09-07 09:45:44,124 INFO  [main] 1) Create new client.
+2022-09-07 09:45:44,125 INFO  [main] 2) Display file.
+2022-09-07 09:45:44,125 INFO  [main] 3) Read from file.
+2022-09-07 09:45:44,125 INFO  [main] 4) Display updated linked lists.
+2022-09-07 09:45:44,125 INFO  [main] 5) Check if Client exist.
+2022-09-07 09:45:44,126 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 09:45:44,126 INFO  [main] 7) Display list of debtor.
+2022-09-07 09:45:44,126 INFO  [main] 8) Display available branches.
+2022-09-07 09:45:44,126 INFO  [main] 9) Show a thread example
+2022-09-07 09:45:44,127 INFO  [main] 0) Exit.
+2022-09-07 10:21:39,654 DEBUG  [main] ---------------07/09/2022 10:21---------------
+2022-09-07 10:21:39,663 INFO  [main] Turning on atm system...
+2022-09-07 10:21:39,663 INFO  [main] Alarm system turned off
+2022-09-07 10:21:39,664 INFO  [main] cctv is now recording...
+2022-09-07 10:21:39,665 INFO  [main] Recording...
+2022-09-07 10:21:39,665 INFO  [main] Systems connected
+2022-09-07 10:21:39,665 INFO  [main] Turning on computers...
+2022-09-07 10:21:39,666 INFO  [main] Metal detector activated...
+2022-09-07 10:21:39,673 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 10:21:39,677 INFO  [main] 1) Create new client.
+2022-09-07 10:21:39,678 INFO  [main] 2) Display file.
+2022-09-07 10:21:39,678 INFO  [main] 3) Read from file.
+2022-09-07 10:21:39,678 INFO  [main] 4) Display updated linked lists.
+2022-09-07 10:21:39,678 INFO  [main] 5) Check if Client exist.
+2022-09-07 10:21:39,679 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 10:21:39,679 INFO  [main] 7) Display list of debtor.
+2022-09-07 10:21:39,679 INFO  [main] 8) Display available branches.
+2022-09-07 10:21:39,679 INFO  [main] 9) Show a thread example
+2022-09-07 10:21:39,680 INFO  [main] 0) Exit.
+2022-09-07 10:21:42,286 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 10:21:42,287 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 10:21:42,288 INFO  [main] 3) Thread pool.
+2022-09-07 10:21:43,831 INFO  [main] Current thread ID: 1
+2022-09-07 10:21:43,836 INFO  [main] Active: 7 | Queue: 0
+2022-09-07 10:21:43,836 INFO c.s.s.T.Multithread [pool-2-thread-2] 1 From thread: 2
+2022-09-07 10:21:43,836 INFO c.s.s.T.Multithread [pool-2-thread-1] 1 From thread: 1
+2022-09-07 10:21:43,836 INFO c.s.s.T.Multithread [pool-2-thread-4] 1 From thread: 4
+2022-09-07 10:21:43,836 INFO c.s.s.T.Multithread [pool-2-thread-7] 1 From thread: 7
+2022-09-07 10:21:43,838 INFO c.s.s.T.Multithread [pool-2-thread-6] 1 From thread: 6
+2022-09-07 10:21:43,838 INFO c.s.s.T.Multithread [pool-2-thread-5] 1 From thread: 5
+2022-09-07 10:21:43,839 INFO c.s.s.T.Multithread [pool-2-thread-3] 1 From thread: 3
+2022-09-07 10:21:44,340 INFO c.s.s.T.Multithread [pool-2-thread-7] 2 From thread: 7
+2022-09-07 10:21:44,341 INFO c.s.s.T.Multithread [pool-2-thread-1] 2 From thread: 1
+2022-09-07 10:21:44,341 INFO c.s.s.T.Multithread [pool-2-thread-4] 2 From thread: 4
+2022-09-07 10:21:44,343 INFO c.s.s.T.Multithread [pool-2-thread-6] 2 From thread: 6
+2022-09-07 10:21:44,343 INFO c.s.s.T.Multithread [pool-2-thread-2] 2 From thread: 2
+2022-09-07 10:21:44,343 INFO c.s.s.T.Multithread [pool-2-thread-5] 2 From thread: 5
+2022-09-07 10:21:44,344 INFO c.s.s.T.Multithread [pool-2-thread-3] 2 From thread: 3
+2022-09-07 10:21:44,843 INFO c.s.s.T.Multithread [pool-2-thread-4] 3 From thread: 4
+2022-09-07 10:21:44,843 INFO c.s.s.T.Multithread [pool-2-thread-7] 3 From thread: 7
+2022-09-07 10:21:44,843 INFO c.s.s.T.Multithread [pool-2-thread-1] 3 From thread: 1
+2022-09-07 10:21:44,858 INFO c.s.s.T.Multithread [pool-2-thread-5] 3 From thread: 5
+2022-09-07 10:21:44,858 INFO c.s.s.T.Multithread [pool-2-thread-3] 3 From thread: 3
+2022-09-07 10:21:44,858 INFO c.s.s.T.Multithread [pool-2-thread-6] 3 From thread: 6
+2022-09-07 10:21:44,858 INFO c.s.s.T.Multithread [pool-2-thread-2] 3 From thread: 2
+2022-09-07 10:21:45,344 INFO c.s.s.T.Multithread [pool-2-thread-7] 4 From thread: 7
+2022-09-07 10:21:45,344 INFO c.s.s.T.Multithread [pool-2-thread-1] 4 From thread: 1
+2022-09-07 10:21:45,345 INFO c.s.s.T.Multithread [pool-2-thread-4] 4 From thread: 4
+2022-09-07 10:21:45,361 INFO c.s.s.T.Multithread [pool-2-thread-5] 4 From thread: 5
+2022-09-07 10:21:45,361 INFO c.s.s.T.Multithread [pool-2-thread-2] 4 From thread: 2
+2022-09-07 10:21:45,361 INFO c.s.s.T.Multithread [pool-2-thread-3] 4 From thread: 3
+2022-09-07 10:21:45,361 INFO c.s.s.T.Multithread [pool-2-thread-6] 4 From thread: 6
+2022-09-07 10:21:45,846 INFO c.s.s.T.Multithread [pool-2-thread-1] 5 From thread: 1
+2022-09-07 10:21:45,846 INFO c.s.s.T.Multithread [pool-2-thread-7] 5 From thread: 7
+2022-09-07 10:21:45,859 INFO c.s.s.T.Multithread [pool-2-thread-4] 5 From thread: 4
+2022-09-07 10:21:45,862 INFO c.s.s.T.Multithread [pool-2-thread-5] 5 From thread: 5
+2022-09-07 10:21:45,862 INFO c.s.s.T.Multithread [pool-2-thread-2] 5 From thread: 2
+2022-09-07 10:21:45,875 INFO c.s.s.T.Multithread [pool-2-thread-6] 5 From thread: 6
+2022-09-07 10:21:45,875 INFO c.s.s.T.Multithread [pool-2-thread-3] 5 From thread: 3
+2022-09-07 10:21:49,846 INFO  [main] 1) Create new client.
+2022-09-07 10:21:49,847 INFO  [main] 2) Display file.
+2022-09-07 10:21:49,847 INFO  [main] 3) Read from file.
+2022-09-07 10:21:49,847 INFO  [main] 4) Display updated linked lists.
+2022-09-07 10:21:49,848 INFO  [main] 5) Check if Client exist.
+2022-09-07 10:21:49,848 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 10:21:49,848 INFO  [main] 7) Display list of debtor.
+2022-09-07 10:21:49,848 INFO  [main] 8) Display available branches.
+2022-09-07 10:21:49,849 INFO  [main] 9) Show a thread example
+2022-09-07 10:21:49,849 INFO  [main] 0) Exit.
+2022-09-07 10:23:25,100 DEBUG  [main] ---------------07/09/2022 10:23---------------
+2022-09-07 10:23:25,110 INFO  [main] Turning on atm system...
+2022-09-07 10:23:25,111 INFO  [main] Alarm system turned off
+2022-09-07 10:23:25,111 INFO  [main] cctv is now recording...
+2022-09-07 10:23:25,111 INFO  [main] Recording...
+2022-09-07 10:23:25,111 INFO  [main] Systems connected
+2022-09-07 10:23:25,112 INFO  [main] Turning on computers...
+2022-09-07 10:23:25,112 INFO  [main] Metal detector activated...
+2022-09-07 10:23:25,119 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 10:23:25,125 INFO  [main] 1) Create new client.
+2022-09-07 10:23:25,126 INFO  [main] 2) Display file.
+2022-09-07 10:23:25,126 INFO  [main] 3) Read from file.
+2022-09-07 10:23:25,127 INFO  [main] 4) Display updated linked lists.
+2022-09-07 10:23:25,127 INFO  [main] 5) Check if Client exist.
+2022-09-07 10:23:25,128 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 10:23:25,128 INFO  [main] 7) Display list of debtor.
+2022-09-07 10:23:25,128 INFO  [main] 8) Display available branches.
+2022-09-07 10:23:25,129 INFO  [main] 9) Show a thread example
+2022-09-07 10:23:25,129 INFO  [main] 0) Exit.
+2022-09-07 10:23:31,807 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 10:23:31,808 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 10:23:31,808 INFO  [main] 3) Thread pool.
+2022-09-07 10:23:33,431 INFO  [main] Current thread ID: 1
+2022-09-07 10:23:33,436 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 10:23:33,436 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 4
+2022-09-07 10:23:33,436 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 3
+2022-09-07 10:23:33,436 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 2
+2022-09-07 10:23:33,437 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 5
+2022-09-07 10:23:33,437 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 1
+2022-09-07 10:23:33,939 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 4
+2022-09-07 10:23:33,949 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 1
+2022-09-07 10:23:33,949 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 2
+2022-09-07 10:23:33,949 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 5
+2022-09-07 10:23:33,949 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 3
+2022-09-07 10:23:34,451 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 1
+2022-09-07 10:23:34,451 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 3
+2022-09-07 10:23:34,451 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 4
+2022-09-07 10:23:34,451 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 2
+2022-09-07 10:23:34,451 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 5
+2022-09-07 10:23:34,952 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 1
+2022-09-07 10:23:34,952 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 3
+2022-09-07 10:23:34,952 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 2
+2022-09-07 10:23:34,952 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 5
+2022-09-07 10:23:34,952 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 4
+2022-09-07 10:23:35,453 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 1
+2022-09-07 10:23:35,455 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 3
+2022-09-07 10:23:35,455 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 4
+2022-09-07 10:23:35,455 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 2
+2022-09-07 10:23:35,455 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 5
+2022-09-07 10:23:35,956 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 6
+2022-09-07 10:23:35,956 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 7
+2022-09-07 10:23:36,461 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 7
+2022-09-07 10:23:36,461 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 6
+2022-09-07 10:23:36,973 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 7
+2022-09-07 10:23:36,973 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 6
+2022-09-07 10:23:37,484 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 6
+2022-09-07 10:23:37,484 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 7
+2022-09-07 10:23:37,998 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 7
+2022-09-07 10:23:37,998 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 6
+2022-09-07 10:23:39,447 INFO  [main] 1) Create new client.
+2022-09-07 10:23:39,447 INFO  [main] 2) Display file.
+2022-09-07 10:23:39,448 INFO  [main] 3) Read from file.
+2022-09-07 10:23:39,448 INFO  [main] 4) Display updated linked lists.
+2022-09-07 10:23:39,448 INFO  [main] 5) Check if Client exist.
+2022-09-07 10:23:39,448 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 10:23:39,449 INFO  [main] 7) Display list of debtor.
+2022-09-07 10:23:39,449 INFO  [main] 8) Display available branches.
+2022-09-07 10:23:39,449 INFO  [main] 9) Show a thread example
+2022-09-07 10:23:39,450 INFO  [main] 0) Exit.
+2022-09-07 10:23:58,658 DEBUG  [main] ---------------07/09/2022 10:23---------------
+2022-09-07 10:23:58,668 INFO  [main] Turning on atm system...
+2022-09-07 10:23:58,668 INFO  [main] Alarm system turned off
+2022-09-07 10:23:58,669 INFO  [main] cctv is now recording...
+2022-09-07 10:23:58,669 INFO  [main] Recording...
+2022-09-07 10:23:58,670 INFO  [main] Systems connected
+2022-09-07 10:23:58,671 INFO  [main] Turning on computers...
+2022-09-07 10:23:58,671 INFO  [main] Metal detector activated...
+2022-09-07 10:23:58,679 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 10:23:58,685 INFO  [main] 1) Create new client.
+2022-09-07 10:23:58,685 INFO  [main] 2) Display file.
+2022-09-07 10:23:58,686 INFO  [main] 3) Read from file.
+2022-09-07 10:23:58,686 INFO  [main] 4) Display updated linked lists.
+2022-09-07 10:23:58,687 INFO  [main] 5) Check if Client exist.
+2022-09-07 10:23:58,688 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 10:23:58,688 INFO  [main] 7) Display list of debtor.
+2022-09-07 10:23:58,689 INFO  [main] 8) Display available branches.
+2022-09-07 10:23:58,689 INFO  [main] 9) Show a thread example
+2022-09-07 10:23:58,690 INFO  [main] 0) Exit.
+2022-09-07 10:24:01,414 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 10:24:01,415 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 10:24:01,415 INFO  [main] 3) Thread pool.
+2022-09-07 10:24:03,646 INFO  [main] Current thread ID: 1
+2022-09-07 10:24:03,651 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 10:24:03,652 INFO  [main] 1) Create new client.
+2022-09-07 10:24:03,651 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 5
+2022-09-07 10:24:03,651 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 2
+2022-09-07 10:24:03,651 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 4
+2022-09-07 10:24:03,652 INFO  [main] 2) Display file.
+2022-09-07 10:24:03,651 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 1
+2022-09-07 10:24:03,652 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 3
+2022-09-07 10:24:03,652 INFO  [main] 3) Read from file.
+2022-09-07 10:24:03,652 INFO  [main] 4) Display updated linked lists.
+2022-09-07 10:24:03,653 INFO  [main] 5) Check if Client exist.
+2022-09-07 10:24:03,653 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 10:24:03,653 INFO  [main] 7) Display list of debtor.
+2022-09-07 10:24:03,653 INFO  [main] 8) Display available branches.
+2022-09-07 10:24:03,654 INFO  [main] 9) Show a thread example
+2022-09-07 10:24:03,654 INFO  [main] 0) Exit.
+2022-09-07 10:24:04,153 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 5
+2022-09-07 10:24:04,161 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 4
+2022-09-07 10:24:04,161 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 2
+2022-09-07 10:24:04,161 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 1
+2022-09-07 10:24:04,161 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 3
+2022-09-07 10:24:04,662 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 1
+2022-09-07 10:24:04,662 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 3
+2022-09-07 10:24:04,662 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 5
+2022-09-07 10:24:04,663 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 4
+2022-09-07 10:24:04,663 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 2
+2022-09-07 10:24:05,163 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 1
+2022-09-07 10:24:05,163 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 3
+2022-09-07 10:24:05,163 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 5
+2022-09-07 10:24:05,164 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 4
+2022-09-07 10:24:05,164 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 2
+2022-09-07 10:24:05,666 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 1
+2022-09-07 10:24:05,667 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 2
+2022-09-07 10:24:05,667 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 4
+2022-09-07 10:24:05,667 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 5
+2022-09-07 10:24:05,667 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 3
+2022-09-07 10:24:06,169 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 7
+2022-09-07 10:24:06,169 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 6
+2022-09-07 10:24:06,672 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 6
+2022-09-07 10:24:06,672 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 7
+2022-09-07 10:24:07,176 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 6
+2022-09-07 10:24:07,176 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 7
+2022-09-07 10:24:07,679 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 7
+2022-09-07 10:24:07,679 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 6
+2022-09-07 10:24:08,181 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 7
+2022-09-07 10:24:08,181 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 6
+2022-09-07 13:27:56,533 DEBUG  [main] ---------------07/09/2022 13:27---------------
+2022-09-07 13:27:56,540 INFO  [main] Turning on atm system...
+2022-09-07 13:27:56,541 INFO  [main] Alarm system turned off
+2022-09-07 13:27:56,541 INFO  [main] cctv is now recording...
+2022-09-07 13:27:56,541 INFO  [main] Recording...
+2022-09-07 13:27:56,541 INFO  [main] Systems connected
+2022-09-07 13:27:56,542 INFO  [main] Turning on computers...
+2022-09-07 13:27:56,542 INFO  [main] Metal detector activated...
+2022-09-07 13:27:56,547 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:27:56,552 INFO  [main] 1) Create new client.
+2022-09-07 13:27:56,552 INFO  [main] 2) Display file.
+2022-09-07 13:27:56,552 INFO  [main] 3) Read from file.
+2022-09-07 13:27:56,553 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:27:56,553 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:27:56,553 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:27:56,553 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:27:56,554 INFO  [main] 8) Display available branches.
+2022-09-07 13:27:56,554 INFO  [main] 9) Show a thread example
+2022-09-07 13:27:56,555 INFO  [main] 0) Exit.
+2022-09-07 13:28:02,272 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:28:02,272 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:28:02,273 INFO  [main] 3) Thread pool.
+2022-09-07 13:28:03,903 INFO  [main] Current thread ID: 1
+2022-09-07 13:28:03,908 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 13:28:03,908 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 3
+2022-09-07 13:28:03,908 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 1
+2022-09-07 13:28:03,908 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 4
+2022-09-07 13:28:03,908 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 5
+2022-09-07 13:28:03,908 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 2
+2022-09-07 13:28:04,424 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 1
+2022-09-07 13:28:04,424 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 4
+2022-09-07 13:28:04,424 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 5
+2022-09-07 13:28:04,424 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 3
+2022-09-07 13:28:04,424 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 2
+2022-09-07 13:28:04,929 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 1
+2022-09-07 13:28:04,929 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 2
+2022-09-07 13:28:04,929 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 5
+2022-09-07 13:28:04,929 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 4
+2022-09-07 13:28:04,929 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 3
+2022-09-07 13:28:05,442 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 2
+2022-09-07 13:28:05,442 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 5
+2022-09-07 13:28:05,442 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 3
+2022-09-07 13:28:05,442 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 4
+2022-09-07 13:28:05,442 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 1
+2022-09-07 13:28:05,943 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 2
+2022-09-07 13:28:05,949 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 4
+2022-09-07 13:28:05,949 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 1
+2022-09-07 13:28:05,949 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 5
+2022-09-07 13:28:05,949 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 3
+2022-09-07 13:28:06,451 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 7
+2022-09-07 13:28:06,451 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 6
+2022-09-07 13:28:06,958 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 6
+2022-09-07 13:28:06,958 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 7
+2022-09-07 13:28:07,462 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 6
+2022-09-07 13:28:07,462 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 7
+2022-09-07 13:28:07,964 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 6
+2022-09-07 13:28:07,964 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 7
+2022-09-07 13:28:08,466 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 6
+2022-09-07 13:28:08,466 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 7
+2022-09-07 13:28:09,916 INFO  [main] 1) Create new client.
+2022-09-07 13:28:09,917 INFO  [main] 2) Display file.
+2022-09-07 13:28:09,917 INFO  [main] 3) Read from file.
+2022-09-07 13:28:09,917 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:28:09,918 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:28:09,918 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:28:09,918 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:28:09,919 INFO  [main] 8) Display available branches.
+2022-09-07 13:28:09,919 INFO  [main] 9) Show a thread example
+2022-09-07 13:28:09,919 INFO  [main] 0) Exit.
+2022-09-07 13:28:55,860 DEBUG  [main] ---------------07/09/2022 13:28---------------
+2022-09-07 13:28:55,867 INFO  [main] Turning on atm system...
+2022-09-07 13:28:55,867 INFO  [main] Alarm system turned off
+2022-09-07 13:28:55,867 INFO  [main] cctv is now recording...
+2022-09-07 13:28:55,868 INFO  [main] Recording...
+2022-09-07 13:28:55,868 INFO  [main] Systems connected
+2022-09-07 13:28:55,868 INFO  [main] Turning on computers...
+2022-09-07 13:28:55,869 INFO  [main] Metal detector activated...
+2022-09-07 13:28:55,874 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:28:55,879 INFO  [main] 1) Create new client.
+2022-09-07 13:28:55,879 INFO  [main] 2) Display file.
+2022-09-07 13:28:55,879 INFO  [main] 3) Read from file.
+2022-09-07 13:28:55,880 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:28:55,880 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:28:55,880 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:28:55,880 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:28:55,881 INFO  [main] 8) Display available branches.
+2022-09-07 13:28:55,881 INFO  [main] 9) Show a thread example
+2022-09-07 13:28:55,882 INFO  [main] 0) Exit.
+2022-09-07 13:28:58,255 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:28:58,255 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:28:58,256 INFO  [main] 3) Thread pool.
+2022-09-07 13:29:00,071 INFO  [main] Current thread ID: 1
+2022-09-07 13:29:00,072 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,073 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,074 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,075 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,076 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,076 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,077 INFO  [main] The thread is connected...
+2022-09-07 13:29:00,077 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 4
+2022-09-07 13:29:00,077 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 3
+2022-09-07 13:29:00,078 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 13:29:00,077 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 2
+2022-09-07 13:29:00,077 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 1
+2022-09-07 13:29:00,078 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 5
+2022-09-07 13:29:00,579 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:29:00,579 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:29:00,579 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 2
+2022-09-07 13:29:00,579 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 4
+2022-09-07 13:29:00,582 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:29:00,582 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:29:00,582 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:29:00,583 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 1
+2022-09-07 13:29:00,583 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 5
+2022-09-07 13:29:00,583 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 3
+2022-09-07 13:29:01,081 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:29:01,081 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:29:01,082 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 4
+2022-09-07 13:29:01,082 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 2
+2022-09-07 13:29:01,084 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:29:01,084 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 1
+2022-09-07 13:29:01,097 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:29:01,097 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:29:01,098 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 5
+2022-09-07 13:29:01,098 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 3
+2022-09-07 13:29:01,595 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:29:01,595 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:29:01,595 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:29:01,596 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 2
+2022-09-07 13:29:01,596 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 4
+2022-09-07 13:29:01,596 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 1
+2022-09-07 13:29:01,610 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:29:01,610 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:29:01,610 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 3
+2022-09-07 13:29:01,610 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 5
+2022-09-07 13:29:02,107 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:29:02,107 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:29:02,107 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:29:02,108 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 1
+2022-09-07 13:29:02,108 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 2
+2022-09-07 13:29:02,108 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 4
+2022-09-07 13:29:02,123 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:29:02,123 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:29:02,123 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 5
+2022-09-07 13:29:02,124 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 3
+2022-09-07 13:29:02,623 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:29:02,623 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:29:02,623 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:29:02,624 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 6
+2022-09-07 13:29:02,624 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 7
+2022-09-07 13:29:02,639 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:29:02,639 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:29:03,139 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 7
+2022-09-07 13:29:03,139 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 6
+2022-09-07 13:29:03,140 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 7
+2022-09-07 13:29:03,140 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 6
+2022-09-07 13:29:03,655 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 7
+2022-09-07 13:29:03,655 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 6
+2022-09-07 13:29:03,656 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 7
+2022-09-07 13:29:03,656 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 6
+2022-09-07 13:29:04,171 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 7
+2022-09-07 13:29:04,171 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 6
+2022-09-07 13:29:04,172 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 7
+2022-09-07 13:29:04,172 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 6
+2022-09-07 13:29:04,673 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 7
+2022-09-07 13:29:04,673 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 6
+2022-09-07 13:29:04,673 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 7
+2022-09-07 13:29:04,674 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 6
+2022-09-07 13:29:05,187 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 7
+2022-09-07 13:29:05,187 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 6
+2022-09-07 13:29:06,091 INFO  [main] 1) Create new client.
+2022-09-07 13:29:06,092 INFO  [main] 2) Display file.
+2022-09-07 13:29:06,092 INFO  [main] 3) Read from file.
+2022-09-07 13:29:06,093 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:29:06,093 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:29:06,093 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:29:06,094 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:29:06,094 INFO  [main] 8) Display available branches.
+2022-09-07 13:29:06,094 INFO  [main] 9) Show a thread example
+2022-09-07 13:29:06,095 INFO  [main] 0) Exit.
+2022-09-07 13:30:09,000 DEBUG  [main] ---------------07/09/2022 13:30---------------
+2022-09-07 13:30:09,007 INFO  [main] Turning on atm system...
+2022-09-07 13:30:09,008 INFO  [main] Alarm system turned off
+2022-09-07 13:30:09,008 INFO  [main] cctv is now recording...
+2022-09-07 13:30:09,008 INFO  [main] Recording...
+2022-09-07 13:30:09,008 INFO  [main] Systems connected
+2022-09-07 13:30:09,009 INFO  [main] Turning on computers...
+2022-09-07 13:30:09,009 INFO  [main] Metal detector activated...
+2022-09-07 13:30:09,015 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:30:09,019 INFO  [main] 1) Create new client.
+2022-09-07 13:30:09,020 INFO  [main] 2) Display file.
+2022-09-07 13:30:09,020 INFO  [main] 3) Read from file.
+2022-09-07 13:30:09,020 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:30:09,021 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:30:09,021 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:30:09,021 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:30:09,022 INFO  [main] 8) Display available branches.
+2022-09-07 13:30:09,022 INFO  [main] 9) Show a thread example
+2022-09-07 13:30:09,022 INFO  [main] 0) Exit.
+2022-09-07 13:30:11,287 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:30:11,287 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:30:11,288 INFO  [main] 3) Thread pool.
+2022-09-07 13:30:12,982 INFO  [main] Current thread ID: 1
+2022-09-07 13:30:12,984 INFO  [main] The thread 1 is connected...
+2022-09-07 13:30:12,985 INFO  [main] The thread 2 is connected...
+2022-09-07 13:30:12,985 INFO  [main] The thread 3 is connected...
+2022-09-07 13:30:12,986 INFO  [main] The thread 4 is connected...
+2022-09-07 13:30:12,987 INFO  [main] The thread 5 is connected...
+2022-09-07 13:30:12,987 INFO  [main] The thread 6 is connected...
+2022-09-07 13:30:12,988 INFO  [main] The thread 7 is connected...
+2022-09-07 13:30:12,988 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 1
+2022-09-07 13:30:12,988 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 5
+2022-09-07 13:30:12,988 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 4
+2022-09-07 13:30:12,988 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 2
+2022-09-07 13:30:12,988 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 3
+2022-09-07 13:30:12,988 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 13:30:13,494 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 4
+2022-09-07 13:30:13,494 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 5
+2022-09-07 13:30:13,494 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 3
+2022-09-07 13:30:13,494 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 1
+2022-09-07 13:30:13,494 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 2
+2022-09-07 13:30:13,996 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 4
+2022-09-07 13:30:14,008 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 2
+2022-09-07 13:30:14,008 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 1
+2022-09-07 13:30:14,008 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 3
+2022-09-07 13:30:14,008 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 5
+2022-09-07 13:30:14,510 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 1
+2022-09-07 13:30:14,510 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 4
+2022-09-07 13:30:14,510 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 3
+2022-09-07 13:30:14,510 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 5
+2022-09-07 13:30:14,511 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 2
+2022-09-07 13:30:15,012 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 3
+2022-09-07 13:30:15,014 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 4
+2022-09-07 13:30:15,014 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 1
+2022-09-07 13:30:15,014 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 5
+2022-09-07 13:30:15,027 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 2
+2022-09-07 13:30:15,513 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:30:15,514 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 6
+2022-09-07 13:30:15,527 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:30:15,527 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:30:15,527 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:30:15,528 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 7
+2022-09-07 13:30:15,542 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:30:16,024 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 6
+2022-09-07 13:30:16,040 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 7
+2022-09-07 13:30:16,528 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 6
+2022-09-07 13:30:16,543 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 7
+2022-09-07 13:30:17,031 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 6
+2022-09-07 13:30:17,046 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 7
+2022-09-07 13:30:17,533 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 6
+2022-09-07 13:30:17,548 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 7
+2022-09-07 13:30:18,045 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 6
+2022-09-07 13:30:18,061 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 7
+2022-09-07 13:30:18,996 INFO  [main] 1) Create new client.
+2022-09-07 13:30:18,997 INFO  [main] 2) Display file.
+2022-09-07 13:30:18,997 INFO  [main] 3) Read from file.
+2022-09-07 13:30:18,998 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:30:18,998 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:30:18,998 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:30:18,999 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:30:18,999 INFO  [main] 8) Display available branches.
+2022-09-07 13:30:18,999 INFO  [main] 9) Show a thread example
+2022-09-07 13:30:18,999 INFO  [main] 0) Exit.
+2022-09-07 13:30:55,565 DEBUG  [main] ---------------07/09/2022 13:30---------------
+2022-09-07 13:30:55,572 INFO  [main] Turning on atm system...
+2022-09-07 13:30:55,572 INFO  [main] Alarm system turned off
+2022-09-07 13:30:55,572 INFO  [main] cctv is now recording...
+2022-09-07 13:30:55,573 INFO  [main] Recording...
+2022-09-07 13:30:55,573 INFO  [main] Systems connected
+2022-09-07 13:30:55,573 INFO  [main] Turning on computers...
+2022-09-07 13:30:55,574 INFO  [main] Metal detector activated...
+2022-09-07 13:30:55,579 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:30:55,583 INFO  [main] 1) Create new client.
+2022-09-07 13:30:55,583 INFO  [main] 2) Display file.
+2022-09-07 13:30:55,583 INFO  [main] 3) Read from file.
+2022-09-07 13:30:55,584 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:30:55,584 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:30:55,584 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:30:55,584 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:30:55,585 INFO  [main] 8) Display available branches.
+2022-09-07 13:30:55,585 INFO  [main] 9) Show a thread example
+2022-09-07 13:30:55,585 INFO  [main] 0) Exit.
+2022-09-07 13:31:00,127 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:31:00,127 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:31:00,128 INFO  [main] 3) Thread pool.
+2022-09-07 13:31:01,513 INFO c.s.s.T.Multithreading [Thread-4] 1 From thread: 4
+2022-09-07 13:31:01,513 INFO c.s.s.T.Multithreading [Thread-2] 1 From thread: 2
+2022-09-07 13:31:01,513 INFO c.s.s.T.Multithreading [Thread-1] 1 From thread: 1
+2022-09-07 13:31:01,513 INFO c.s.s.T.Multithreading [Thread-0] 1 From thread: 0
+2022-09-07 13:31:01,513 INFO c.s.s.T.Multithreading [Thread-3] 1 From thread: 3
+2022-09-07 13:31:02,015 INFO c.s.s.T.Multithreading [Thread-4] 2 From thread: 4
+2022-09-07 13:31:02,015 INFO c.s.s.T.Multithreading [Thread-3] 2 From thread: 3
+2022-09-07 13:31:02,015 INFO c.s.s.T.Multithreading [Thread-2] 2 From thread: 2
+2022-09-07 13:31:02,015 INFO c.s.s.T.Multithreading [Thread-0] 2 From thread: 0
+2022-09-07 13:31:02,015 INFO c.s.s.T.Multithreading [Thread-1] 2 From thread: 1
+2022-09-07 13:31:02,517 INFO c.s.s.T.Multithreading [Thread-3] 3 From thread: 3
+2022-09-07 13:31:02,530 INFO c.s.s.T.Multithreading [Thread-4] 3 From thread: 4
+2022-09-07 13:31:02,530 INFO c.s.s.T.Multithreading [Thread-0] 3 From thread: 0
+2022-09-07 13:31:02,530 INFO c.s.s.T.Multithreading [Thread-1] 3 From thread: 1
+2022-09-07 13:31:02,530 INFO c.s.s.T.Multithreading [Thread-2] 3 From thread: 2
+2022-09-07 13:31:03,031 INFO c.s.s.T.Multithreading [Thread-1] 4 From thread: 1
+2022-09-07 13:31:03,031 INFO c.s.s.T.Multithreading [Thread-2] 4 From thread: 2
+2022-09-07 13:31:03,031 INFO c.s.s.T.Multithreading [Thread-3] 4 From thread: 3
+2022-09-07 13:31:03,031 INFO c.s.s.T.Multithreading [Thread-4] 4 From thread: 4
+2022-09-07 13:31:03,031 INFO c.s.s.T.Multithreading [Thread-0] 4 From thread: 0
+2022-09-07 13:31:03,533 INFO c.s.s.T.Multithreading [Thread-4] 5 From thread: 4
+2022-09-07 13:31:03,533 INFO c.s.s.T.Multithreading [Thread-1] 5 From thread: 1
+2022-09-07 13:31:03,533 INFO c.s.s.T.Multithreading [Thread-2] 5 From thread: 2
+2022-09-07 13:31:03,533 INFO c.s.s.T.Multithreading [Thread-0] 5 From thread: 0
+2022-09-07 13:31:03,533 INFO c.s.s.T.Multithreading [Thread-3] 5 From thread: 3
+2022-09-07 13:31:04,035 INFO c.s.s.T.Multithreading [Thread-4] Disconnecting thread... 4
+2022-09-07 13:31:04,047 INFO c.s.s.T.Multithreading [Thread-3] Disconnecting thread... 3
+2022-09-07 13:31:04,047 INFO c.s.s.T.Multithreading [Thread-1] Disconnecting thread... 1
+2022-09-07 13:31:04,047 INFO c.s.s.T.Multithreading [Thread-0] Disconnecting thread... 0
+2022-09-07 13:31:04,047 INFO c.s.s.T.Multithreading [Thread-2] Disconnecting thread... 2
+2022-09-07 13:31:04,517 INFO  [main] 1) Create new client.
+2022-09-07 13:31:04,517 INFO  [main] 2) Display file.
+2022-09-07 13:31:04,518 INFO  [main] 3) Read from file.
+2022-09-07 13:31:04,518 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:31:04,519 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:31:04,519 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:31:04,519 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:31:04,520 INFO  [main] 8) Display available branches.
+2022-09-07 13:31:04,520 INFO  [main] 9) Show a thread example
+2022-09-07 13:31:04,520 INFO  [main] 0) Exit.
+2022-09-07 13:31:18,973 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:31:18,974 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:31:18,974 INFO  [main] 3) Thread pool.
+2022-09-07 13:31:19,934 INFO c.s.s.T.Multithread [Thread-9] 1 From thread: 4
+2022-09-07 13:31:19,934 INFO c.s.s.T.Multithread [Thread-6] 1 From thread: 1
+2022-09-07 13:31:19,934 INFO c.s.s.T.Multithread [Thread-7] 1 From thread: 2
+2022-09-07 13:31:19,934 INFO c.s.s.T.Multithread [Thread-8] 1 From thread: 3
+2022-09-07 13:31:19,934 INFO c.s.s.T.Multithread [Thread-5] 1 From thread: 0
+2022-09-07 13:31:20,437 INFO c.s.s.T.Multithread [Thread-5] 2 From thread: 0
+2022-09-07 13:31:20,437 INFO c.s.s.T.Multithread [Thread-6] 2 From thread: 1
+2022-09-07 13:31:20,437 INFO c.s.s.T.Multithread [Thread-9] 2 From thread: 4
+2022-09-07 13:31:20,437 INFO c.s.s.T.Multithread [Thread-8] 2 From thread: 3
+2022-09-07 13:31:20,437 INFO c.s.s.T.Multithread [Thread-7] 2 From thread: 2
+2022-09-07 13:31:20,938 INFO c.s.s.T.Multithread [Thread-5] 3 From thread: 0
+2022-09-07 13:31:20,952 INFO c.s.s.T.Multithread [Thread-7] 3 From thread: 2
+2022-09-07 13:31:20,952 INFO c.s.s.T.Multithread [Thread-9] 3 From thread: 4
+2022-09-07 13:31:20,952 INFO c.s.s.T.Multithread [Thread-8] 3 From thread: 3
+2022-09-07 13:31:20,952 INFO c.s.s.T.Multithread [Thread-6] 3 From thread: 1
+2022-09-07 13:31:21,440 INFO c.s.s.T.Multithread [Thread-5] 4 From thread: 0
+2022-09-07 13:31:21,454 INFO c.s.s.T.Multithread [Thread-8] 4 From thread: 3
+2022-09-07 13:31:21,454 INFO c.s.s.T.Multithread [Thread-7] 4 From thread: 2
+2022-09-07 13:31:21,454 INFO c.s.s.T.Multithread [Thread-6] 4 From thread: 1
+2022-09-07 13:31:21,454 INFO c.s.s.T.Multithread [Thread-9] 4 From thread: 4
+2022-09-07 13:31:21,954 INFO c.s.s.T.Multithread [Thread-5] 5 From thread: 0
+2022-09-07 13:31:21,955 INFO c.s.s.T.Multithread [Thread-7] 5 From thread: 2
+2022-09-07 13:31:21,955 INFO c.s.s.T.Multithread [Thread-8] 5 From thread: 3
+2022-09-07 13:31:21,969 INFO c.s.s.T.Multithread [Thread-6] 5 From thread: 1
+2022-09-07 13:31:21,969 INFO c.s.s.T.Multithread [Thread-9] 5 From thread: 4
+2022-09-07 13:31:22,947 INFO  [main] 1) Create new client.
+2022-09-07 13:31:22,948 INFO  [main] 2) Display file.
+2022-09-07 13:31:22,948 INFO  [main] 3) Read from file.
+2022-09-07 13:31:22,948 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:31:22,949 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:31:22,949 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:31:22,949 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:31:22,950 INFO  [main] 8) Display available branches.
+2022-09-07 13:31:22,950 INFO  [main] 9) Show a thread example
+2022-09-07 13:31:22,963 INFO  [main] 0) Exit.
+2022-09-07 13:37:08,245 DEBUG  [main] ---------------07/09/2022 13:37---------------
+2022-09-07 13:37:08,252 INFO  [main] Turning on atm system...
+2022-09-07 13:37:08,253 INFO  [main] Alarm system turned off
+2022-09-07 13:37:08,253 INFO  [main] cctv is now recording...
+2022-09-07 13:37:08,253 INFO  [main] Recording...
+2022-09-07 13:37:08,253 INFO  [main] Systems connected
+2022-09-07 13:37:08,254 INFO  [main] Turning on computers...
+2022-09-07 13:37:08,254 INFO  [main] Metal detector activated...
+2022-09-07 13:37:08,259 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:37:08,263 INFO  [main] 1) Create new client.
+2022-09-07 13:37:08,264 INFO  [main] 2) Display file.
+2022-09-07 13:37:08,264 INFO  [main] 3) Read from file.
+2022-09-07 13:37:08,265 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:37:08,265 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:37:08,265 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:37:08,266 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:37:08,266 INFO  [main] 8) Display available branches.
+2022-09-07 13:37:08,266 INFO  [main] 9) Show a thread example
+2022-09-07 13:37:08,266 INFO  [main] 0) Exit.
+2022-09-07 13:37:16,352 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:37:16,352 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:37:16,352 INFO  [main] 3) Thread pool.
+2022-09-07 13:37:18,215 INFO  [main] 1) Create new client.
+2022-09-07 13:37:18,216 INFO  [main] 2) Display file.
+2022-09-07 13:37:18,216 INFO  [main] 3) Read from file.
+2022-09-07 13:37:18,216 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:37:18,216 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:37:18,216 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:37:18,217 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:37:18,217 INFO  [main] 8) Display available branches.
+2022-09-07 13:37:18,217 INFO  [main] 9) Show a thread example
+2022-09-07 13:37:18,217 INFO  [main] 0) Exit.
+2022-09-07 13:38:00,463 DEBUG  [main] ---------------07/09/2022 13:38---------------
+2022-09-07 13:38:00,471 INFO  [main] Turning on atm system...
+2022-09-07 13:38:00,471 INFO  [main] Alarm system turned off
+2022-09-07 13:38:00,471 INFO  [main] cctv is now recording...
+2022-09-07 13:38:00,472 INFO  [main] Recording...
+2022-09-07 13:38:00,472 INFO  [main] Systems connected
+2022-09-07 13:38:00,472 INFO  [main] Turning on computers...
+2022-09-07 13:38:00,473 INFO  [main] Metal detector activated...
+2022-09-07 13:38:00,478 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:38:00,482 INFO  [main] 1) Create new client.
+2022-09-07 13:38:00,483 INFO  [main] 2) Display file.
+2022-09-07 13:38:00,483 INFO  [main] 3) Read from file.
+2022-09-07 13:38:00,483 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:38:00,483 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:38:00,484 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:38:00,484 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:38:00,484 INFO  [main] 8) Display available branches.
+2022-09-07 13:38:00,485 INFO  [main] 9) Show a thread example
+2022-09-07 13:38:00,485 INFO  [main] 0) Exit.
+2022-09-07 13:38:12,765 DEBUG  [main] ---------------07/09/2022 13:38---------------
+2022-09-07 13:38:12,772 INFO  [main] Turning on atm system...
+2022-09-07 13:38:12,772 INFO  [main] Alarm system turned off
+2022-09-07 13:38:12,773 INFO  [main] cctv is now recording...
+2022-09-07 13:38:12,773 INFO  [main] Recording...
+2022-09-07 13:38:12,773 INFO  [main] Systems connected
+2022-09-07 13:38:12,774 INFO  [main] Turning on computers...
+2022-09-07 13:38:12,774 INFO  [main] Metal detector activated...
+2022-09-07 13:38:12,780 INFO  [main] ---------------Systems ready---------------
+
+
+2022-09-07 13:38:12,784 INFO  [main] 1) Create new client.
+2022-09-07 13:38:12,784 INFO  [main] 2) Display file.
+2022-09-07 13:38:12,785 INFO  [main] 3) Read from file.
+2022-09-07 13:38:12,785 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:38:12,785 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:38:12,786 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:38:12,786 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:38:12,786 INFO  [main] 8) Display available branches.
+2022-09-07 13:38:12,786 INFO  [main] 9) Show a thread example
+2022-09-07 13:38:12,787 INFO  [main] 0) Exit.
+2022-09-07 13:38:15,440 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:38:15,440 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:38:15,441 INFO  [main] 3) Thread pool.
+2022-09-07 13:38:17,623 INFO c.s.s.T.Multithreading [Thread-0] The thread 0 is connected...
+2022-09-07 13:38:17,624 INFO c.s.s.T.Multithreading [Thread-2] The thread 2 is connected...
+2022-09-07 13:38:17,623 INFO c.s.s.T.Multithreading [Thread-1] The thread 1 is connected...
+2022-09-07 13:38:17,623 INFO c.s.s.T.Multithreading [Thread-4] The thread 4 is connected...
+2022-09-07 13:38:17,624 INFO c.s.s.T.Multithreading [Thread-3] The thread 3 is connected...
+2022-09-07 13:38:17,627 INFO c.s.s.T.Multithreading [Thread-2] 1 From thread: 2
+2022-09-07 13:38:17,627 INFO c.s.s.T.Multithreading [Thread-0] 1 From thread: 0
+2022-09-07 13:38:17,627 INFO c.s.s.T.Multithreading [Thread-3] 1 From thread: 3
+2022-09-07 13:38:17,627 INFO c.s.s.T.Multithreading [Thread-4] 1 From thread: 4
+2022-09-07 13:38:17,627 INFO c.s.s.T.Multithreading [Thread-1] 1 From thread: 1
+2022-09-07 13:38:18,128 INFO c.s.s.T.Multithreading [Thread-0] 2 From thread: 0
+2022-09-07 13:38:18,130 INFO c.s.s.T.Multithreading [Thread-3] 2 From thread: 3
+2022-09-07 13:38:18,138 INFO c.s.s.T.Multithreading [Thread-4] 2 From thread: 4
+2022-09-07 13:38:18,138 INFO c.s.s.T.Multithreading [Thread-1] 2 From thread: 1
+2022-09-07 13:38:18,138 INFO c.s.s.T.Multithreading [Thread-2] 2 From thread: 2
+2022-09-07 13:38:18,629 INFO c.s.s.T.Multithreading [Thread-0] 3 From thread: 0
+2022-09-07 13:38:18,638 INFO c.s.s.T.Multithreading [Thread-3] 3 From thread: 3
+2022-09-07 13:38:18,641 INFO c.s.s.T.Multithreading [Thread-4] 3 From thread: 4
+2022-09-07 13:38:18,641 INFO c.s.s.T.Multithreading [Thread-2] 3 From thread: 2
+2022-09-07 13:38:18,641 INFO c.s.s.T.Multithreading [Thread-1] 3 From thread: 1
+2022-09-07 13:38:19,136 INFO c.s.s.T.Multithreading [Thread-0] 4 From thread: 0
+2022-09-07 13:38:19,139 INFO c.s.s.T.Multithreading [Thread-3] 4 From thread: 3
+2022-09-07 13:38:19,151 INFO c.s.s.T.Multithreading [Thread-2] 4 From thread: 2
+2022-09-07 13:38:19,151 INFO c.s.s.T.Multithreading [Thread-4] 4 From thread: 4
+2022-09-07 13:38:19,151 INFO c.s.s.T.Multithreading [Thread-1] 4 From thread: 1
+2022-09-07 13:38:19,638 INFO c.s.s.T.Multithreading [Thread-0] 5 From thread: 0
+2022-09-07 13:38:19,653 INFO c.s.s.T.Multithreading [Thread-3] 5 From thread: 3
+2022-09-07 13:38:19,653 INFO c.s.s.T.Multithreading [Thread-4] 5 From thread: 4
+2022-09-07 13:38:19,653 INFO c.s.s.T.Multithreading [Thread-1] 5 From thread: 1
+2022-09-07 13:38:19,653 INFO c.s.s.T.Multithreading [Thread-2] 5 From thread: 2
+2022-09-07 13:38:20,152 INFO c.s.s.T.Multithreading [Thread-0] Disconnecting thread... 0
+2022-09-07 13:38:20,155 INFO c.s.s.T.Multithreading [Thread-3] Disconnecting thread... 3
+2022-09-07 13:38:20,168 INFO c.s.s.T.Multithreading [Thread-1] Disconnecting thread... 1
+2022-09-07 13:38:20,168 INFO c.s.s.T.Multithreading [Thread-2] Disconnecting thread... 2
+2022-09-07 13:38:20,168 INFO c.s.s.T.Multithreading [Thread-4] Disconnecting thread... 4
+2022-09-07 13:38:20,638 INFO  [main] 1) Create new client.
+2022-09-07 13:38:20,639 INFO  [main] 2) Display file.
+2022-09-07 13:38:20,639 INFO  [main] 3) Read from file.
+2022-09-07 13:38:20,639 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:38:20,640 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:38:20,640 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:38:20,640 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:38:20,641 INFO  [main] 8) Display available branches.
+2022-09-07 13:38:20,641 INFO  [main] 9) Show a thread example
+2022-09-07 13:38:20,642 INFO  [main] 0) Exit.
+2022-09-07 13:38:34,268 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:38:34,269 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:38:34,269 INFO  [main] 3) Thread pool.
+2022-09-07 13:38:35,575 INFO c.s.s.T.Multithread [Thread-7] The thread 2 is connected...
+2022-09-07 13:38:35,575 INFO c.s.s.T.Multithread [Thread-9] The thread 4 is connected...
+2022-09-07 13:38:35,575 INFO c.s.s.T.Multithread [Thread-8] The thread 3 is connected...
+2022-09-07 13:38:35,575 INFO c.s.s.T.Multithread [Thread-5] The thread 0 is connected...
+2022-09-07 13:38:35,575 INFO c.s.s.T.Multithread [Thread-6] The thread 1 is connected...
+2022-09-07 13:38:35,576 INFO c.s.s.T.Multithread [Thread-9] 1 From thread: 4
+2022-09-07 13:38:35,576 INFO c.s.s.T.Multithread [Thread-6] 1 From thread: 1
+2022-09-07 13:38:35,576 INFO c.s.s.T.Multithread [Thread-8] 1 From thread: 3
+2022-09-07 13:38:35,576 INFO c.s.s.T.Multithread [Thread-5] 1 From thread: 0
+2022-09-07 13:38:35,576 INFO c.s.s.T.Multithread [Thread-7] 1 From thread: 2
+2022-09-07 13:38:36,077 INFO c.s.s.T.Multithread [Thread-8] 2 From thread: 3
+2022-09-07 13:38:36,077 INFO c.s.s.T.Multithread [Thread-9] 2 From thread: 4
+2022-09-07 13:38:36,077 INFO c.s.s.T.Multithread [Thread-6] 2 From thread: 1
+2022-09-07 13:38:36,079 INFO c.s.s.T.Multithread [Thread-5] 2 From thread: 0
+2022-09-07 13:38:36,079 INFO c.s.s.T.Multithread [Thread-7] 2 From thread: 2
+2022-09-07 13:38:36,578 INFO c.s.s.T.Multithread [Thread-8] 3 From thread: 3
+2022-09-07 13:38:36,579 INFO c.s.s.T.Multithread [Thread-6] 3 From thread: 1
+2022-09-07 13:38:36,580 INFO c.s.s.T.Multithread [Thread-9] 3 From thread: 4
+2022-09-07 13:38:36,592 INFO c.s.s.T.Multithread [Thread-5] 3 From thread: 0
+2022-09-07 13:38:36,592 INFO c.s.s.T.Multithread [Thread-7] 3 From thread: 2
+2022-09-07 13:38:37,079 INFO c.s.s.T.Multithread [Thread-8] 4 From thread: 3
+2022-09-07 13:38:37,080 INFO c.s.s.T.Multithread [Thread-6] 4 From thread: 1
+2022-09-07 13:38:37,092 INFO c.s.s.T.Multithread [Thread-9] 4 From thread: 4
+2022-09-07 13:38:37,108 INFO c.s.s.T.Multithread [Thread-7] 4 From thread: 2
+2022-09-07 13:38:37,108 INFO c.s.s.T.Multithread [Thread-5] 4 From thread: 0
+2022-09-07 13:38:37,591 INFO c.s.s.T.Multithread [Thread-6] 5 From thread: 1
+2022-09-07 13:38:37,591 INFO c.s.s.T.Multithread [Thread-8] 5 From thread: 3
+2022-09-07 13:38:37,607 INFO c.s.s.T.Multithread [Thread-9] 5 From thread: 4
+2022-09-07 13:38:37,623 INFO c.s.s.T.Multithread [Thread-7] 5 From thread: 2
+2022-09-07 13:38:37,623 INFO c.s.s.T.Multithread [Thread-5] 5 From thread: 0
+2022-09-07 13:38:38,093 INFO c.s.s.T.Multithread [Thread-6] Disconnecting thread... 1
+2022-09-07 13:38:38,093 INFO c.s.s.T.Multithread [Thread-8] Disconnecting thread... 3
+2022-09-07 13:38:38,109 INFO c.s.s.T.Multithread [Thread-9] Disconnecting thread... 4
+2022-09-07 13:38:38,124 INFO c.s.s.T.Multithread [Thread-5] Disconnecting thread... 0
+2022-09-07 13:38:38,124 INFO c.s.s.T.Multithread [Thread-7] Disconnecting thread... 2
+2022-09-07 13:38:38,578 INFO  [main] 1) Create new client.
+2022-09-07 13:38:38,578 INFO  [main] 2) Display file.
+2022-09-07 13:38:38,579 INFO  [main] 3) Read from file.
+2022-09-07 13:38:38,579 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:38:38,579 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:38:38,580 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:38:38,580 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:38:38,580 INFO  [main] 8) Display available branches.
+2022-09-07 13:38:38,581 INFO  [main] 9) Show a thread example
+2022-09-07 13:38:38,581 INFO  [main] 0) Exit.
+2022-09-07 13:38:42,845 INFO  [main] 1) Thread using 'extends Thread'.
+2022-09-07 13:38:42,846 INFO  [main] 2) Thread using 'implements Runnable'.
+2022-09-07 13:38:42,846 INFO  [main] 3) Thread pool.
+2022-09-07 13:38:44,214 INFO  [main] Current thread ID: 1
+2022-09-07 13:38:44,216 INFO  [main] Active: 5 | Queue: 2
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-4] The thread 4 is connected...
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-1] The thread 1 is connected...
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-2] The thread 2 is connected...
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-3] The thread 3 is connected...
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-4] 1 From thread: 4
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-1] 1 From thread: 1
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-2] 1 From thread: 2
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 3
+2022-09-07 13:38:44,216 INFO c.s.s.T.Multithreading [pool-2-thread-5] The thread 5 is connected...
+2022-09-07 13:38:44,217 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 5
+2022-09-07 13:38:44,726 INFO c.s.s.T.Multithreading [pool-2-thread-2] 2 From thread: 2
+2022-09-07 13:38:44,726 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 5
+2022-09-07 13:38:44,726 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 3
+2022-09-07 13:38:44,726 INFO c.s.s.T.Multithreading [pool-2-thread-1] 2 From thread: 1
+2022-09-07 13:38:44,726 INFO c.s.s.T.Multithreading [pool-2-thread-4] 2 From thread: 4
+2022-09-07 13:38:45,229 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 5
+2022-09-07 13:38:45,229 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 3
+2022-09-07 13:38:45,230 INFO c.s.s.T.Multithreading [pool-2-thread-2] 3 From thread: 2
+2022-09-07 13:38:45,234 INFO c.s.s.T.Multithreading [pool-2-thread-4] 3 From thread: 4
+2022-09-07 13:38:45,234 INFO c.s.s.T.Multithreading [pool-2-thread-1] 3 From thread: 1
+2022-09-07 13:38:45,730 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 5
+2022-09-07 13:38:45,730 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 3
+2022-09-07 13:38:45,744 INFO c.s.s.T.Multithreading [pool-2-thread-2] 4 From thread: 2
+2022-09-07 13:38:45,744 INFO c.s.s.T.Multithreading [pool-2-thread-1] 4 From thread: 1
+2022-09-07 13:38:45,744 INFO c.s.s.T.Multithreading [pool-2-thread-4] 4 From thread: 4
+2022-09-07 13:38:46,238 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 5
+2022-09-07 13:38:46,238 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 3
+2022-09-07 13:38:46,254 INFO c.s.s.T.Multithreading [pool-2-thread-2] 5 From thread: 2
+2022-09-07 13:38:46,254 INFO c.s.s.T.Multithreading [pool-2-thread-1] 5 From thread: 1
+2022-09-07 13:38:46,254 INFO c.s.s.T.Multithreading [pool-2-thread-4] 5 From thread: 4
+2022-09-07 13:38:46,748 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 3
+2022-09-07 13:38:46,748 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 5
+2022-09-07 13:38:46,748 INFO c.s.s.T.Multithreading [pool-2-thread-3] The thread 6 is connected...
+2022-09-07 13:38:46,748 INFO c.s.s.T.Multithreading [pool-2-thread-5] The thread 7 is connected...
+2022-09-07 13:38:46,749 INFO c.s.s.T.Multithreading [pool-2-thread-3] 1 From thread: 6
+2022-09-07 13:38:46,749 INFO c.s.s.T.Multithreading [pool-2-thread-5] 1 From thread: 7
+2022-09-07 13:38:46,756 INFO c.s.s.T.Multithreading [pool-2-thread-2] Disconnecting thread... 2
+2022-09-07 13:38:46,764 INFO c.s.s.T.Multithreading [pool-2-thread-1] Disconnecting thread... 1
+2022-09-07 13:38:46,764 INFO c.s.s.T.Multithreading [pool-2-thread-4] Disconnecting thread... 4
+2022-09-07 13:38:47,258 INFO c.s.s.T.Multithreading [pool-2-thread-5] 2 From thread: 7
+2022-09-07 13:38:47,258 INFO c.s.s.T.Multithreading [pool-2-thread-3] 2 From thread: 6
+2022-09-07 13:38:47,767 INFO c.s.s.T.Multithreading [pool-2-thread-5] 3 From thread: 7
+2022-09-07 13:38:47,767 INFO c.s.s.T.Multithreading [pool-2-thread-3] 3 From thread: 6
+2022-09-07 13:38:48,270 INFO c.s.s.T.Multithreading [pool-2-thread-3] 4 From thread: 6
+2022-09-07 13:38:48,270 INFO c.s.s.T.Multithreading [pool-2-thread-5] 4 From thread: 7
+2022-09-07 13:38:48,782 INFO c.s.s.T.Multithreading [pool-2-thread-3] 5 From thread: 6
+2022-09-07 13:38:48,782 INFO c.s.s.T.Multithreading [pool-2-thread-5] 5 From thread: 7
+2022-09-07 13:38:49,289 INFO c.s.s.T.Multithreading [pool-2-thread-3] Disconnecting thread... 6
+2022-09-07 13:38:49,289 INFO c.s.s.T.Multithreading [pool-2-thread-5] Disconnecting thread... 7
+2022-09-07 13:38:50,227 INFO  [main] 1) Create new client.
+2022-09-07 13:38:50,227 INFO  [main] 2) Display file.
+2022-09-07 13:38:50,228 INFO  [main] 3) Read from file.
+2022-09-07 13:38:50,228 INFO  [main] 4) Display updated linked lists.
+2022-09-07 13:38:50,228 INFO  [main] 5) Check if Client exist.
+2022-09-07 13:38:50,228 INFO  [main] 6) Unsubscribe bank account.
+2022-09-07 13:38:50,229 INFO  [main] 7) Display list of debtor.
+2022-09-07 13:38:50,229 INFO  [main] 8) Display available branches.
+2022-09-07 13:38:50,229 INFO  [main] 9) Show a thread example
+2022-09-07 13:38:50,229 INFO  [main] 0) Exit.

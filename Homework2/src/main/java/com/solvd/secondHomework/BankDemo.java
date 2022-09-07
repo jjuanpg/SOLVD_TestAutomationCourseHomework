@@ -512,6 +512,9 @@ public class BankDemo implements Serializable{
                         case 1 ->{
                             for(int i= 0; i<5; i++){
                                 Multithreading myThing = new Multithreading(i);
+                                myThing.setUrl("jdbc:mysql://localhost:3306/database");
+                                myThing.setUser("root");
+                                myThing.setPassword("admin");
                                 myThing.start();
                             }
                             TimeUnit.SECONDS.sleep(3);
@@ -524,6 +527,9 @@ public class BankDemo implements Serializable{
                             for(int i= 0; i<5; i++){
                                 Multithread myThing = new Multithread(i);
                                 Thread myThread = new Thread(myThing);
+                                myThing.setUrl("jdbc:mysql://localhost:3306/database");
+                                myThing.setUser("root");
+                                myThing.setPassword("admin");
                                 myThread.start();
                             }
                             TimeUnit.SECONDS.sleep(3);
@@ -533,7 +539,10 @@ public class BankDemo implements Serializable{
 
                             ThreadPoolExecutor service = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
                             for(int i=1; i<8; i++){
-                                Multithread myThing = new Multithread(i);
+                                Multithreading myThing = new Multithreading(i);
+                                myThing.setUrl("jdbc:mysql://localhost:3306/database");
+                                myThing.setUser("root");
+                                myThing.setPassword("admin");
                                 service.submit(myThing);
                             }
                             logger.info("Active: "+service.getActiveCount()+" | "+"Queue: "+service.getQueue().size());
